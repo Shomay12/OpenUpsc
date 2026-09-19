@@ -1,0 +1,61 @@
+{
+  "name": "OpenUPSC — Open Academic Infrastructure for UPSC Preparation",
+  "short_name": "OpenUPSC",
+  "description": "An organized, open resource platform from NCERT foundations to advanced UPSC preparation.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#FAFAF8",
+  "theme_color": "#0F172A",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Study Timer",
+      "url": "/study",
+      "description": "Start a focused study session"
+    },
+    {
+      "name": "Today's Plan",
+      "url": "/study/today",
+      "description": "View today's scheduled study blocks"
+    },
+    {
+      "name": "NCERT Foundation",
+      "url": "/ncert",
+      "description": "Class 6 to 12 NCERT curriculum"
+    },
+    {
+      "name": "Subject Roadmaps",
+      "url": "/roadmaps",
+      "description": "Step-by-step UPSC preparation roadmaps"
+    }
+  ]
+}

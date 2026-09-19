@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- App Icon Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Subtle inner border -->
+  <rect x="16" y="16" width="480" height="480" rx="96" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="4" />
+  
+  <!-- Emblem: Minimal Academic Navigator Compass / Book -->
+  <g transform="translate(136, 120)">
+    <!-- Main stylized U symbol -->
+    <path d="M 40 40 L 40 140 C 40 190 70 220 120 220 C 170 220 200 190 200 140 L 200 40" 
+          fill="none" 
+          stroke="#FFFFFF" 
+          stroke-width="32" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+          
+    <!-- Spark / Compass star on top right -->
+    <circle cx="200" cy="40" r="16" fill="url(#accentGrad)" />
+    
+    <!-- Horizon baseline -->
+    <line x1="20" y1="265" x2="220" y2="265" stroke="url(#accentGrad)" stroke-width="12" stroke-linecap="round" />
+  </g>
+</svg>
