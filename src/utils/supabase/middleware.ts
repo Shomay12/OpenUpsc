@@ -51,6 +51,12 @@ export const updateSession = async (request: NextRequest) => {
   } = await supabase.auth.getUser();
 
   const pathname = request.nextUrl.pathname;
+
+  // Never block auth callback route or requests carrying OAuth authorization codes
+  if (pathname.startsWith('/auth/callback') || request.nextUrl.searchParams.has('code')) {
+    return supabaseResponse;
+  }
+
   const isProtected = PROTECTED_PATHS.some((path) => pathname === path || pathname.startsWith(`${path}/`));
 
   // If trying to access protected route without valid user session

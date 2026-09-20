@@ -266,14 +266,23 @@ export default function Navbar() {
                     <button
                       type="button"
                       onClick={() => setProfileDropdownOpen(!profileDropdownOpen)}
-                      className={`w-7 h-7 rounded-full flex items-center justify-center font-display font-bold text-xs transition-smooth ${
+                      className={`w-7 h-7 rounded-full flex items-center justify-center font-display font-bold text-xs overflow-hidden transition-smooth ${
                         pathname.startsWith('/profile') || profileDropdownOpen
                           ? 'bg-slate-900 text-white ring-2 ring-slate-900'
                           : 'bg-slate-900 text-white hover:bg-slate-800'
                       }`}
                       title={profile?.name || 'Account Menu'}
                     >
-                      {initials}
+                      {profile?.avatarUrl ? (
+                        <img 
+                          src={profile.avatarUrl} 
+                          alt={profile.name || 'User'} 
+                          className="w-full h-full object-cover" 
+                          referrerPolicy="no-referrer"
+                        />
+                      ) : (
+                        initials
+                      )}
                     </button>
 
                     {profileDropdownOpen && (

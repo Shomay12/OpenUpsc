@@ -36,18 +36,29 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   // Fetch or create profile for authenticated user
   const fetchProfile = async (currentUser: User) => {
     try {
-      const { data, error } = await supabase
+      const { data } = await supabase
         .from('profiles')
         .select('*')
         .eq('id', currentUser.id)
         .single();
 
+      const nameFallback = 
+        currentUser.user_metadata?.full_name || 
+        currentUser.user_metadata?.name || 
+        currentUser.email?.split('@')[0] || 
+        'Aspirant';
+
+      const avatarFallback = 
+        currentUser.user_metadata?.avatar_url || 
+        currentUser.user_metadata?.picture || 
+        '';
+
       if (data) {
         const loadedProfile: UserProfile = {
           id: data.id,
-          name: data.full_name || currentUser.email?.split('@')[0] || 'Aspirant',
+          name: data.full_name || nameFallback,
           email: currentUser.email || '',
-          avatarUrl: data.avatar_url || currentUser.user_metadata?.avatar_url || '',
+          avatarUrl: data.avatar_url || avatarFallback,
           preparationStage: data.preparation_stage || 'Foundation (Class 6-12)',
           targetAttemptYear: data.target_attempt || '2028',
           dailyTargetHours: data.daily_study_target || 4,
@@ -59,9 +70,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         // Fallback / Initial profile
         const newProf: UserProfile = {
           id: currentUser.id,
-          name: currentUser.user_metadata?.full_name || currentUser.email?.split('@')[0] || 'Aspirant',
+          name: nameFallback,
           email: currentUser.email || '',
-          avatarUrl: currentUser.user_metadata?.avatar_url || '',
+          avatarUrl: avatarFallback,
           preparationStage: 'Foundation (Class 6-12)',
           targetAttemptYear: '2028',
           dailyTargetHours: 4,
@@ -74,6 +85,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         await supabase.from('profiles').upsert({
           id: currentUser.id,
           full_name: newProf.name,
+          avatar_url: newProf.avatarUrl,
           preparation_stage: newProf.preparationStage,
           target_attempt: newProf.targetAttemptYear,
           daily_study_target: newProf.dailyTargetHours,
@@ -88,9 +100,36 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   };
 
   useEffect(() => {
-    // Initial session retrieval
+    // Initial session retrieval & OAuth code fallback exchange
     const initializeAuth = async () => {
       try {
+        // Fallback: If URL has ?code= (e.g. from Google OAuth direct redirect to / or other routes)
+        if (typeof window !== 'undefined') {
+          const urlParams = new URLSearchParams(window.location.search);
+          const code = urlParams.get('code');
+          if (code) {
+            try {
+              const { data, error } = await supabase.auth.exchangeCodeForSession(code);
+              if (!error && data?.session) {
+                setSession(data.session);
+                setUser(data.session.user);
+                if (data.session.user) {
+                  await fetchProfile(data.session.user);
+                }
+                // Clean the code param from current URL
+                urlParams.delete('code');
+                const cleanSearch = urlParams.toString();
+                const newUrl = window.location.pathname + (cleanSearch ? `?${cleanSearch}` : '') + window.location.hash;
+                window.history.replaceState({}, document.title, newUrl);
+                setIsLoading(false);
+                return;
+              }
+            } catch (exchangeErr) {
+              console.warn('OAuth code client exchange notice:', exchangeErr);
+            }
+          }
+        }
+
         const { data: { session: initialSession } } = await supabase.auth.getSession();
         setSession(initialSession);
         setUser(initialSession?.user ?? null);
@@ -202,10 +241,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const signInWithGoogle = async () => {
     try {
+      const redirectOrigin = typeof window !== 'undefined' ? window.location.origin : '';
       const { error } = await supabase.auth.signInWithOAuth({
         provider: 'google',
         options: {
-          redirectTo: `${typeof window !== 'undefined' ? window.location.origin : ''}/dashboard`,
+          redirectTo: `${redirectOrigin}/auth/callback?next=/dashboard`,
           queryParams: {
             prompt: 'select_account',
           },
@@ -237,8 +277,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const resetPasswordForEmail = async (email: string) => {
     try {
+      const redirectOrigin = typeof window !== 'undefined' ? window.location.origin : '';
       const { error } = await supabase.auth.resetPasswordForEmail(email, {
-        redirectTo: `${typeof window !== 'undefined' ? window.location.origin : ''}/auth/reset-password`,
+        redirectTo: `${redirectOrigin}/auth/callback?next=/auth/reset-password`,
       });
       return { error };
     } catch (err: any) {

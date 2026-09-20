@@ -202,8 +202,17 @@ export default function Sidebar({ onOpenSearch }: SidebarProps) {
             {/* User Account Info Strip */}
             <div className="pt-2 mt-1 border-t border-slate-100/80 flex items-center justify-between gap-2 px-2 py-1.5">
               <div className="flex items-center gap-2 min-w-0">
-                <div className="w-7 h-7 rounded-full bg-slate-900 text-white flex items-center justify-center font-display font-bold text-xs flex-shrink-0">
-                  {initial}
+                <div className="w-7 h-7 rounded-full bg-slate-900 text-white flex items-center justify-center font-display font-bold text-xs flex-shrink-0 overflow-hidden">
+                  {profile?.avatarUrl ? (
+                    <img 
+                      src={profile.avatarUrl} 
+                      alt={displayName} 
+                      className="w-full h-full object-cover" 
+                      referrerPolicy="no-referrer"
+                    />
+                  ) : (
+                    initial
+                  )}
                 </div>
                 <div className="min-w-0 flex flex-col">
                   <span className="text-xs font-semibold text-slate-900 truncate leading-tight">
