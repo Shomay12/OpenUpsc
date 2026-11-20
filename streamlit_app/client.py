@@ -44,6 +44,33 @@ from backend.models import (  # noqa: E402
 CIRCUIT_TTL_SECONDS = 15.0
 DEFAULT_API_TIMEOUT = 2.5
 HEALTH_TIMEOUT = 0.65
+SQLITE_ONLY_TRUTHY = {"1", "true", "yes", "on"}
+SQLITE_ONLY_API_SENTINELS = {"", "none", "off", "sqlite", "direct"}
+
+
+def _read_config_value(key: str) -> Optional[str]:
+    """Read a config value from os.environ first, then st.secrets safely without ever raising."""
+    if key in os.environ:
+        return os.environ[key]
+    try:
+        secrets = getattr(st, "secrets", None)
+        if secrets is not None and key in secrets:
+            val = secrets[key]
+            return None if val is None else str(val)
+    except Exception:
+        return None
+    return None
+
+
+def _is_cloud_runtime() -> bool:
+    """Detect Streamlit Community Cloud runtime cleanly."""
+    if Path("/mount/src").exists():
+        return True
+    if os.environ.get("STREAMLIT_SHARING_MODE"):
+        return True
+    if (os.environ.get("STREAMLIT_RUNTIME_ENV") or "").strip().lower() == "cloud":
+        return True
+    return False
 
 
 def _format_pydantic_error(exc: ValidationError) -> str:
@@ -93,10 +120,52 @@ class OpenUPSCClient:
     # ------------------------------------------------------------------
 
     @property
-    def api_base_url(self) -> str:
-        if self._explicit_api_base:
+    def cloud_mode(self) -> bool:
+        return _is_cloud_runtime()
+
+    def _raw_api_url_setting(self) -> Optional[str]:
+        if self._explicit_api_base is not None:
             return self._explicit_api_base
-        return os.environ.get("OPENUPSC_API_URL", "http://127.0.0.1:8000").strip().rstrip("/") or "http://127.0.0.1:8000"
+        return _read_config_value("OPENUPSC_API_URL")
+
+    def is_sqlite_only_mode(self) -> bool:
+        """Return True when HTTP API probing must be bypassed completely (zero latency)."""
+        flag = (_read_config_value("OPENUPSC_SQLITE_ONLY") or "").strip().lower()
+        if flag in SQLITE_ONLY_TRUTHY:
+            return True
+
+        raw_api = self._raw_api_url_setting()
+        if raw_api is not None:
+            cleaned = raw_api.strip().lower()
+            if cleaned in SQLITE_ONLY_API_SENTINELS:
+                return True
+
+        if self.cloud_mode:
+            if not raw_api:
+                return True
+            parsed = urlparse(raw_api.strip())
+            host = (parsed.hostname or "").lower()
+            if parsed.scheme.lower() not in ("http", "https") or host in ("", "127.0.0.1", "localhost", "::1"):
+                return True
+
+        return False
+
+    @property
+    def api_base_url(self) -> str:
+        if self.is_sqlite_only_mode():
+            return ""
+        raw = self._raw_api_url_setting()
+        if raw is not None and raw.strip():
+            return raw.strip().rstrip("/")
+        return "http://127.0.0.1:8000"
+
+    @property
+    def mode_label(self) -> str:
+        if self.is_api_online():
+            return "FastAPI Live"
+        if self.cloud_mode:
+            return "Cloud SQLite Mode"
+        return "Direct SQLite Mode"
 
     def _is_local_api(self) -> bool:
         host = (urlparse(self.api_base_url).hostname or "").lower()
@@ -169,7 +238,11 @@ class OpenUPSCClient:
         self._last_health_check = time.monotonic()
 
     def is_api_online(self, force: bool = False) -> bool:
-        """Check FastAPI availability with a 15s circuit breaker to avoid repeated timeouts."""
+        """Check FastAPI availability with zero-latency SQLite-only bypass and 15s circuit breaker."""
+        if self.is_sqlite_only_mode():
+            self._api_online = False
+            return False
+
         now = time.monotonic()
         if (
             not force
@@ -197,7 +270,7 @@ class OpenUPSCClient:
             return False
 
     def connection_mode_label(self) -> str:
-        return "FastAPI Live" if self.is_api_online() else "Direct SQLite Mode"
+        return self.mode_label
 
     def clear_caches(self) -> None:
         self._cache.clear()
@@ -1156,9 +1229,12 @@ def get_client() -> OpenUPSCClient:
     """Return a session-scoped OpenUPSCClient singleton, auto-reinitializing on env changes."""
     try:
         client = st.session_state.get("_openupsc_client")
-        env_api = os.environ.get("OPENUPSC_API_URL", "http://127.0.0.1:8000").strip().rstrip("/")
-        if not isinstance(client, OpenUPSCClient) or client.api_base_url != env_api:
-            client = OpenUPSCClient()
+        probe = OpenUPSCClient()
+        if not isinstance(client, OpenUPSCClient) or (
+            client.api_base_url != probe.api_base_url
+            or client.is_sqlite_only_mode() != probe.is_sqlite_only_mode()
+        ):
+            client = probe
             st.session_state["_openupsc_client"] = client
         client.ensure_db()
         return client

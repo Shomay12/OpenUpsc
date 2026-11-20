@@ -556,7 +556,13 @@ def _render_system_health_tab() -> None:
     # Top Runtime Mode & DB Telemetry Strip
     section_kicker("Runtime Connectivity & SQLite WAL Integrity")
     top1, top2, top3, top4, top5 = st.columns(5)
-    top1.metric("Data Transport", "FastAPI Live" if api_live else "Direct SQLite", client.api_base_url if api_live else "Offline Fallback Active")
+    sqlite_only = client.is_sqlite_only_mode()
+    transport_sub = (
+        client.api_base_url
+        if api_live
+        else ("Zero-Latency Embedded SQLite" if sqlite_only else "SQLite Fallback Active")
+    )
+    top1.metric("Data Transport", client.connection_mode_label(), transport_sub)
     top2.metric("DB Integrity", "OK" if db_rep.get("ok") else "Check", f"Mode: {str(db_rep.get('journal_mode') or 'WAL').upper()}")
     top3.metric("SQLite Size", fmt_bytes(db_rep.get("size_bytes", 0)), f"{db_rep.get('table_count', 0)} tables")
     top4.metric("Total Rows", str(db_rep.get("total_rows", 0)), f"FK issues: {db_rep.get('foreign_key_violations', 0)}")
@@ -584,10 +590,16 @@ def _render_system_health_tab() -> None:
                     st.toast(msg) if ok else st.error(msg)
                     st.rerun()
             with b_act2:
-                if st.button("🔌 Re-Probe FastAPI Health", key="adm_reprobe_api_btn", width="stretch"):
-                    live = client.is_api_online(force=True)
-                    st.toast("FastAPI is LIVE!" if live else "FastAPI offline — Direct SQLite Fallback active.")
-                    st.rerun()
+                if sqlite_only:
+                    if st.button("↻ Refresh SQLite Telemetry", key="adm_reprobe_api_btn", width="stretch"):
+                        client.clear_caches()
+                        st.toast("SQLite WAL telemetry refreshed.")
+                        st.rerun()
+                else:
+                    if st.button("🔌 Re-Probe FastAPI Health", key="adm_reprobe_api_btn", width="stretch"):
+                        live = client.is_api_online(force=True)
+                        st.toast("FastAPI is LIVE!" if live else f"{client.connection_mode_label()} active.")
+                        st.rerun()
 
             if backup_items:
                 df_bk = pd.DataFrame(

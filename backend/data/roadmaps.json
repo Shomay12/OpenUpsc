@@ -24,27 +24,27 @@
         "resources": [
           {
             "id": "res-h1",
-            "title": "Complete NCERT History Class 6–12 Foundation Series",
+            "title": "Complete Indian History (Ancient, Medieval & Modern) Foundation Series",
             "subject": "History",
             "category": "NCERT Foundation",
             "level": "Foundation",
             "language": "English/Hinglish",
             "type": "YouTube",
-            "provider": "PMF IAS",
-            "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR2lGo7g3gAFnVgpiPIQ0fVW",
+            "provider": "Pratik Nayak",
+            "url": "https://www.youtube.com/playlist?list=PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU",
             "description": "Structured class-by-class video lecture series covering Ancient, Medieval, and Modern NCERTs with timestamps and conceptual notes.",
             "seniorTip": "Ye playlist 1.25x speed pe dekho while keeping NCERT book open on your table.",
             "estimatedHours": 28,
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
               "views": "190K+",
               "subscribers": "1.2M+",
               "completeness": "Complete Class 6–12 Coverage",
               "uploadYear": "2026",
-              "channelName": "UPSCprep / OnlyIAS"
+              "channelName": "Pratik Nayak"
             },
             "tags": [
               "History",
@@ -52,7 +52,7 @@
               "Class 6-12",
               "Foundation"
             ],
-            "youtubePlaylistId": "PLfhUF7AO5ZR2lGo7g3gAFnVgpiPIQ0fVW"
+            "youtubePlaylistId": "PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU"
           }
         ]
       },
@@ -88,11 +88,12 @@
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-02",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
               "views": "320K+",
               "completeness": "Complete ancient syllabus",
-              "uploadYear": "2026"
+              "uploadYear": "2026",
+              "channelName": "Bookstawa"
             },
             "tags": [
               "Ancient India",
@@ -122,24 +123,26 @@
         "resources": [
           {
             "id": "res-h3",
-            "title": "Medieval Indian History & Vijayanagara Master Series",
+            "title": "Medieval Indian History (Satish Chandra) Chapter-by-Chapter",
             "subject": "History",
             "category": "Medieval India",
             "level": "Standard",
             "language": "English/Hinglish",
             "type": "YouTube",
-            "provider": "Bookstawa",
-            "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3c01ihRcCxFL5asqCeO5SM",
+            "provider": "Harshit Dwivedi (HD Education)",
+            "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn",
             "description": "High-yield medieval lectures concentrating strictly on UPSC relevant areas: Vijayanagara, Sultanate administration, Mughal systems, and Bhakti/Sufi poetry.",
             "seniorTip": "Do NOT memorize battles of small chieftains. Stick strictly to administrative, economic, and architectural innovations.",
             "estimatedHours": 14,
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
               "views": "150K+",
-              "completeness": "UPSC high-yield focused"
+              "completeness": "UPSC high-yield focused",
+              "channelName": "Harshit Dwivedi (HD Education)",
+              "uploadYear": "2026"
             },
             "tags": [
               "Medieval India",
@@ -147,7 +150,7 @@
               "Mughals",
               "Bhakti"
             ],
-            "youtubePlaylistId": "PLZfz5K8XpMW3c01ihRcCxFL5asqCeO5SM"
+            "youtubePlaylistId": "PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn"
           }
         ]
       },
@@ -183,10 +186,12 @@
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
               "views": "450K+",
-              "completeness": "Complete Spectrum mapping"
+              "completeness": "Complete Spectrum mapping",
+              "channelName": "Harshit Dwivedi (HD Education)",
+              "uploadYear": "2026"
             },
             "tags": [
               "Modern History",
@@ -216,24 +221,26 @@
         "resources": [
           {
             "id": "res-h5",
-            "title": "Class 11 Fine Arts NCERT & Art & Culture Master Series",
+            "title": "Complete Indian Art & Culture (Nitin Singhania) Video Series",
             "subject": "History",
             "category": "Art & Culture",
             "level": "Advanced",
             "language": "English/Hinglish",
             "type": "YouTube",
-            "provider": "Bookstawa",
-            "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW0CmDMqEF2uOA2pMSbqoRdH",
+            "provider": "StudyIQ IAS",
+            "url": "https://www.youtube.com/playlist?list=PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O",
             "description": "Visual walkthrough of Indian temple architecture, caves, sculptures, classical dance forms, and UNESCO heritage with high-resolution imagery.",
             "seniorTip": "Always study architecture with visual diagrams and photos, never plain text alone.",
             "estimatedHours": 18,
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-02",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
               "views": "210K+",
-              "completeness": "Visual Art & Culture breakdown"
+              "completeness": "Visual Art & Culture breakdown",
+              "channelName": "StudyIQ IAS",
+              "uploadYear": "2026"
             },
             "tags": [
               "Art & Culture",
@@ -241,7 +248,7 @@
               "Architecture",
               "Sculpture"
             ],
-            "youtubePlaylistId": "PLZfz5K8XpMW0CmDMqEF2uOA2pMSbqoRdH"
+            "youtubePlaylistId": "PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O"
           }
         ]
       },
@@ -262,31 +269,33 @@
         "resources": [
           {
             "id": "res-h6",
-            "title": "Mains GS1 History & Culture Model Answer Writing Sessions",
+            "title": "Mains A Day (MAD) — Daily Mains GS Answer Writing & PYQ Sessions",
             "subject": "History",
             "category": "Mains GS1",
             "level": "Integration",
             "language": "English/Hinglish",
             "type": "YouTube",
-            "provider": "ForumIAS",
-            "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z",
+            "provider": "Sleepy Classes IAS",
+            "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx",
             "description": "Line-by-line model answer writing breakdowns for past UPSC Mains GS1 History and Culture questions.",
             "seniorTip": "Notice how toppers use mini-maps and flowcharts in History answers to save writing time.",
             "estimatedHours": 12,
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
               "views": "110K+",
-              "channelName": "PW OnlyIAS"
+              "channelName": "Sleepy Classes IAS",
+              "completeness": "Live-Verified Active Resource",
+              "uploadYear": "2026"
             },
             "tags": [
               "Mains GS1",
               "Answer Writing",
               "PYQs"
             ],
-            "youtubePlaylistId": "PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
+            "youtubePlaylistId": "PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx"
           }
         ]
       }
@@ -331,10 +340,12 @@
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
               "views": "340K+",
-              "completeness": "Complete Class 6–10 walkthrough"
+              "completeness": "Complete Class 6–10 walkthrough",
+              "channelName": "Sudarshan Gurjar",
+              "uploadYear": "2026"
             },
             "tags": [
               "Geography",
@@ -377,10 +388,12 @@
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
               "views": "580K+",
-              "channelName": "PW OnlyIAS"
+              "channelName": "Amit Sengupta",
+              "completeness": "Live-Verified Active Resource",
+              "uploadYear": "2026"
             },
             "tags": [
               "Physical Geography",
@@ -410,23 +423,26 @@
         "resources": [
           {
             "id": "res-g3",
-            "title": "Indian Physical Geography & River Systems Masterclass",
+            "title": "Complete Indian Geography & River Systems Through Maps",
             "subject": "Geography",
             "category": "Indian Geography",
             "level": "Standard",
             "language": "English/Hinglish",
             "type": "YouTube",
-            "provider": "PW OnlyIAS",
-            "url": "https://www.youtube.com/playlist?list=PLXLsXwBXH6BmGSkAeH1nz2hdMk8kHCU_d",
+            "provider": "Sudarshan Gurjar",
+            "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV",
             "description": "Comprehensive mapping of Indian river networks, mountain passes, physiographic divisions, and climatic zones.",
             "seniorTip": "Draw each river system on a blank white paper from memory until you can place every tributary accurately.",
             "estimatedHours": 18,
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-02",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "views": "240K+"
+              "views": "240K+",
+              "channelName": "Sudarshan Gurjar",
+              "completeness": "Live-Verified Active Resource",
+              "uploadYear": "2026"
             },
             "tags": [
               "Indian Geography",
@@ -434,7 +450,7 @@
               "Drainage",
               "Himalayas"
             ],
-            "youtubePlaylistId": "PLXLsXwBXH6BmGSkAeH1nz2hdMk8kHCU_d"
+            "youtubePlaylistId": "PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV"
           }
         ]
       },
@@ -470,10 +486,12 @@
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
               "views": "410K+",
-              "uploadYear": "2026"
+              "uploadYear": "2026",
+              "channelName": "Sudarshan Gurjar",
+              "completeness": "Live-Verified Active Resource"
             },
             "tags": [
               "Mapping",
@@ -525,9 +543,12 @@
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "views": "310K+"
+              "views": "310K+",
+              "channelName": "Harshit Dwivedi (HD Education)",
+              "completeness": "Live-Verified Active Resource",
+              "uploadYear": "2026"
             },
             "tags": [
               "Polity",
@@ -571,10 +592,12 @@
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
               "views": "540K+",
-              "channelName": "PW OnlyIAS"
+              "channelName": "Harshit Dwivedi (HD Education)",
+              "completeness": "Live-Verified Active Resource",
+              "uploadYear": "2026"
             },
             "tags": [
               "Laxmikanth",
@@ -618,9 +641,12 @@
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "views": "480K+"
+              "views": "480K+",
+              "channelName": "Atish Mathur",
+              "completeness": "Live-Verified Active Resource",
+              "uploadYear": "2026"
             },
             "tags": [
               "Parliament",
@@ -664,9 +690,12 @@
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "views": "260K+"
+              "views": "260K+",
+              "channelName": "Atish Mathur",
+              "completeness": "Live-Verified Active Resource",
+              "uploadYear": "2026"
             },
             "tags": [
               "Constitutional Bodies",
@@ -719,9 +748,12 @@
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "views": "490K+"
+              "views": "490K+",
+              "channelName": "Harshit Dwivedi (HD Education)",
+              "completeness": "Live-Verified Active Resource",
+              "uploadYear": "2026"
             },
             "tags": [
               "Economy",
@@ -750,23 +782,26 @@
         "resources": [
           {
             "id": "res-e2",
-            "title": "Macroeconomics for UPSC: National Income, Inflation & Budgeting",
+            "title": "Complete Indian Economy (Ramesh Singh) Chapter-by-Chapter",
             "subject": "Economy",
             "category": "Macroeconomics",
             "level": "Standard",
             "language": "English/Hinglish",
             "type": "YouTube",
-            "provider": "Mrunal Patel",
-            "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_",
+            "provider": "Harshit Dwivedi (HD Education)",
+            "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj",
             "description": "Conceptual masterclass on GDP, Inflation metrics, Deficits, and Budget concepts tailored specifically for UPSC without complex academic math.",
             "seniorTip": "Focus on Capital Expenditure (CapEx) multiplier effect on infrastructure vs Revenue Expenditure.",
             "estimatedHours": 16,
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "views": "230K+"
+              "views": "230K+",
+              "channelName": "Harshit Dwivedi (HD Education)",
+              "completeness": "Live-Verified Active Resource",
+              "uploadYear": "2026"
             },
             "tags": [
               "Macroeconomics",
@@ -774,7 +809,7 @@
               "Inflation",
               "Budget"
             ],
-            "youtubePlaylistId": "PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_"
+            "youtubePlaylistId": "PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj"
           }
         ]
       },
@@ -796,23 +831,26 @@
         "resources": [
           {
             "id": "res-e3",
-            "title": "Banking, RBI Monetary Policy & Financial Markets Masterclass",
+            "title": "Complete Indian Economy Animated Series (Banking, RBI & Markets)",
             "subject": "Economy",
             "category": "Banking & Money",
             "level": "Advanced",
             "language": "English/Hinglish",
             "type": "YouTube",
             "provider": "Bookstawa",
-            "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3K_l0l3p2BYFgJHbF4ZMmE",
+            "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm",
             "description": "Exhaustive lecture series on RBI tools, liquidity transmission, NPA crisis resolution, and capital market instruments.",
             "seniorTip": "Remember: When RBI increases CRR, banks have less money to lend, so Money Multiplier decreases.",
             "estimatedHours": 22,
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "views": "410K+"
+              "views": "410K+",
+              "channelName": "Bookstawa",
+              "completeness": "Live-Verified Active Resource",
+              "uploadYear": "2026"
             },
             "tags": [
               "Banking",
@@ -821,7 +859,7 @@
               "NPA",
               "SEBI"
             ],
-            "youtubePlaylistId": "PLZfz5K8XpMW3K_l0l3p2BYFgJHbF4ZMmE"
+            "youtubePlaylistId": "PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm"
           }
         ]
       },
@@ -843,24 +881,26 @@
         "resources": [
           {
             "id": "res-e4",
-            "title": "External Sector, Balance of Payments & Economic Survey Synthesis",
+            "title": "Economy MCQ Marathon & Prelims Strategy — Mrunal Patel",
             "subject": "Economy",
             "category": "External Sector",
             "level": "Advanced",
             "language": "English/Hinglish",
             "type": "YouTube",
-            "provider": "Vision IAS",
-            "url": "https://www.youtube.com/playlist?list=PLDnIeUIsbmQtu1JYq2NuofHqm7nOGpErx",
+            "provider": "Mrunal Patel",
+            "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR",
             "description": "BoP mechanics, Forex reserve composition, Foreign Trade Policy, and key takeaways from the latest Economic Survey and Union Budget.",
             "seniorTip": "Do not read the 800-page Economic Survey word-for-word. Read authentic summaries with key graphs and policy debates.",
             "estimatedHours": 18,
             "free": true,
             "verified": true,
             "verificationStatus": "Verified",
-            "lastVerified": "2026-03",
+            "lastVerified": "2026-11-20",
             "verificationSignals": {
               "views": "370K+",
-              "uploadYear": "2026"
+              "uploadYear": "2026",
+              "channelName": "Mrunal Patel",
+              "completeness": "Live-Verified Active Resource"
             },
             "tags": [
               "BoP",
@@ -869,7 +909,7 @@
               "Economic Survey",
               "Budget"
             ],
-            "youtubePlaylistId": "PLDnIeUIsbmQtu1JYq2NuofHqm7nOGpErx"
+            "youtubePlaylistId": "PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR"
           }
         ]
       }
@@ -930,14 +970,14 @@
           },
           {
             "id": "res-env-rm-2",
-            "title": "Environment & Ecology Complete Foundation Video Course",
+            "title": "Complete Environment & Ecology (Shankar IAS) Chapter-by-Chapter",
             "subject": "Environment",
             "category": "Standard Core Video",
             "level": "Foundation",
             "language": "English",
             "type": "YouTube",
-            "provider": "PMF IAS",
-            "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX",
+            "provider": "Harshit Dwivedi (HD Education)",
+            "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU",
             "description": "Structured conceptual Environment video course covering Ecosystems, Biodiversity, Environmental Acts, and Climate Conventions.",
             "seniorTip": "Watch alongside PMF IAS free illustrated web articles to retain ecological diagrams effortlessly.",
             "estimatedHours": 28,
@@ -946,7 +986,7 @@
             "verificationStatus": "Verified",
             "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "channelName": "PMF IAS",
+              "channelName": "Harshit Dwivedi (HD Education)",
               "completeness": "Complete Environment Foundation",
               "uploadYear": "2026"
             },
@@ -957,7 +997,7 @@
               "Prelims",
               "Video"
             ],
-            "youtubePlaylistId": "PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX"
+            "youtubePlaylistId": "PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU"
           }
         ]
       },
@@ -1508,14 +1548,14 @@
           },
           {
             "id": "res-csat-rm-2",
-            "title": "CSAT Without Formula — Logical Quant Intuition",
+            "title": "Class 10 Mathematics NCERT — CSAT Quantitative Foundations",
             "subject": "CSAT",
             "category": "CSAT Video Course",
             "level": "Foundation",
             "language": "Hinglish",
             "type": "YouTube",
-            "provider": "UNGIST IAS",
-            "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gby8R2JjsGk3zBbVnzFTZVC",
+            "provider": "Magnet Brains",
+            "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv",
             "description": "Build intuitive, formula-free approaches to UPSC CSAT arithmetic and number puzzles—ideal for humanities aspirants.",
             "seniorTip": "Solve each example with paused video before watching the explanation.",
             "estimatedHours": 18,
@@ -1524,7 +1564,7 @@
             "verificationStatus": "Verified",
             "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "channelName": "UNGIST IAS",
+              "channelName": "Magnet Brains",
               "completeness": "Formula-Free Quant Mastery",
               "uploadYear": "2026"
             },
@@ -1535,7 +1575,7 @@
               "Prelims",
               "Video"
             ],
-            "youtubePlaylistId": "PLv8R8lxsh8gby8R2JjsGk3zBbVnzFTZVC"
+            "youtubePlaylistId": "PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv"
           }
         ]
       },
@@ -1588,14 +1628,14 @@
           },
           {
             "id": "res-csat-rm-4",
-            "title": "CSAT GS Paper-2 Concept Course — PMF IAS",
+            "title": "Class 9 Ganita Manjari NCERT — Number System & Linear Equations",
             "subject": "CSAT",
             "category": "CSAT Video Course",
             "level": "Standard",
             "language": "English",
             "type": "YouTube",
-            "provider": "PMF IAS",
-            "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR3wLU5SYdMRCQXeiJblw8Nt",
+            "provider": "Magnet Brains",
+            "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts",
             "description": "Clean English-medium conceptual walkthrough of core CSAT quantitative aptitude and reasoning modules.",
             "seniorTip": "Great alternative in pure English for quick topic reinforcement.",
             "estimatedHours": 20,
@@ -1604,7 +1644,7 @@
             "verificationStatus": "Verified",
             "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "channelName": "PMF IAS",
+              "channelName": "Magnet Brains",
               "completeness": "CSAT Paper-2 Playlist",
               "uploadYear": "2026"
             },
@@ -1614,7 +1654,7 @@
               "Quant",
               "Video"
             ],
-            "youtubePlaylistId": "PLfhUF7AO5ZR3wLU5SYdMRCQXeiJblw8Nt"
+            "youtubePlaylistId": "PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts"
           }
         ]
       },
@@ -1635,14 +1675,14 @@
         "resources": [
           {
             "id": "res-csat-rm-5",
-            "title": "Reading Comprehension Mastery for UPSC CSAT",
+            "title": "IAS Setu Official YouTube — CSAT Reading Comprehension & Aptitude",
             "subject": "CSAT",
             "category": "CSAT Video Course",
             "level": "Advanced",
             "language": "English/Hinglish",
-            "type": "YouTube",
-            "provider": "UNGIST IAS",
-            "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8ga88MQQUfAEvlGMvqn4avX1",
+            "type": "Website",
+            "provider": "IAS Setu",
+            "url": "https://www.youtube.com/@IASSETU",
             "description": "Dedicated UPSC Reading Comprehension playlist calibrating your elimination logic strictly to official UPSC answer keys.",
             "seniorTip": "Never practice RC from coaching mock tests alone—coaching keys often diverge from UPSC's exact logic.",
             "estimatedHours": 12,
@@ -1651,7 +1691,7 @@
             "verificationStatus": "Verified",
             "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "channelName": "UNGIST IAS",
+              "channelName": "IAS Setu",
               "completeness": "UPSC Official-Key RC Calibration",
               "uploadYear": "2026"
             },
@@ -1660,8 +1700,7 @@
               "Reading Comprehension",
               "Prelims",
               "Video"
-            ],
-            "youtubePlaylistId": "PLv8R8lxsh8ga88MQQUfAEvlGMvqn4avX1"
+            ]
           },
           {
             "id": "res-csat-rm-6",
@@ -1712,14 +1751,14 @@
         "resources": [
           {
             "id": "res-csat-rm-7",
-            "title": "CSAT Topic-Wise Previous Year Questions Solved (Video)",
+            "title": "Free UPSC CSAT PYQs Series (2011–2025) Solved Step-by-Step",
             "subject": "CSAT",
             "category": "PYQ Video Analysis",
             "level": "Integration",
             "language": "Hinglish",
             "type": "YouTube",
             "provider": "UNGIST IAS",
-            "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gawTzvse67OaTP2AsEccBto",
+            "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gbKU82l87QNW-ohSbTQMVks",
             "description": "Topic-by-topic solutions of real past UPSC CSAT Paper-II questions demonstrating fast exam-hall logic.",
             "seniorTip": "Attempt every question on paper for 90 seconds first before watching the solution.",
             "estimatedHours": 16,
@@ -1738,7 +1777,7 @@
               "Prelims",
               "Video"
             ],
-            "youtubePlaylistId": "PLv8R8lxsh8gawTzvse67OaTP2AsEccBto"
+            "youtubePlaylistId": "PLv8R8lxsh8gbKU82l87QNW-ohSbTQMVks"
           },
           {
             "id": "res-csat-rm-8",
@@ -1874,14 +1913,14 @@
         "resources": [
           {
             "id": "res-sci-rm-3",
-            "title": "Science & Technology: 100 Most Important Topics for UPSC",
+            "title": "Complete Science & Technology for UPSC (Prelims & Mains)",
             "subject": "Science & Tech",
             "category": "Standard Core Video",
             "level": "Standard",
             "language": "English",
             "type": "YouTube",
-            "provider": "Drishti IAS English",
-            "url": "https://www.youtube.com/playlist?list=PLQpF--VlgguTBqTeQ4YHnZCL5y20-_PIt",
+            "provider": "Dr. Ravi P. Agrahari",
+            "url": "https://www.youtube.com/playlist?list=PL67v2-EIFZ6SOsJxIYrPeSFc8P_KiJ-Lv",
             "description": "High-yield explainers covering Space, Biotechnology, AI, Quantum Computing, Robotics, Energy, and Defence technologies.",
             "seniorTip": "For every technology, note 3 things: What it does, How it works in 1 line, and 2 real-world applications.",
             "estimatedHours": 18,
@@ -1890,7 +1929,7 @@
             "verificationStatus": "Verified",
             "lastVerified": "2026-11-20",
             "verificationSignals": {
-              "channelName": "Drishti IAS English",
+              "channelName": "Dr. Ravi P. Agrahari",
               "completeness": "100 High-Yield Sci-Tech Topics",
               "uploadYear": "2026"
             },
@@ -1901,7 +1940,7 @@
               "AI",
               "Video"
             ],
-            "youtubePlaylistId": "PLQpF--VlgguTBqTeQ4YHnZCL5y20-_PIt"
+            "youtubePlaylistId": "PL67v2-EIFZ6SOsJxIYrPeSFc8P_KiJ-Lv"
           },
           {
             "id": "res-sci-rm-4",

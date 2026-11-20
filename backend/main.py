@@ -623,8 +623,9 @@ def api_validate_resources() -> dict[str, Any]:
 @app.post("/api/resources/resync")
 def api_resync_resources(
     write_json: bool = Query(default=True),
+    force_refresh: bool = Query(default=False),
 ) -> dict[str, Any]:
-    return sync_resources_from_master(write_json=write_json)
+    return sync_resources_from_master(write_json=write_json, force_refresh=force_refresh)
 
 
 @app.post("/api/resources")

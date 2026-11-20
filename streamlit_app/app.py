@@ -41,8 +41,9 @@ def _render_sidebar_shell() -> None:
     analytics = workspace.get("analytics") or {}
 
     api_live = client.is_api_online()
+    mode_lbl = client.connection_mode_label()
     mode_badge = pill_badge(
-        "● FastAPI Live" if api_live else "● Direct SQLite Mode",
+        f"● {mode_lbl}",
         "emerald" if api_live else "indigo",
     )
 

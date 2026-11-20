@@ -2,9 +2,9 @@
   "meta": {
     "title": "UPSC CSE Complete Free Resources Master Guide (Class 6–12 NCERT to Interview)",
     "total_links": 334,
-    "total_link_occurrences": 401,
+    "total_link_occurrences": 437,
     "source_file": "UPSC_FREE_RESOURCES_MASTER.md",
-    "generated_at": "2026-11-20T07:16:02Z",
+    "generated_at": "2026-11-20T08:30:24Z",
     "parts_count": 11
   },
   "parts": [
@@ -311,7 +311,14 @@
               "medium": "English",
               "priority_gs_map": "Selective (Prelims General Science)",
               "url": "https://ncert.nic.in/textbook.php?fesc1=0-11",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Science Classic NCERT",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVTN4qVwb-OgW9sBPsep9XX",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVTN4qVwb-OgW9sBPsep9XX"
+                }
+              ]
             },
             {
               "class_num": 6,
@@ -321,7 +328,14 @@
               "medium": "English",
               "priority_gs_map": "Selective (General Science Basics)",
               "url": "https://ncert.nic.in/textbook.php?fecu1=0-12",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Science Curiosity NEP",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhW47wzJZJ6mkN_K9jeiAFhK",
+                  "youtube_playlist_id": "PLVLoWQFkZbhW47wzJZJ6mkN_K9jeiAFhK"
+                }
+              ]
             },
             {
               "class_num": 6,
@@ -352,6 +366,18 @@
               "provider": "HD Education",
               "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WIOzvBJ7SnwkoXOc25OD720",
               "youtube_playlist_id": "PL_K2YMR-A5WIOzvBJ7SnwkoXOc25OD720"
+            },
+            {
+              "title": "Science Classic NCERT",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVTN4qVwb-OgW9sBPsep9XX",
+              "youtube_playlist_id": "PLVLoWQFkZbhVTN4qVwb-OgW9sBPsep9XX"
+            },
+            {
+              "title": "Science Curiosity NEP",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhW47wzJZJ6mkN_K9jeiAFhK",
+              "youtube_playlist_id": "PLVLoWQFkZbhW47wzJZJ6mkN_K9jeiAFhK"
             }
           ],
           "tables": [
@@ -501,7 +527,14 @@
               "medium": "English",
               "priority_gs_map": "High (Integrated Social Science)",
               "url": "https://ncert.nic.in/textbook.php?gees1=0-12",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Social Science Complete NCERT",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz"
+                }
+              ]
             },
             {
               "class_num": 7,
@@ -513,10 +546,10 @@
               "url": "https://ncert.nic.in/textbook.php?gees2=0-8",
               "video_companions": [
                 {
-                  "title": "Exploring Society Part-2",
-                  "provider": "NCERT Official",
-                  "url": "https://www.youtube.com/playlist?list=PLIGVh7QrK-bc",
-                  "youtube_playlist_id": "PLIGVh7QrK-bc"
+                  "title": "Social Science Complete NCERT",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz"
                 }
               ]
             },
@@ -530,10 +563,10 @@
               "url": "https://ncert.nic.in/textbook.php?ghes1=0-12",
               "video_companions": [
                 {
-                  "title": "Exploring Society Part-2",
-                  "provider": "NCERT Official",
-                  "url": "https://www.youtube.com/playlist?list=PLIGVh7QrK-bc",
-                  "youtube_playlist_id": "PLIGVh7QrK-bc"
+                  "title": "Social Science Complete NCERT",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz"
                 }
               ]
             },
@@ -545,7 +578,14 @@
               "medium": "English",
               "priority_gs_map": "Selective (Nutrition, Heat, Soil, Plants)",
               "url": "https://ncert.nic.in/textbook.php?gesc1=0-13",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Science Classic NCERT",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVcZ8f3BMLxt5E17GmIitf-",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVcZ8f3BMLxt5E17GmIitf-"
+                }
+              ]
             },
             {
               "class_num": 7,
@@ -555,7 +595,14 @@
               "medium": "English",
               "priority_gs_map": "Selective (General Science)",
               "url": "https://ncert.nic.in/textbook.php?gecu1=0-12",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Science Curiosity NEP",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUONdEiUdHSE-jXnwdDd1Gh",
+                  "youtube_playlist_id": "PLVLoWQFkZbhUONdEiUdHSE-jXnwdDd1Gh"
+                }
+              ]
             },
             {
               "class_num": 7,
@@ -588,10 +635,22 @@
               "youtube_playlist_id": "PL_K2YMR-A5WKqR09tn7B2N5iYXPycUewJ"
             },
             {
-              "title": "Exploring Society Part-2",
-              "provider": "NCERT Official",
-              "url": "https://www.youtube.com/playlist?list=PLIGVh7QrK-bc",
-              "youtube_playlist_id": "PLIGVh7QrK-bc"
+              "title": "Social Science Complete NCERT",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz",
+              "youtube_playlist_id": "PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz"
+            },
+            {
+              "title": "Science Classic NCERT",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVcZ8f3BMLxt5E17GmIitf-",
+              "youtube_playlist_id": "PLVLoWQFkZbhVcZ8f3BMLxt5E17GmIitf-"
+            },
+            {
+              "title": "Science Curiosity NEP",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUONdEiUdHSE-jXnwdDd1Gh",
+              "youtube_playlist_id": "PLVLoWQFkZbhUONdEiUdHSE-jXnwdDd1Gh"
             }
           ],
           "tables": [
@@ -788,7 +847,14 @@
               "medium": "English",
               "priority_gs_map": "Selective (Microbes, Cells, Conservation)",
               "url": "https://ncert.nic.in/textbook.php?hesc1=0-13",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Science Complete NCERT",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWNWRS1uBGATJoXEinkG23n",
+                  "youtube_playlist_id": "PLVLoWQFkZbhWNWRS1uBGATJoXEinkG23n"
+                }
+              ]
             },
             {
               "class_num": 8,
@@ -798,7 +864,14 @@
               "medium": "English",
               "priority_gs_map": "Selective (General Science)",
               "url": "https://ncert.nic.in/textbook.php?hecu1=0-13",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Science Complete NCERT",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWNWRS1uBGATJoXEinkG23n",
+                  "youtube_playlist_id": "PLVLoWQFkZbhWNWRS1uBGATJoXEinkG23n"
+                }
+              ]
             },
             {
               "class_num": 8,
@@ -808,7 +881,14 @@
               "medium": "English",
               "priority_gs_map": "CSAT Base (Percentages, Algebra, Mensuration)",
               "url": "https://ncert.nic.in/textbook.php?hemh1=0-13",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Mathematics NCERT — CSAT Base",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr"
+                }
+              ]
             },
             {
               "class_num": 8,
@@ -818,7 +898,14 @@
               "medium": "English",
               "priority_gs_map": "CSAT Base",
               "url": "https://ncert.nic.in/textbook.php?hegp1=0-7",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Mathematics NCERT — CSAT Base",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr"
+                }
+              ]
             }
           ],
           "video_companions": [
@@ -839,6 +926,18 @@
               "provider": "HD Education",
               "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WKrbnKzuTBXsIZCRRi6g9ru",
               "youtube_playlist_id": "PL_K2YMR-A5WKrbnKzuTBXsIZCRRi6g9ru"
+            },
+            {
+              "title": "Science Complete NCERT",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWNWRS1uBGATJoXEinkG23n",
+              "youtube_playlist_id": "PLVLoWQFkZbhWNWRS1uBGATJoXEinkG23n"
+            },
+            {
+              "title": "Mathematics NCERT — CSAT Base",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr",
+              "youtube_playlist_id": "PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr"
             }
           ],
           "tables": [
@@ -1012,7 +1111,14 @@
               "medium": "English",
               "priority_gs_map": "High (GS-1 World History: French & Russian Rev)",
               "url": "https://ncert.nic.in/textbook.php?iess3=0-5",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "History",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXlJMfmq5f2vV00EeXkp7e9",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXlJMfmq5f2vV00EeXkp7e9"
+                }
+              ]
             },
             {
               "class_num": 9,
@@ -1082,6 +1188,18 @@
                   "provider": "HD Education",
                   "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WLF8i43DsFn0SxNCmXXKHTa",
                   "youtube_playlist_id": "PL_K2YMR-A5WLF8i43DsFn0SxNCmXXKHTa"
+                },
+                {
+                  "title": "Science — Biology NCERT",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXITEmOWL1-JqTdK9tgiNW8",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXITEmOWL1-JqTdK9tgiNW8"
+                },
+                {
+                  "title": "Science — Chemistry NCERT",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUgNkSyuuyuE1ex8CiDhffJ",
+                  "youtube_playlist_id": "PLVLoWQFkZbhUgNkSyuuyuE1ex8CiDhffJ"
                 }
               ]
             },
@@ -1093,7 +1211,14 @@
               "medium": "English",
               "priority_gs_map": "CSAT Base (Number System, Linear Equations)",
               "url": "https://ncert.nic.in/textbook.php?iemh1=0-8",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Mathematics Ganita Manjari — CSAT Base",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts"
+                }
+              ]
             }
           ],
           "video_companions": [
@@ -1102,6 +1227,12 @@
               "provider": "Amit Sengupta",
               "url": "https://www.youtube.com/playlist?list=PL1vNLZF5gfweFN0ps77y2jdFp7hTxl2sK",
               "youtube_playlist_id": "PL1vNLZF5gfweFN0ps77y2jdFp7hTxl2sK"
+            },
+            {
+              "title": "History",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXlJMfmq5f2vV00EeXkp7e9",
+              "youtube_playlist_id": "PLVLoWQFkZbhXlJMfmq5f2vV00EeXkp7e9"
             },
             {
               "title": "Political Science",
@@ -1114,6 +1245,24 @@
               "provider": "HD Education",
               "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WIzoy678og8_Ykd1P92QwEN",
               "youtube_playlist_id": "PL_K2YMR-A5WIzoy678og8_Ykd1P92QwEN"
+            },
+            {
+              "title": "Science — Biology NCERT",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXITEmOWL1-JqTdK9tgiNW8",
+              "youtube_playlist_id": "PLVLoWQFkZbhXITEmOWL1-JqTdK9tgiNW8"
+            },
+            {
+              "title": "Science — Chemistry NCERT",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUgNkSyuuyuE1ex8CiDhffJ",
+              "youtube_playlist_id": "PLVLoWQFkZbhUgNkSyuuyuE1ex8CiDhffJ"
+            },
+            {
+              "title": "Mathematics Ganita Manjari — CSAT Base",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts",
+              "youtube_playlist_id": "PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts"
             }
           ],
           "tables": [
@@ -1287,7 +1436,14 @@
               "medium": "English",
               "priority_gs_map": "Must Read (GS-1 Indian Nationalism & World Hist)",
               "url": "https://ncert.nic.in/textbook.php?jess3=0-5",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "History — Nationalism in India",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXJMA8ncxvxljn3dcyVLc4H",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXJMA8ncxvxljn3dcyVLc4H"
+                }
+              ]
             },
             {
               "class_num": 10,
@@ -1354,7 +1510,14 @@
               "medium": "English",
               "priority_gs_map": "CSAT Base (Number System, Probability, AP, Stats)",
               "url": "https://ncert.nic.in/textbook.php?jemh1=0-14",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Mathematics Class 10 — CSAT Base",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv",
+                  "youtube_playlist_id": "PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv"
+                }
+              ]
             }
           ],
           "video_companions": [
@@ -1363,6 +1526,12 @@
               "provider": "Amit Sengupta",
               "url": "https://www.youtube.com/playlist?list=PL1vNLZF5gfweoo1UZYY3hF2e0UxXuf7lD",
               "youtube_playlist_id": "PL1vNLZF5gfweoo1UZYY3hF2e0UxXuf7lD"
+            },
+            {
+              "title": "History — Nationalism in India",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXJMA8ncxvxljn3dcyVLc4H",
+              "youtube_playlist_id": "PLVLoWQFkZbhXJMA8ncxvxljn3dcyVLc4H"
             },
             {
               "title": "Political Science",
@@ -1381,6 +1550,12 @@
               "provider": "NCERT Official",
               "url": "https://www.youtube.com/playlist?list=PLUgLcpnv1YidKNzIj2KJIjwmcFgVI2eiB",
               "youtube_playlist_id": "PLUgLcpnv1YidKNzIj2KJIjwmcFgVI2eiB"
+            },
+            {
+              "title": "Mathematics Class 10 — CSAT Base",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv",
+              "youtube_playlist_id": "PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv"
             }
           ],
           "tables": [
@@ -1512,12 +1687,6 @@
                   "provider": "Amit Sengupta",
                   "url": "https://www.youtube.com/playlist?list=PL1vNLZF5gfwdhB7PRkMZ0sWfhV07AT6Z_",
                   "youtube_playlist_id": "PL1vNLZF5gfwdhB7PRkMZ0sWfhV07AT6Z_"
-                },
-                {
-                  "title": "India: Physical Environment",
-                  "provider": "HD Education",
-                  "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WJYvaP8DLnUVYgwOeRqRC6-",
-                  "youtube_playlist_id": "PL_K2YMR-A5WJYvaP8DLnUVYgwOeRqRC6-"
                 }
               ]
             },
@@ -1535,12 +1704,6 @@
                   "provider": "Amit Sengupta",
                   "url": "https://www.youtube.com/playlist?list=PL1vNLZF5gfwdhB7PRkMZ0sWfhV07AT6Z_",
                   "youtube_playlist_id": "PL1vNLZF5gfwdhB7PRkMZ0sWfhV07AT6Z_"
-                },
-                {
-                  "title": "India: Physical Environment",
-                  "provider": "HD Education",
-                  "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WJYvaP8DLnUVYgwOeRqRC6-",
-                  "youtube_playlist_id": "PL_K2YMR-A5WJYvaP8DLnUVYgwOeRqRC6-"
                 }
               ]
             },
@@ -1586,7 +1749,14 @@
               "medium": "English",
               "priority_gs_map": "High (GS-2, GS-4 Ethics & Essay Concepts)",
               "url": "https://ncert.nic.in/textbook.php?keps1=0-8",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Political Theory",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWadHp436aH028iQ5vHTyFP",
+                  "youtube_playlist_id": "PLVLoWQFkZbhWadHp436aH028iQ5vHTyFP"
+                }
+              ]
             },
             {
               "class_num": 11,
@@ -1633,9 +1803,9 @@
               "video_companions": [
                 {
                   "title": "An Introduction to Indian Art",
-                  "provider": "Unacademy Free Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLwYR7WJw1-QVmNxu03eFGYTwDtKluQOcy",
-                  "youtube_playlist_id": "PLwYR7WJw1-QVmNxu03eFGYTwDtKluQOcy"
+                  "provider": "Testbook SuperCoaching",
+                  "url": "https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K",
+                  "youtube_playlist_id": "PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K"
                 }
               ]
             },
@@ -1650,9 +1820,9 @@
               "video_companions": [
                 {
                   "title": "An Introduction to Indian Art",
-                  "provider": "Unacademy Free Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLwYR7WJw1-QVmNxu03eFGYTwDtKluQOcy",
-                  "youtube_playlist_id": "PLwYR7WJw1-QVmNxu03eFGYTwDtKluQOcy"
+                  "provider": "Testbook SuperCoaching",
+                  "url": "https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K",
+                  "youtube_playlist_id": "PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K"
                 }
               ]
             },
@@ -1690,6 +1860,12 @@
                   "provider": "HD Education",
                   "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WJveqadQ0bHju1ymZ0CVYUo",
                   "youtube_playlist_id": "PL_K2YMR-A5WJveqadQ0bHju1ymZ0CVYUo"
+                },
+                {
+                  "title": "Themes in World History",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVpFpLOwx7WsNeacmcedHfz",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVpFpLOwx7WsNeacmcedHfz"
                 }
               ]
             },
@@ -1701,7 +1877,14 @@
               "medium": "English",
               "priority_gs_map": "High (GS-1 Indian Society & Sociology Optional)",
               "url": "https://ncert.nic.in/textbook.php?kesy1=0-5",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Introducing Sociology",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVTtFbc0y4yfUznox1KAbel",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVTtFbc0y4yfUznox1KAbel"
+                }
+              ]
             },
             {
               "class_num": 11,
@@ -1711,7 +1894,14 @@
               "medium": "English",
               "priority_gs_map": "High (GS-1 Society & Sociology Optional)",
               "url": "https://ncert.nic.in/textbook.php?kesy2=0-5",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Understanding Society",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXYK8APQLY7dKn5dzw2ELAt",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXYK8APQLY7dKn5dzw2ELAt"
+                }
+              ]
             },
             {
               "class_num": 11,
@@ -1721,7 +1911,14 @@
               "medium": "English",
               "priority_gs_map": "Selective (GS-4 Ethics: Attitude, EI, Motivation)",
               "url": "https://ncert.nic.in/textbook.php?kepy1=0-8",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Introduction to Psychology",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXm7DLANmW0lSigkHmSewff",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXm7DLANmW0lSigkHmSewff"
+                }
+              ]
             },
             {
               "class_num": 11,
@@ -1748,16 +1945,16 @@
               "youtube_playlist_id": "PL1vNLZF5gfwdhB7PRkMZ0sWfhV07AT6Z_"
             },
             {
-              "title": "India: Physical Environment",
-              "provider": "HD Education",
-              "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WJYvaP8DLnUVYgwOeRqRC6-",
-              "youtube_playlist_id": "PL_K2YMR-A5WJYvaP8DLnUVYgwOeRqRC6-"
-            },
-            {
               "title": "Indian Constitution at Work",
               "provider": "HD Education",
               "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WLvbz8SiCU_mTLeL3FcC84K",
               "youtube_playlist_id": "PL_K2YMR-A5WLvbz8SiCU_mTLeL3FcC84K"
+            },
+            {
+              "title": "Political Theory",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWadHp436aH028iQ5vHTyFP",
+              "youtube_playlist_id": "PLVLoWQFkZbhWadHp436aH028iQ5vHTyFP"
             },
             {
               "title": "Indian Economic Development",
@@ -1767,15 +1964,39 @@
             },
             {
               "title": "An Introduction to Indian Art",
-              "provider": "Unacademy Free Archive",
-              "url": "https://www.youtube.com/playlist?list=PLwYR7WJw1-QVmNxu03eFGYTwDtKluQOcy",
-              "youtube_playlist_id": "PLwYR7WJw1-QVmNxu03eFGYTwDtKluQOcy"
+              "provider": "Testbook SuperCoaching",
+              "url": "https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K",
+              "youtube_playlist_id": "PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K"
             },
             {
               "title": "Themes in World History",
               "provider": "HD Education",
               "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WJveqadQ0bHju1ymZ0CVYUo",
               "youtube_playlist_id": "PL_K2YMR-A5WJveqadQ0bHju1ymZ0CVYUo"
+            },
+            {
+              "title": "Themes in World History",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVpFpLOwx7WsNeacmcedHfz",
+              "youtube_playlist_id": "PLVLoWQFkZbhVpFpLOwx7WsNeacmcedHfz"
+            },
+            {
+              "title": "Introducing Sociology",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVTtFbc0y4yfUznox1KAbel",
+              "youtube_playlist_id": "PLVLoWQFkZbhVTtFbc0y4yfUznox1KAbel"
+            },
+            {
+              "title": "Understanding Society",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXYK8APQLY7dKn5dzw2ELAt",
+              "youtube_playlist_id": "PLVLoWQFkZbhXYK8APQLY7dKn5dzw2ELAt"
+            },
+            {
+              "title": "Introduction to Psychology",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXm7DLANmW0lSigkHmSewff",
+              "youtube_playlist_id": "PLVLoWQFkZbhXm7DLANmW0lSigkHmSewff"
             }
           ],
           "tables": [
@@ -1933,9 +2154,9 @@
               "video_companions": [
                 {
                   "title": "Themes in Indian History Part-I",
-                  "provider": "Verified UPSC Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLMTLwvYr8eWNX0_P5sFDqTBXbK6EeF5uw",
-                  "youtube_playlist_id": "PLMTLwvYr8eWNX0_P5sFDqTBXbK6EeF5uw"
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXgJBC4gj2DIlIEVAL1l0WA",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXgJBC4gj2DIlIEVAL1l0WA"
                 }
               ]
             },
@@ -1950,9 +2171,9 @@
               "video_companions": [
                 {
                   "title": "Themes in Indian History Part-II",
-                  "provider": "Verified UPSC Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLI-m5lCEZCnB0ygG__sA74s_AI0JzTDkH",
-                  "youtube_playlist_id": "PLI-m5lCEZCnB0ygG__sA74s_AI0JzTDkH"
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVzbdUnnkiFv02HPme1uvEE",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVzbdUnnkiFv02HPme1uvEE"
                 }
               ]
             },
@@ -1967,9 +2188,9 @@
               "video_companions": [
                 {
                   "title": "Themes in Indian History Part-III",
-                  "provider": "Verified UPSC Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLWcqTv9QSBz384w6LQTUzCxSNqb17w9EX",
-                  "youtube_playlist_id": "PLWcqTv9QSBz384w6LQTUzCxSNqb17w9EX"
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXRieQdABrHiRsYn9ENLTgR",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXRieQdABrHiRsYn9ENLTgR"
                 }
               ]
             },
@@ -1984,21 +2205,21 @@
               "video_companions": [
                 {
                   "title": "Themes in Indian History Part-I",
-                  "provider": "Verified UPSC Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLMTLwvYr8eWNX0_P5sFDqTBXbK6EeF5uw",
-                  "youtube_playlist_id": "PLMTLwvYr8eWNX0_P5sFDqTBXbK6EeF5uw"
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXgJBC4gj2DIlIEVAL1l0WA",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXgJBC4gj2DIlIEVAL1l0WA"
                 },
                 {
                   "title": "Themes in Indian History Part-II",
-                  "provider": "Verified UPSC Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLI-m5lCEZCnB0ygG__sA74s_AI0JzTDkH",
-                  "youtube_playlist_id": "PLI-m5lCEZCnB0ygG__sA74s_AI0JzTDkH"
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVzbdUnnkiFv02HPme1uvEE",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVzbdUnnkiFv02HPme1uvEE"
                 },
                 {
                   "title": "Themes in Indian History Part-III",
-                  "provider": "Verified UPSC Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLWcqTv9QSBz384w6LQTUzCxSNqb17w9EX",
-                  "youtube_playlist_id": "PLWcqTv9QSBz384w6LQTUzCxSNqb17w9EX"
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXRieQdABrHiRsYn9ENLTgR",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXRieQdABrHiRsYn9ENLTgR"
                 }
               ]
             },
@@ -2027,7 +2248,14 @@
               "medium": "English",
               "priority_gs_map": "Must Read (GS-1 Indian Resources, Transport, Agri)",
               "url": "https://ncert.nic.in/textbook.php?legy2=0-9",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "India: People and Economy",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXJ_1ILX-Es5tTqBapPxIvY",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXJ_1ILX-Es5tTqBapPxIvY"
+                }
+              ]
             },
             {
               "class_num": 12,
@@ -2040,9 +2268,9 @@
               "video_companions": [
                 {
                   "title": "Introductory Macroeconomics",
-                  "provider": "Unacademy Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLwYR7WJw1-QVqKE_PPH2XSQVF_svURjmF",
-                  "youtube_playlist_id": "PLwYR7WJw1-QVqKE_PPH2XSQVF_svURjmF"
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK",
+                  "youtube_playlist_id": "PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK"
                 }
               ]
             },
@@ -2057,9 +2285,9 @@
               "video_companions": [
                 {
                   "title": "Introductory Macroeconomics",
-                  "provider": "Unacademy Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLwYR7WJw1-QVqKE_PPH2XSQVF_svURjmF",
-                  "youtube_playlist_id": "PLwYR7WJw1-QVqKE_PPH2XSQVF_svURjmF"
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK",
+                  "youtube_playlist_id": "PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK"
                 }
               ]
             },
@@ -2081,7 +2309,14 @@
               "medium": "English",
               "priority_gs_map": "MUST READ (Prelims Environment & Biodiversity)",
               "url": "https://ncert.nic.in/textbook.php?lebo1=0-13",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Biology & Ecology Complete NCERT",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXy7if3Grafu9UngDHol9EX",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXy7if3Grafu9UngDHol9EX"
+                }
+              ]
             },
             {
               "class_num": 12,
@@ -2108,7 +2343,14 @@
               "medium": "English",
               "priority_gs_map": "High (GS-1 Post-Independence India)",
               "url": "https://ncert.nic.in/textbook.php?leps2=0-8",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Politics in India Since Independence",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLIpPiYr5jVxCOrpSRglBgDUCa7OwO6OiY",
+                  "youtube_playlist_id": "PLIpPiYr5jVxCOrpSRglBgDUCa7OwO6OiY"
+                }
+              ]
             },
             {
               "class_num": 12,
@@ -2120,10 +2362,10 @@
               "url": "https://ncert.nic.in/textbook.php?lesy1=0-7",
               "video_companions": [
                 {
-                  "title": "Sociology NCERTs Class 11–12",
-                  "provider": "Verified UPSC Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLPB5fw3o-SF8rF5V25oU17eTJwL05czmQ",
-                  "youtube_playlist_id": "PLPB5fw3o-SF8rF5V25oU17eTJwL05czmQ"
+                  "title": "Sociology — Indian Society",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P"
                 }
               ]
             },
@@ -2137,10 +2379,10 @@
               "url": "https://ncert.nic.in/textbook.php?lesy2=0-8",
               "video_companions": [
                 {
-                  "title": "Sociology NCERTs Class 11–12",
-                  "provider": "Verified UPSC Archive",
-                  "url": "https://www.youtube.com/playlist?list=PLPB5fw3o-SF8rF5V25oU17eTJwL05czmQ",
-                  "youtube_playlist_id": "PLPB5fw3o-SF8rF5V25oU17eTJwL05czmQ"
+                  "title": "Sociology — Social Change and Development",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUnEYuZfRyJyIwWPgLbcJpa",
+                  "youtube_playlist_id": "PLVLoWQFkZbhUnEYuZfRyJyIwWPgLbcJpa"
                 }
               ]
             },
@@ -2182,27 +2424,34 @@
               "medium": "English",
               "priority_gs_map": "Selective (GS-4 Emotional Intelligence, Attitude)",
               "url": "https://ncert.nic.in/textbook.php?lepy1=0-7",
-              "video_companions": []
+              "video_companions": [
+                {
+                  "title": "Psychology Class 12 — Ethics Support",
+                  "provider": "Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXOGREUvTDsMJIgqBcAxnvn",
+                  "youtube_playlist_id": "PLVLoWQFkZbhXOGREUvTDsMJIgqBcAxnvn"
+                }
+              ]
             }
           ],
           "video_companions": [
             {
               "title": "Themes in Indian History Part-I",
-              "provider": "Verified UPSC Archive",
-              "url": "https://www.youtube.com/playlist?list=PLMTLwvYr8eWNX0_P5sFDqTBXbK6EeF5uw",
-              "youtube_playlist_id": "PLMTLwvYr8eWNX0_P5sFDqTBXbK6EeF5uw"
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXgJBC4gj2DIlIEVAL1l0WA",
+              "youtube_playlist_id": "PLVLoWQFkZbhXgJBC4gj2DIlIEVAL1l0WA"
             },
             {
               "title": "Themes in Indian History Part-II",
-              "provider": "Verified UPSC Archive",
-              "url": "https://www.youtube.com/playlist?list=PLI-m5lCEZCnB0ygG__sA74s_AI0JzTDkH",
-              "youtube_playlist_id": "PLI-m5lCEZCnB0ygG__sA74s_AI0JzTDkH"
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVzbdUnnkiFv02HPme1uvEE",
+              "youtube_playlist_id": "PLVLoWQFkZbhVzbdUnnkiFv02HPme1uvEE"
             },
             {
               "title": "Themes in Indian History Part-III",
-              "provider": "Verified UPSC Archive",
-              "url": "https://www.youtube.com/playlist?list=PLWcqTv9QSBz384w6LQTUzCxSNqb17w9EX",
-              "youtube_playlist_id": "PLWcqTv9QSBz384w6LQTUzCxSNqb17w9EX"
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXRieQdABrHiRsYn9ENLTgR",
+              "youtube_playlist_id": "PLVLoWQFkZbhXRieQdABrHiRsYn9ENLTgR"
             },
             {
               "title": "Fundamentals of Human Geography",
@@ -2211,10 +2460,22 @@
               "youtube_playlist_id": "PL1vNLZF5gfweoiGYv6d5uc6CjVY1VDAWJ"
             },
             {
+              "title": "India: People and Economy",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXJ_1ILX-Es5tTqBapPxIvY",
+              "youtube_playlist_id": "PLVLoWQFkZbhXJ_1ILX-Es5tTqBapPxIvY"
+            },
+            {
               "title": "Introductory Macroeconomics",
-              "provider": "Unacademy Archive",
-              "url": "https://www.youtube.com/playlist?list=PLwYR7WJw1-QVqKE_PPH2XSQVF_svURjmF",
-              "youtube_playlist_id": "PLwYR7WJw1-QVqKE_PPH2XSQVF_svURjmF"
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK",
+              "youtube_playlist_id": "PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK"
+            },
+            {
+              "title": "Biology & Ecology Complete NCERT",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXy7if3Grafu9UngDHol9EX",
+              "youtube_playlist_id": "PLVLoWQFkZbhXy7if3Grafu9UngDHol9EX"
             },
             {
               "title": "Contemporary World Politics",
@@ -2223,10 +2484,28 @@
               "youtube_playlist_id": "PL_K2YMR-A5WKg_oyTt-eHPnSvXfANQKOM"
             },
             {
-              "title": "Sociology NCERTs Class 11–12",
-              "provider": "Verified UPSC Archive",
-              "url": "https://www.youtube.com/playlist?list=PLPB5fw3o-SF8rF5V25oU17eTJwL05czmQ",
-              "youtube_playlist_id": "PLPB5fw3o-SF8rF5V25oU17eTJwL05czmQ"
+              "title": "Politics in India Since Independence",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLIpPiYr5jVxCOrpSRglBgDUCa7OwO6OiY",
+              "youtube_playlist_id": "PLIpPiYr5jVxCOrpSRglBgDUCa7OwO6OiY"
+            },
+            {
+              "title": "Sociology — Indian Society",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P",
+              "youtube_playlist_id": "PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P"
+            },
+            {
+              "title": "Sociology — Social Change and Development",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUnEYuZfRyJyIwWPgLbcJpa",
+              "youtube_playlist_id": "PLVLoWQFkZbhUnEYuZfRyJyIwWPgLbcJpa"
+            },
+            {
+              "title": "Psychology Class 12 — Ethics Support",
+              "provider": "Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXOGREUvTDsMJIgqBcAxnvn",
+              "youtube_playlist_id": "PLVLoWQFkZbhXOGREUvTDsMJIgqBcAxnvn"
             }
           ],
           "tables": [
@@ -2530,9 +2809,9 @@
                 },
                 {
                   "title": "Bookstawa Modern History Animated Series",
-                  "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW2edCCXpfBh2nNQ8qFbcVNG",
+                  "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM",
                   "type": "YouTube",
-                  "youtube_playlist_id": "PLZfz5K8XpMW2edCCXpfBh2nNQ8qFbcVNG"
+                  "youtube_playlist_id": "PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM"
                 },
                 {
                   "title": "National Archives Digital Records — Abhilekh Patal",
@@ -2559,10 +2838,16 @@
                   "youtube_playlist_id": "PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6"
                 },
                 {
-                  "title": "Bookstawa Medieval History",
-                  "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3c01ihRcCxFL5asqCeO5SM",
+                  "title": "Satish Chandra Medieval History — HD Education",
+                  "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn",
                   "type": "YouTube",
-                  "youtube_playlist_id": "PLZfz5K8XpMW3c01ihRcCxFL5asqCeO5SM"
+                  "youtube_playlist_id": "PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn"
+                },
+                {
+                  "title": "Complete Indian History — Pratik Nayak",
+                  "url": "https://www.youtube.com/playlist?list=PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU",
+                  "type": "YouTube",
+                  "youtube_playlist_id": "PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU"
                 }
               ]
             },
@@ -2583,10 +2868,16 @@
                   "youtube_playlist_id": null
                 },
                 {
-                  "title": "Bookstawa Art & Culture Playlist",
-                  "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW0CmDMqEF2uOA2pMSbqoRdH",
+                  "title": "Nitin Singhania Art & Culture Series — StudyIQ",
+                  "url": "https://www.youtube.com/playlist?list=PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O",
                   "type": "YouTube",
-                  "youtube_playlist_id": "PLZfz5K8XpMW0CmDMqEF2uOA2pMSbqoRdH"
+                  "youtube_playlist_id": "PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O"
+                },
+                {
+                  "title": "Class 11 Fine Arts NCERT — Testbook SuperCoaching",
+                  "url": "https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K",
+                  "type": "YouTube",
+                  "youtube_playlist_id": "PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K"
                 }
               ]
             },
@@ -2601,6 +2892,12 @@
                   "youtube_playlist_id": "PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ"
                 },
                 {
+                  "title": "Complete UPSC Geography — Rajtanil Solanki (Mrunal)",
+                  "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7",
+                  "type": "YouTube",
+                  "youtube_playlist_id": "PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7"
+                },
+                {
                   "title": "Sudarshan Gurjar Indian Mapping",
                   "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV",
                   "type": "YouTube",
@@ -2613,6 +2910,12 @@
                   "youtube_playlist_id": "PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH"
                 },
                 {
+                  "title": "Bookstawa Complete Geography",
+                  "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW0RQKIkvGyWlHRYaj0FoaeT",
+                  "type": "YouTube",
+                  "youtube_playlist_id": "PLZfz5K8XpMW0RQKIkvGyWlHRYaj0FoaeT"
+                },
+                {
                   "title": "Survey of India Official Maps",
                   "url": "https://www.surveyofindia.gov.in/",
                   "type": "Website",
@@ -2622,7 +2925,7 @@
             },
             {
               "subject": "Indian Economy (Prelims & GS-3)",
-              "standard_book": "Indian Economy — Vivek Singh / Nitin Singhania + Economic Survey & Budget",
+              "standard_book": "Indian Economy — Ramesh Singh / Vivek Singh + Economic Survey & Budget",
               "companions": [
                 {
                   "title": "Official Economic Survey PDF",
@@ -2631,28 +2934,28 @@
                   "youtube_playlist_id": null
                 },
                 {
-                  "title": "Mrunal Patel Economy Beginners Series",
-                  "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_",
+                  "title": "Ramesh Singh Indian Economy — HD Education",
+                  "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj",
                   "type": "YouTube",
-                  "youtube_playlist_id": "PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_"
+                  "youtube_playlist_id": "PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj"
                 },
                 {
-                  "title": "Bookstawa Economy Series",
-                  "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3K_l0l3p2BYFgJHbF4ZMmE",
+                  "title": "Bookstawa Indian Economy Animated Series",
+                  "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm",
                   "type": "YouTube",
-                  "youtube_playlist_id": "PLZfz5K8XpMW3K_l0l3p2BYFgJHbF4ZMmE"
+                  "youtube_playlist_id": "PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm"
                 },
                 {
-                  "title": "PMF IAS Economy Foundation",
-                  "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0OtYBaK3dhe0tYYyjX4SG9",
+                  "title": "Mrunal Patel Economy MCQ Marathon & Strategy",
+                  "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR",
                   "type": "YouTube",
-                  "youtube_playlist_id": "PLfhUF7AO5ZR0OtYBaK3dhe0tYYyjX4SG9"
+                  "youtube_playlist_id": "PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR"
                 }
               ]
             },
             {
               "subject": "Environment & Ecology (Prelims & GS-3)",
-              "standard_book": "PMF IAS Environment / Shankar IAS Environment + Class 12 Bio Ecology",
+              "standard_book": "Shankar IAS Environment / PMF IAS Environment + Class 12 Bio Ecology",
               "companions": [
                 {
                   "title": "PMF IAS Free Environment Articles",
@@ -2661,10 +2964,16 @@
                   "youtube_playlist_id": null
                 },
                 {
-                  "title": "PMF IAS Environment Video Course",
-                  "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX",
+                  "title": "Shankar IAS Environment & Ecology — HD Education",
+                  "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU",
                   "type": "YouTube",
-                  "youtube_playlist_id": "PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX"
+                  "youtube_playlist_id": "PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU"
+                },
+                {
+                  "title": "Sudarshan Gurjar Environment for UPSC",
+                  "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l",
+                  "type": "YouTube",
+                  "youtube_playlist_id": "PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l"
                 },
                 {
                   "title": "NIOS Environmental Science (333)",
@@ -2751,32 +3060,32 @@
                 [
                   "**Modern History (Prelims & GS-1)**",
                   "*A Brief History of Modern India* — Rajiv Ahir (Spectrum)",
-                  "• [Complete Spectrum Video Series — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WI8tMJbIFcJ1HGgl5WhxTxr) <br>• [Bookstawa Modern History Animated Series](https://www.youtube.com/playlist?list=PLZfz5K8XpMW2edCCXpfBh2nNQ8qFbcVNG) <br>• [National Archives Digital Records — Abhilekh Patal](https://www.abhilekh-patal.in/)"
+                  "• [Complete Spectrum Video Series — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WI8tMJbIFcJ1HGgl5WhxTxr) <br>• [Bookstawa Modern History Animated Series](https://www.youtube.com/playlist?list=PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM) <br>• [National Archives Digital Records — Abhilekh Patal](https://www.abhilekh-patal.in/)"
                 ],
                 [
                   "**Ancient & Medieval History (GS-1)**",
                   "*India's Ancient Past* (R.S. Sharma) & *History of Medieval India* (Satish Chandra)",
-                  "• [TN Class 11 History — Free Textbooks](https://www.tntextbooks.in/) <br>• [Bookstawa Ancient History](https://www.youtube.com/playlist?list=PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6) <br>• [Bookstawa Medieval History](https://www.youtube.com/playlist?list=PLZfz5K8XpMW3c01ihRcCxFL5asqCeO5SM)"
+                  "• [TN Class 11 History — Free Textbooks](https://www.tntextbooks.in/) <br>• [Bookstawa Ancient History](https://www.youtube.com/playlist?list=PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6) <br>• [Satish Chandra Medieval History — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn) <br>• [Complete Indian History — Pratik Nayak](https://www.youtube.com/playlist?list=PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU)"
                 ],
                 [
                   "**Art & Culture (Prelims & GS-1)**",
                   "*Indian Art and Culture* — Nitin Singhania + Class 11 Fine Arts NCERT",
-                  "• [CCRT Official Culture Archives](https://ccrtindia.gov.in/) <br>• [Indian Culture Portal — Ministry of Culture](https://www.indianculture.gov.in/) <br>• [Bookstawa Art & Culture Playlist](https://www.youtube.com/playlist?list=PLZfz5K8XpMW0CmDMqEF2uOA2pMSbqoRdH)"
+                  "• [CCRT Official Culture Archives](https://ccrtindia.gov.in/) <br>• [Indian Culture Portal — Ministry of Culture](https://www.indianculture.gov.in/) <br>• [Nitin Singhania Art & Culture Series — StudyIQ](https://www.youtube.com/playlist?list=PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O) <br>• [Class 11 Fine Arts NCERT — Testbook SuperCoaching](https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K)"
                 ],
                 [
                   "**Geography (Prelims & GS-1)**",
                   "*Certificate Physical & Human Geography* (G.C. Leong) + Oxford Student Atlas",
-                  "• [G.C. Leong Complete Playlist — StudyIQ](https://www.youtube.com/playlist?list=PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ) <br>• [Sudarshan Gurjar Indian Mapping](https://www.youtube.com/playlist?list=PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV) <br>• [Sudarshan Gurjar World Mapping](https://www.youtube.com/playlist?list=PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH) <br>• [Survey of India Official Maps](https://www.surveyofindia.gov.in/)"
+                  "• [G.C. Leong Complete Playlist — StudyIQ](https://www.youtube.com/playlist?list=PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ) <br>• [Complete UPSC Geography — Rajtanil Solanki (Mrunal)](https://www.youtube.com/playlist?list=PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7) <br>• [Sudarshan Gurjar Indian Mapping](https://www.youtube.com/playlist?list=PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV) <br>• [Sudarshan Gurjar World Mapping](https://www.youtube.com/playlist?list=PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH) <br>• [Bookstawa Complete Geography](https://www.youtube.com/playlist?list=PLZfz5K8XpMW0RQKIkvGyWlHRYaj0FoaeT) <br>• [Survey of India Official Maps](https://www.surveyofindia.gov.in/)"
                 ],
                 [
                   "**Indian Economy (Prelims & GS-3)**",
-                  "*Indian Economy* — Vivek Singh / Nitin Singhania + Economic Survey & Budget",
-                  "• [Official Economic Survey PDF](https://www.indiabudget.gov.in/economicsurvey/) <br>• [Mrunal Patel Economy Beginners Series](https://www.youtube.com/playlist?list=PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_) <br>• [Bookstawa Economy Series](https://www.youtube.com/playlist?list=PLZfz5K8XpMW3K_l0l3p2BYFgJHbF4ZMmE) <br>• [PMF IAS Economy Foundation](https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0OtYBaK3dhe0tYYyjX4SG9)"
+                  "*Indian Economy* — Ramesh Singh / Vivek Singh + Economic Survey & Budget",
+                  "• [Official Economic Survey PDF](https://www.indiabudget.gov.in/economicsurvey/) <br>• [Ramesh Singh Indian Economy — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj) <br>• [Bookstawa Indian Economy Animated Series](https://www.youtube.com/playlist?list=PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm) <br>• [Mrunal Patel Economy MCQ Marathon & Strategy](https://www.youtube.com/playlist?list=PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR)"
                 ],
                 [
                   "**Environment & Ecology (Prelims & GS-3)**",
-                  "*PMF IAS Environment* / *Shankar IAS Environment* + Class 12 Bio Ecology",
-                  "• [PMF IAS Free Environment Articles](https://www.pmfias.com/) <br>• [PMF IAS Environment Video Course](https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX) <br>• [NIOS Environmental Science (333)](https://www.nios.ac.in/online-course-material/sr-secondary-courses.aspx) <br>• [MoEFCC Official Portal](https://moef.gov.in/)"
+                  "*Shankar IAS Environment* / *PMF IAS Environment* + Class 12 Bio Ecology",
+                  "• [PMF IAS Free Environment Articles](https://www.pmfias.com/) <br>• [Shankar IAS Environment & Ecology — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU) <br>• [Sudarshan Gurjar Environment for UPSC](https://www.youtube.com/playlist?list=PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l) <br>• [NIOS Environmental Science (333)](https://www.nios.ac.in/online-course-material/sr-secondary-courses.aspx) <br>• [MoEFCC Official Portal](https://moef.gov.in/)"
                 ],
                 [
                   "**Ethics, Integrity & Aptitude (GS-4)**",
@@ -3377,10 +3686,10 @@
             },
             {
               "subsection": "5.1 Official Government Broadcasts & Bulletins (100% Free)",
-              "title": "AIR Spotlight (Official YouTube Playlist)",
-              "usage": "Daily 15-min expert audio/video analysis on national & international issues",
-              "url": "https://www.youtube.com/playlist?list=PLPPKwCCueQ_AARG0z9XWZ3_lMCiLlMzfD",
-              "youtube_playlist_id": "PLPPKwCCueQ_AARG0z9XWZ3_lMCiLlMzfD"
+              "title": "NewsOnAir Official YouTube (AIR Spotlight)",
+              "usage": "Daily 15-min expert audio/video analysis & Spotlight discussions on national issues",
+              "url": "https://www.youtube.com/@NEWSONAIROFFICIAL",
+              "youtube_playlist_id": null
             },
             {
               "subsection": "5.1 Official Government Broadcasts & Bulletins (100% Free)",
@@ -3421,9 +3730,9 @@
                   "https://akashvani.gov.in/"
                 ],
                 [
-                  "**AIR Spotlight (Official YouTube Playlist)**",
-                  "Daily 15-min expert audio/video analysis on national & international issues",
-                  "https://www.youtube.com/playlist?list=PLPPKwCCueQ_AARG0z9XWZ3_lMCiLlMzfD"
+                  "**NewsOnAir Official YouTube (AIR Spotlight)**",
+                  "Daily 15-min expert audio/video analysis & Spotlight discussions on national issues",
+                  "https://www.youtube.com/@NEWSONAIROFFICIAL"
                 ],
                 [
                   "**Sansad TV Official YouTube**",
@@ -3945,14 +4254,14 @@
               "youtube_playlist_id": null
             },
             {
-              "title": "Vision IAS Mains PYQ Analysis (Video)",
-              "coverage": "3-Year Mains PYQ deconstruction & approach playlist",
-              "url": "https://www.youtube.com/playlist?list=PLDnIeUIsbmQuEUYGRHmpkO91rJ9iVVgS_",
-              "youtube_playlist_id": "PLDnIeUIsbmQuEUYGRHmpkO91rJ9iVVgS_"
+              "title": "Sleepy Classes Mains A Day — Answer Writing (Video)",
+              "coverage": "Daily Mains PYQ & answer-writing structure breakdown across GS 1–4",
+              "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx",
+              "youtube_playlist_id": "PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx"
             },
             {
               "title": "Atish Mathur Polity PYQs (Video)",
-              "coverage": "Detailed 10-year Polity Prelims PYQ breakdown",
+              "coverage": "Detailed Polity Prelims & Mains PYQ breakdown",
               "url": "https://www.youtube.com/playlist?list=PLDmcugApdt5dO_HPoL4uc2xL8jaitSmdL",
               "youtube_playlist_id": "PLDmcugApdt5dO_HPoL4uc2xL8jaitSmdL"
             }
@@ -4016,13 +4325,13 @@
                   "https://www.clearias.com/"
                 ],
                 [
-                  "**Vision IAS Mains PYQ Analysis (Video)**",
-                  "3-Year Mains PYQ deconstruction & approach playlist",
-                  "https://www.youtube.com/playlist?list=PLDnIeUIsbmQuEUYGRHmpkO91rJ9iVVgS_"
+                  "**Sleepy Classes Mains A Day — Answer Writing (Video)**",
+                  "Daily Mains PYQ & answer-writing structure breakdown across GS 1–4",
+                  "https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx"
                 ],
                 [
                   "**Atish Mathur Polity PYQs (Video)**",
-                  "Detailed 10-year Polity Prelims PYQ breakdown",
+                  "Detailed Polity Prelims & Mains PYQ breakdown",
                   "https://www.youtube.com/playlist?list=PLDmcugApdt5dO_HPoL4uc2xL8jaitSmdL"
                 ]
               ]
@@ -4051,6 +4360,12 @@
               "best_for": "Perspective debates, parliamentary briefings & policy explainers",
               "url": "https://www.youtube.com/@SansadTV",
               "handle": "@SansadTV"
+            },
+            {
+              "title": "NewsOnAir Official (AIR / Akashvani)",
+              "best_for": "Daily Spotlight policy discussions, national news bulletins & government explainers",
+              "url": "https://www.youtube.com/@NEWSONAIROFFICIAL",
+              "handle": "@NEWSONAIROFFICIAL"
             },
             {
               "title": "CEC UGC (Consortium for Educational Communication)",
@@ -4082,6 +4397,11 @@
                   "**Sansad TV**",
                   "*Perspective* debates, parliamentary briefings & policy explainers",
                   "https://www.youtube.com/@SansadTV"
+                ],
+                [
+                  "**NewsOnAir Official (AIR / Akashvani)**",
+                  "Daily *Spotlight* policy discussions, national news bulletins & government explainers",
+                  "https://www.youtube.com/@NEWSONAIROFFICIAL"
                 ],
                 [
                   "**CEC UGC (Consortium for Educational Communication)**",
@@ -4147,6 +4467,18 @@
               "specialty": "Line-by-line NCERT (Class 6–12), M. Laxmikanth & Spectrum breakdowns",
               "url": "https://www.youtube.com/@HARSHITDWIVEDIVIDEOS",
               "handle": "@HARSHITDWIVEDIVIDEOS"
+            },
+            {
+              "title": "Magnet Brains",
+              "specialty": "Complete chapter-by-chapter Class 6–12 NCERT Science, History, Macroeconomics & Sociology",
+              "url": "https://www.youtube.com/@MagnetBrainsEducation",
+              "handle": "@MagnetBrainsEducation"
+            },
+            {
+              "title": "Dr. Ravi P. Agrahari",
+              "specialty": "Comprehensive UPSC Science & Technology and Environment lectures",
+              "url": "https://www.youtube.com/@raviagrahariclasses",
+              "handle": "@raviagrahariclasses"
             },
             {
               "title": "Finology Legal",
@@ -4324,6 +4656,16 @@
                   "https://www.youtube.com/@HARSHITDWIVEDIVIDEOS"
                 ],
                 [
+                  "**Magnet Brains**",
+                  "Complete chapter-by-chapter Class 6–12 NCERT Science, History, Macroeconomics & Sociology",
+                  "https://www.youtube.com/@MagnetBrainsEducation"
+                ],
+                [
+                  "**Dr. Ravi P. Agrahari**",
+                  "Comprehensive UPSC Science & Technology and Environment lectures",
+                  "https://www.youtube.com/@raviagrahariclasses"
+                ],
+                [
                   "**Finology Legal**",
                   "Constitutional Law, Landmark SC Judgments & Indian Polity simplified",
                   "https://www.youtube.com/@_FinologyLegal"
@@ -4437,38 +4779,87 @@
           "items": [
             {
               "theme": "NCERT All-in-One",
-              "title": "NCERT Series 2026",
+              "title": "NCERT Foundation Series",
               "educator": "Sleepy Classes IAS",
               "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JDSprIXcuHS15HLMPoZgHVs",
               "youtube_playlist_id": "PLYSuG-KZy7JDSprIXcuHS15HLMPoZgHVs"
             },
             {
               "theme": "NCERT Geography",
-              "title": "NCERT for UPSC & Geography NCERT Topicwise",
+              "title": "NCERT Geography Topicwise & Mapping",
               "educator": "Sudarshan Gurjar",
               "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h3tkkWxHbt8VHzE0twTOzVM",
               "youtube_playlist_id": "PLkWhN3ZMY-h3tkkWxHbt8VHzE0twTOzVM"
             },
             {
-              "theme": "NCERT History",
-              "title": "History NCERT Foundation",
-              "educator": "PMF IAS",
-              "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR2lGo7g3gAFnVgpiPIQ0fVW",
-              "youtube_playlist_id": "PLfhUF7AO5ZR2lGo7g3gAFnVgpiPIQ0fVW"
+              "theme": "History (Complete)",
+              "title": "Complete Indian History (Ancient, Medieval & Modern)",
+              "educator": "Pratik Nayak",
+              "url": "https://www.youtube.com/playlist?list=PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU",
+              "youtube_playlist_id": "PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU"
             },
             {
-              "theme": "History (Animated)",
-              "title": "Complete History & Art & Culture Animated",
-              "educator": "PW OnlyIAS",
-              "url": "https://www.youtube.com/playlist?list=PL2jzazaAMNtU74jZvfoqpJVRHQ6B5QKBd",
-              "youtube_playlist_id": "PL2jzazaAMNtU74jZvfoqpJVRHQ6B5QKBd"
+              "theme": "Modern History",
+              "title": "Complete Modern Indian History Animated",
+              "educator": "Bookstawa",
+              "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM",
+              "youtube_playlist_id": "PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM"
             },
             {
-              "theme": "Geography Foundation",
-              "title": "Geography Foundation 2027",
-              "educator": "PMF IAS",
-              "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR38CFm35-HOw76huVwk_gr6",
-              "youtube_playlist_id": "PLfhUF7AO5ZR38CFm35-HOw76huVwk_gr6"
+              "theme": "Modern History",
+              "title": "Spectrum Modern Indian History Chapter-Wise",
+              "educator": "HD Education",
+              "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WI8tMJbIFcJ1HGgl5WhxTxr",
+              "youtube_playlist_id": "PL_K2YMR-A5WI8tMJbIFcJ1HGgl5WhxTxr"
+            },
+            {
+              "theme": "Ancient History",
+              "title": "Ancient Indian History Animated",
+              "educator": "Bookstawa",
+              "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6",
+              "youtube_playlist_id": "PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6"
+            },
+            {
+              "theme": "Medieval History",
+              "title": "Medieval Indian History (Satish Chandra)",
+              "educator": "HD Education",
+              "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn",
+              "youtube_playlist_id": "PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn"
+            },
+            {
+              "theme": "Art & Culture",
+              "title": "Indian Art & Culture (Nitin Singhania)",
+              "educator": "StudyIQ IAS",
+              "url": "https://www.youtube.com/playlist?list=PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O",
+              "youtube_playlist_id": "PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O"
+            },
+            {
+              "theme": "Art & Culture",
+              "title": "Class 11 Fine Arts NCERT (An Introduction to Indian Art)",
+              "educator": "Testbook SuperCoaching",
+              "url": "https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K",
+              "youtube_playlist_id": "PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K"
+            },
+            {
+              "theme": "Indian Polity",
+              "title": "Magna Carta Complete Indian Polity",
+              "educator": "Atish Mathur",
+              "url": "https://www.youtube.com/playlist?list=PLDmcugApdt5ercfNQxsnKdDttZLC6le91",
+              "youtube_playlist_id": "PLDmcugApdt5ercfNQxsnKdDttZLC6le91"
+            },
+            {
+              "theme": "Indian Polity",
+              "title": "Complete M. Laxmikanth Chapter-by-Chapter",
+              "educator": "HD Education",
+              "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WJ3KpnC6PSLN7f_BYw749xf",
+              "youtube_playlist_id": "PL_K2YMR-A5WJ3KpnC6PSLN7f_BYw749xf"
+            },
+            {
+              "theme": "Indian Polity",
+              "title": "Animated Indian Polity for UPSC",
+              "educator": "Bookstawa",
+              "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW2mGIuerMSMDc5LjeoAABjN",
+              "youtube_playlist_id": "PLZfz5K8XpMW2mGIuerMSMDc5LjeoAABjN"
             },
             {
               "theme": "Geography (Complete)",
@@ -4478,22 +4869,50 @@
               "youtube_playlist_id": "PLZfz5K8XpMW0RQKIkvGyWlHRYaj0FoaeT"
             },
             {
-              "theme": "Indian Geography",
-              "title": "Complete Indian Geography (Sambhav Free Series)",
-              "educator": "PW OnlyIAS",
-              "url": "https://www.youtube.com/playlist?list=PLXLsXwBXH6BmGSkAeH1nz2hdMk8kHCU_d",
-              "youtube_playlist_id": "PLXLsXwBXH6BmGSkAeH1nz2hdMk8kHCU_d"
+              "theme": "Geography (Foundation)",
+              "title": "Complete Geography for UPSC (Physical, Indian & World)",
+              "educator": "Rajtanil Solanki",
+              "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7",
+              "youtube_playlist_id": "PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7"
             },
             {
-              "theme": "Economy (Beginner)",
-              "title": "Indian Economy for UPSC Beginners (2027–28)",
-              "educator": "Mrunal Patel",
-              "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_",
-              "youtube_playlist_id": "PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_"
+              "theme": "Geography (Mapping)",
+              "title": "Complete Indian Geography Through Maps",
+              "educator": "Sudarshan Gurjar",
+              "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV",
+              "youtube_playlist_id": "PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV"
             },
             {
-              "theme": "Economy (Updates)",
-              "title": "Win26 Economy Updates",
+              "theme": "Geography (Mapping)",
+              "title": "Complete World Mapping Series",
+              "educator": "Sudarshan Gurjar",
+              "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH",
+              "youtube_playlist_id": "PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH"
+            },
+            {
+              "theme": "Geography (Physical)",
+              "title": "G.C. Leong Physical & Human Geography",
+              "educator": "StudyIQ IAS",
+              "url": "https://www.youtube.com/playlist?list=PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ",
+              "youtube_playlist_id": "PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ"
+            },
+            {
+              "theme": "Economy (Core)",
+              "title": "Indian Economy (Ramesh Singh) Chapter-by-Chapter",
+              "educator": "HD Education",
+              "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj",
+              "youtube_playlist_id": "PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj"
+            },
+            {
+              "theme": "Economy (Animated)",
+              "title": "Complete Indian Economy for UPSC",
+              "educator": "Bookstawa",
+              "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm",
+              "youtube_playlist_id": "PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm"
+            },
+            {
+              "theme": "Economy (Prelims)",
+              "title": "Economy MCQ Marathon & Prelims Strategy",
               "educator": "Mrunal Patel",
               "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR",
               "youtube_playlist_id": "PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR"
@@ -4506,39 +4925,18 @@
               "youtube_playlist_id": "PLYSuG-KZy7JAnfqt8aW7bxQnAbuVwkE7j"
             },
             {
-              "theme": "Economic Survey",
-              "title": "Economic Survey 2025–26 Detailed Classes",
-              "educator": "Vision IAS",
-              "url": "https://www.youtube.com/playlist?list=PLDnIeUIsbmQtu1JYq2NuofHqm7nOGpErx",
-              "youtube_playlist_id": "PLDnIeUIsbmQtu1JYq2NuofHqm7nOGpErx"
-            },
-            {
-              "theme": "Economic Survey",
-              "title": "Economic Survey FY 2025–26 Animated",
-              "educator": "Bookstawa",
-              "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW1Told7YRB3kkMbCXB12ozD",
-              "youtube_playlist_id": "PLZfz5K8XpMW1Told7YRB3kkMbCXB12ozD"
+              "theme": "Environment",
+              "title": "Complete Environment & Ecology (Shankar IAS)",
+              "educator": "HD Education",
+              "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU",
+              "youtube_playlist_id": "PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU"
             },
             {
               "theme": "Environment",
-              "title": "Environment & Ecology Foundation",
-              "educator": "PMF IAS",
-              "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX",
-              "youtube_playlist_id": "PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX"
-            },
-            {
-              "theme": "Environment",
-              "title": "Environment for UPSC",
+              "title": "Environment for UPSC Prelims",
               "educator": "Sudarshan Gurjar",
               "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l",
               "youtube_playlist_id": "PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l"
-            },
-            {
-              "theme": "Environment",
-              "title": "Complete Environment (Sambhav Free Series)",
-              "educator": "PW OnlyIAS",
-              "url": "https://www.youtube.com/playlist?list=PLXLsXwBXH6BlB-I7Cr5144lVw4duaRJlK",
-              "youtube_playlist_id": "PLXLsXwBXH6BlB-I7Cr5144lVw4duaRJlK"
             },
             {
               "theme": "Wetlands / Mapping",
@@ -4549,38 +4947,38 @@
             },
             {
               "theme": "Science & Tech",
-              "title": "Science & Technology: 100 Most Important Topics",
-              "educator": "Drishti IAS",
-              "url": "https://www.youtube.com/playlist?list=PLQpF--VlgguTBqTeQ4YHnZCL5y20-_PIt",
-              "youtube_playlist_id": "PLQpF--VlgguTBqTeQ4YHnZCL5y20-_PIt"
+              "title": "Complete Science & Technology for UPSC",
+              "educator": "Dr. Ravi P. Agrahari",
+              "url": "https://www.youtube.com/playlist?list=PL67v2-EIFZ6SOsJxIYrPeSFc8P_KiJ-Lv",
+              "youtube_playlist_id": "PL67v2-EIFZ6SOsJxIYrPeSFc8P_KiJ-Lv"
             },
             {
-              "theme": "International Relations",
-              "title": "IR Foundation Lectures",
+              "theme": "Internal Security",
+              "title": "Internal Security Foundation (GS-3)",
               "educator": "PMF IAS",
-              "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0pNzsJuQccBPgutF_NpbzO",
-              "youtube_playlist_id": "PLfhUF7AO5ZR0pNzsJuQccBPgutF_NpbzO"
+              "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR1BxWy0L22F3uqjIui54tsl",
+              "youtube_playlist_id": "PLfhUF7AO5ZR1BxWy0L22F3uqjIui54tsl"
             },
             {
-              "theme": "Prelims Revision",
-              "title": "UDAAN Free One-Shot Prelims Series",
-              "educator": "PW OnlyIAS",
-              "url": "https://www.youtube.com/playlist?list=PL2jzazaAMNtXQPShTLvy01JUAq4dF3nkq",
-              "youtube_playlist_id": "PL2jzazaAMNtXQPShTLvy01JUAq4dF3nkq"
+              "theme": "Ethics (GS-4)",
+              "title": "Complete Free Ethics Course",
+              "educator": "Atish Mathur",
+              "url": "https://www.youtube.com/playlist?list=PLDmcugApdt5fQG5xaQBxbPH7ANjBDKDZ8",
+              "youtube_playlist_id": "PLDmcugApdt5fQG5xaQBxbPH7ANjBDKDZ8"
             },
             {
-              "theme": "Prelims Revision",
-              "title": "PT 365 Revision Classes",
-              "educator": "Vision IAS",
-              "url": "https://www.youtube.com/playlist?list=PLDnIeUIsbmQsQbP2hV_9zU1cYZh6SzRVg",
-              "youtube_playlist_id": "PLDnIeUIsbmQsQbP2hV_9zU1cYZh6SzRVg"
+              "theme": "Ethics (GS-4)",
+              "title": "Free Complete Ethics GS Paper-4",
+              "educator": "ForumIAS",
+              "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqHL9qJvpoXzF06Hapc3rpmG",
+              "youtube_playlist_id": "PLTWYSxOsBjqHL9qJvpoXzF06Hapc3rpmG"
             },
             {
-              "theme": "Prelims Strategy",
-              "title": "UPSC Prelims Micro Themes",
-              "educator": "UPSCprep.com",
-              "url": "https://www.youtube.com/playlist?list=PLjAJerO9udmoIsQiSFHshetdulPOfiL19",
-              "youtube_playlist_id": "PLjAJerO9udmoIsQiSFHshetdulPOfiL19"
+              "theme": "Ethics (GS-4)",
+              "title": "A–Z Ethics Foundation Series",
+              "educator": "Sleepy Classes IAS",
+              "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JBDpMxkm3Atyozs_l6iichX",
+              "youtube_playlist_id": "PLYSuG-KZy7JBDpMxkm3Atyozs_l6iichX"
             },
             {
               "theme": "Current Affairs",
@@ -4597,39 +4995,25 @@
               "youtube_playlist_id": "PLQpF--VlgguTI4uXie10_EaMN08Vsfx1z"
             },
             {
-              "theme": "Answer Writing",
-              "title": "Learn Mains Answer Writing via Toppers' Copies",
-              "educator": "ForumIAS",
-              "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z",
-              "youtube_playlist_id": "PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
+              "theme": "Policy Debates",
+              "title": "Sansad TV Perspective Daily Discussions",
+              "educator": "Sansad TV",
+              "url": "https://www.youtube.com/playlist?list=PLVOgwA_DiGzrOZ062PskBVE83abtupy3z",
+              "youtube_playlist_id": "PLVOgwA_DiGzrOZ062PskBVE83abtupy3z"
             },
             {
               "theme": "Answer Writing",
-              "title": "Mains A Day (MAD)",
+              "title": "Mains A Day (MAD) Answer Writing",
               "educator": "Sleepy Classes IAS",
               "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx",
               "youtube_playlist_id": "PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx"
             },
             {
-              "theme": "Essay Writing",
-              "title": "Essay Writing for UPSC",
-              "educator": "UPSCprep.com",
-              "url": "https://www.youtube.com/playlist?list=PLjAJerO9udmo7YshswcguAM7VhVo3pKRx",
-              "youtube_playlist_id": "PLjAJerO9udmo7YshswcguAM7VhVo3pKRx"
-            },
-            {
-              "theme": "Essay Writing",
-              "title": "Essay Foundation",
-              "educator": "PMF IAS",
-              "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR3gRJQy90vdEhvvq8G2Fe9s",
-              "youtube_playlist_id": "PLfhUF7AO5ZR3gRJQy90vdEhvvq8G2Fe9s"
-            },
-            {
-              "theme": "Masterclasses",
-              "title": "Free UPSC Masterclass",
-              "educator": "Rau's IAS",
-              "url": "https://www.youtube.com/playlist?list=PL7Nkpcu_k2VKoH-t4hIIz316PQTTSDVNm",
-              "youtube_playlist_id": "PL7Nkpcu_k2VKoH-t4hIIz316PQTTSDVNm"
+              "theme": "Toppers Strategy",
+              "title": "UPSC Toppers Success Stories & Strategy",
+              "educator": "ForumIAS",
+              "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z",
+              "youtube_playlist_id": "PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
             }
           ],
           "tables": [
@@ -4642,28 +5026,63 @@
               "rows": [
                 [
                   "**NCERT All-in-One**",
-                  "NCERT Series 2026 — Sleepy Classes IAS",
+                  "NCERT Foundation Series — Sleepy Classes IAS",
                   "https://www.youtube.com/playlist?list=PLYSuG-KZy7JDSprIXcuHS15HLMPoZgHVs"
                 ],
                 [
                   "**NCERT Geography**",
-                  "NCERT for UPSC & Geography NCERT Topicwise — Sudarshan Gurjar",
+                  "NCERT Geography Topicwise & Mapping — Sudarshan Gurjar",
                   "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h3tkkWxHbt8VHzE0twTOzVM"
                 ],
                 [
-                  "**NCERT History**",
-                  "History NCERT Foundation — PMF IAS",
-                  "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR2lGo7g3gAFnVgpiPIQ0fVW"
+                  "**History (Complete)**",
+                  "Complete Indian History (Ancient, Medieval & Modern) — Pratik Nayak",
+                  "https://www.youtube.com/playlist?list=PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU"
                 ],
                 [
-                  "**History (Animated)**",
-                  "Complete History & Art & Culture Animated — PW OnlyIAS",
-                  "https://www.youtube.com/playlist?list=PL2jzazaAMNtU74jZvfoqpJVRHQ6B5QKBd"
+                  "**Modern History**",
+                  "Complete Modern Indian History Animated — Bookstawa",
+                  "https://www.youtube.com/playlist?list=PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM"
                 ],
                 [
-                  "**Geography Foundation**",
-                  "Geography Foundation 2027 — PMF IAS",
-                  "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR38CFm35-HOw76huVwk_gr6"
+                  "**Modern History**",
+                  "Spectrum Modern Indian History Chapter-Wise — HD Education",
+                  "https://www.youtube.com/playlist?list=PL_K2YMR-A5WI8tMJbIFcJ1HGgl5WhxTxr"
+                ],
+                [
+                  "**Ancient History**",
+                  "Ancient Indian History Animated — Bookstawa",
+                  "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6"
+                ],
+                [
+                  "**Medieval History**",
+                  "Medieval Indian History (Satish Chandra) — HD Education",
+                  "https://www.youtube.com/playlist?list=PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn"
+                ],
+                [
+                  "**Art & Culture**",
+                  "Indian Art & Culture (Nitin Singhania) — StudyIQ IAS",
+                  "https://www.youtube.com/playlist?list=PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O"
+                ],
+                [
+                  "**Art & Culture**",
+                  "Class 11 Fine Arts NCERT (An Introduction to Indian Art) — Testbook SuperCoaching",
+                  "https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K"
+                ],
+                [
+                  "**Indian Polity**",
+                  "Magna Carta Complete Indian Polity — Atish Mathur",
+                  "https://www.youtube.com/playlist?list=PLDmcugApdt5ercfNQxsnKdDttZLC6le91"
+                ],
+                [
+                  "**Indian Polity**",
+                  "Complete M. Laxmikanth Chapter-by-Chapter — HD Education",
+                  "https://www.youtube.com/playlist?list=PL_K2YMR-A5WJ3KpnC6PSLN7f_BYw749xf"
+                ],
+                [
+                  "**Indian Polity**",
+                  "Animated Indian Polity for UPSC — Bookstawa",
+                  "https://www.youtube.com/playlist?list=PLZfz5K8XpMW2mGIuerMSMDc5LjeoAABjN"
                 ],
                 [
                   "**Geography (Complete)**",
@@ -4671,18 +5090,38 @@
                   "https://www.youtube.com/playlist?list=PLZfz5K8XpMW0RQKIkvGyWlHRYaj0FoaeT"
                 ],
                 [
-                  "**Indian Geography**",
-                  "Complete Indian Geography (Sambhav Free Series) — PW OnlyIAS",
-                  "https://www.youtube.com/playlist?list=PLXLsXwBXH6BmGSkAeH1nz2hdMk8kHCU_d"
+                  "**Geography (Foundation)**",
+                  "Complete Geography for UPSC (Physical, Indian & World) — Rajtanil Solanki",
+                  "https://www.youtube.com/playlist?list=PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7"
                 ],
                 [
-                  "**Economy (Beginner)**",
-                  "Indian Economy for UPSC Beginners (2027–28) — Mrunal Patel",
-                  "https://www.youtube.com/playlist?list=PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_"
+                  "**Geography (Mapping)**",
+                  "Complete Indian Geography Through Maps — Sudarshan Gurjar",
+                  "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV"
                 ],
                 [
-                  "**Economy (Updates)**",
-                  "Win26 Economy Updates — Mrunal Patel",
+                  "**Geography (Mapping)**",
+                  "Complete World Mapping Series — Sudarshan Gurjar",
+                  "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH"
+                ],
+                [
+                  "**Geography (Physical)**",
+                  "G.C. Leong Physical & Human Geography — StudyIQ IAS",
+                  "https://www.youtube.com/playlist?list=PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ"
+                ],
+                [
+                  "**Economy (Core)**",
+                  "Indian Economy (Ramesh Singh) Chapter-by-Chapter — HD Education",
+                  "https://www.youtube.com/playlist?list=PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj"
+                ],
+                [
+                  "**Economy (Animated)**",
+                  "Complete Indian Economy for UPSC — Bookstawa",
+                  "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm"
+                ],
+                [
+                  "**Economy (Prelims)**",
+                  "Economy MCQ Marathon & Prelims Strategy — Mrunal Patel",
                   "https://www.youtube.com/playlist?list=PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR"
                 ],
                 [
@@ -4691,29 +5130,14 @@
                   "https://www.youtube.com/playlist?list=PLYSuG-KZy7JAnfqt8aW7bxQnAbuVwkE7j"
                 ],
                 [
-                  "**Economic Survey**",
-                  "Economic Survey 2025–26 Detailed Classes — Vision IAS",
-                  "https://www.youtube.com/playlist?list=PLDnIeUIsbmQtu1JYq2NuofHqm7nOGpErx"
-                ],
-                [
-                  "**Economic Survey**",
-                  "Economic Survey FY 2025–26 Animated — Bookstawa",
-                  "https://www.youtube.com/playlist?list=PLZfz5K8XpMW1Told7YRB3kkMbCXB12ozD"
+                  "**Environment**",
+                  "Complete Environment & Ecology (Shankar IAS) — HD Education",
+                  "https://www.youtube.com/playlist?list=PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU"
                 ],
                 [
                   "**Environment**",
-                  "Environment & Ecology Foundation — PMF IAS",
-                  "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX"
-                ],
-                [
-                  "**Environment**",
-                  "Environment for UPSC — Sudarshan Gurjar",
+                  "Environment for UPSC Prelims — Sudarshan Gurjar",
                   "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l"
-                ],
-                [
-                  "**Environment**",
-                  "Complete Environment (Sambhav Free Series) — PW OnlyIAS",
-                  "https://www.youtube.com/playlist?list=PLXLsXwBXH6BlB-I7Cr5144lVw4duaRJlK"
                 ],
                 [
                   "**Wetlands / Mapping**",
@@ -4722,28 +5146,28 @@
                 ],
                 [
                   "**Science & Tech**",
-                  "Science & Technology: 100 Most Important Topics — Drishti IAS",
-                  "https://www.youtube.com/playlist?list=PLQpF--VlgguTBqTeQ4YHnZCL5y20-_PIt"
+                  "Complete Science & Technology for UPSC — Dr. Ravi P. Agrahari",
+                  "https://www.youtube.com/playlist?list=PL67v2-EIFZ6SOsJxIYrPeSFc8P_KiJ-Lv"
                 ],
                 [
-                  "**International Relations**",
-                  "IR Foundation Lectures — PMF IAS",
-                  "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0pNzsJuQccBPgutF_NpbzO"
+                  "**Internal Security**",
+                  "Internal Security Foundation (GS-3) — PMF IAS",
+                  "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR1BxWy0L22F3uqjIui54tsl"
                 ],
                 [
-                  "**Prelims Revision**",
-                  "UDAAN Free One-Shot Prelims Series — PW OnlyIAS",
-                  "https://www.youtube.com/playlist?list=PL2jzazaAMNtXQPShTLvy01JUAq4dF3nkq"
+                  "**Ethics (GS-4)**",
+                  "Complete Free Ethics Course — Atish Mathur",
+                  "https://www.youtube.com/playlist?list=PLDmcugApdt5fQG5xaQBxbPH7ANjBDKDZ8"
                 ],
                 [
-                  "**Prelims Revision**",
-                  "PT 365 Revision Classes — Vision IAS",
-                  "https://www.youtube.com/playlist?list=PLDnIeUIsbmQsQbP2hV_9zU1cYZh6SzRVg"
+                  "**Ethics (GS-4)**",
+                  "Free Complete Ethics GS Paper-4 — ForumIAS",
+                  "https://www.youtube.com/playlist?list=PLTWYSxOsBjqHL9qJvpoXzF06Hapc3rpmG"
                 ],
                 [
-                  "**Prelims Strategy**",
-                  "UPSC Prelims Micro Themes — UPSCprep.com",
-                  "https://www.youtube.com/playlist?list=PLjAJerO9udmoIsQiSFHshetdulPOfiL19"
+                  "**Ethics (GS-4)**",
+                  "A–Z Ethics Foundation Series — Sleepy Classes IAS",
+                  "https://www.youtube.com/playlist?list=PLYSuG-KZy7JBDpMxkm3Atyozs_l6iichX"
                 ],
                 [
                   "**Current Affairs**",
@@ -4756,29 +5180,19 @@
                   "https://www.youtube.com/playlist?list=PLQpF--VlgguTI4uXie10_EaMN08Vsfx1z"
                 ],
                 [
-                  "**Answer Writing**",
-                  "Learn Mains Answer Writing via Toppers' Copies — ForumIAS",
-                  "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
+                  "**Policy Debates**",
+                  "Sansad TV Perspective Daily Discussions — Sansad TV",
+                  "https://www.youtube.com/playlist?list=PLVOgwA_DiGzrOZ062PskBVE83abtupy3z"
                 ],
                 [
                   "**Answer Writing**",
-                  "Mains A Day (MAD) — Sleepy Classes IAS",
+                  "Mains A Day (MAD) Answer Writing — Sleepy Classes IAS",
                   "https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx"
                 ],
                 [
-                  "**Essay Writing**",
-                  "Essay Writing for UPSC — UPSCprep.com",
-                  "https://www.youtube.com/playlist?list=PLjAJerO9udmo7YshswcguAM7VhVo3pKRx"
-                ],
-                [
-                  "**Essay Writing**",
-                  "Essay Foundation — PMF IAS",
-                  "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR3gRJQy90vdEhvvq8G2Fe9s"
-                ],
-                [
-                  "**Masterclasses**",
-                  "Free UPSC Masterclass — Rau's IAS",
-                  "https://www.youtube.com/playlist?list=PL7Nkpcu_k2VKoH-t4hIIz316PQTTSDVNm"
+                  "**Toppers Strategy**",
+                  "UPSC Toppers Success Stories & Strategy — ForumIAS",
+                  "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
                 ]
               ]
             }
@@ -4814,52 +5228,40 @@
               "youtube_playlist_id": null
             },
             {
+              "resource_type": "NCERT Maths Video (Class 8)",
+              "title": "Class 8 Mathematics NCERT (CSAT Arithmetic) — Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr",
+              "youtube_playlist_id": "PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr"
+            },
+            {
+              "resource_type": "NCERT Maths Video (Class 9)",
+              "title": "Class 9 Mathematics Ganita Manjari (CSAT Quant) — Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts",
+              "youtube_playlist_id": "PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts"
+            },
+            {
+              "resource_type": "NCERT Maths Video (Class 10)",
+              "title": "Class 10 Mathematics NCERT (CSAT Core) — Magnet Brains",
+              "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv",
+              "youtube_playlist_id": "PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv"
+            },
+            {
               "resource_type": "Free Full Course (Video)",
-              "title": "Free CSAT Classes for UPSC 2027 — UNGIST IAS",
+              "title": "Free UPSC CSAT Topic-Wise Lectures — UNGIST IAS",
               "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gZOjNH2w_ZOyHq1RyIx21oR",
               "youtube_playlist_id": "PLv8R8lxsh8gZOjNH2w_ZOyHq1RyIx21oR"
             },
             {
-              "resource_type": "Formula-Free Quant (Video)",
-              "title": "CSAT Without Formula — UNGIST IAS",
-              "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gby8R2JjsGk3zBbVnzFTZVC",
-              "youtube_playlist_id": "PLv8R8lxsh8gby8R2JjsGk3zBbVnzFTZVC"
-            },
-            {
-              "resource_type": "Reading Comprehension (Video)",
-              "title": "Reading Comprehension for UPSC CSAT — UNGIST IAS",
-              "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8ga88MQQUfAEvlGMvqn4avX1",
-              "youtube_playlist_id": "PLv8R8lxsh8ga88MQQUfAEvlGMvqn4avX1"
-            },
-            {
-              "resource_type": "CSAT Topic-Wise PYQs (Video)",
-              "title": "CSAT PYQ Topicwise Solved — UNGIST IAS",
-              "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gawTzvse67OaTP2AsEccBto",
-              "youtube_playlist_id": "PLv8R8lxsh8gawTzvse67OaTP2AsEccBto"
-            },
-            {
-              "resource_type": "CSAT Complete Playlist (Video)",
-              "title": "CSAT for 2027 — Sleepy Classes IAS",
-              "url": "https://www.youtube.com/playlist?list=PLKYtySvgeL1Y",
-              "youtube_playlist_id": "PLKYtySvgeL1Y"
+              "resource_type": "CSAT PYQs Solved (Video)",
+              "title": "Free UPSC CSAT PYQs Series (2011–2025) — UNGIST IAS",
+              "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gbKU82l87QNW-ohSbTQMVks",
+              "youtube_playlist_id": "PLv8R8lxsh8gbKU82l87QNW-ohSbTQMVks"
             },
             {
               "resource_type": "CSAT Simplified (Video)",
               "title": "CSAT Simplified — Drishti IAS English",
               "url": "https://www.youtube.com/playlist?list=PLQpF--VlgguQ2--axMMTurzMwGwOR5BoC",
               "youtube_playlist_id": "PLQpF--VlgguQ2--axMMTurzMwGwOR5BoC"
-            },
-            {
-              "resource_type": "CSAT GS-2 Course (Video)",
-              "title": "CSAT GS Paper 2 — PMF IAS",
-              "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR3wLU5SYdMRCQXeiJblw8Nt",
-              "youtube_playlist_id": "PLfhUF7AO5ZR3wLU5SYdMRCQXeiJblw8Nt"
-            },
-            {
-              "resource_type": "CSAT Concept of the Day",
-              "title": "CSAT Aptitude Mastery — InsightsIAS",
-              "url": "https://www.youtube.com/playlist?list=PL7Ga7_sc-ojUrB7xS_ljZ1yJJVDclZ-Vg",
-              "youtube_playlist_id": "PL7Ga7_sc-ojUrB7xS_ljZ1yJJVDclZ-Vg"
             },
             {
               "resource_type": "Dedicated CSAT Channel",
@@ -4871,6 +5273,18 @@
               "resource_type": "Dedicated CSAT Channel",
               "title": "IAS Setu Official YouTube",
               "url": "https://www.youtube.com/@IASSETU",
+              "youtube_playlist_id": null
+            },
+            {
+              "resource_type": "Official CSAT Past Papers",
+              "title": "UPSC Official Previous Exam Details (CSAT Paper-II PDFs)",
+              "url": "https://www.upsc.gov.in/previous-exam-details/",
+              "youtube_playlist_id": null
+            },
+            {
+              "resource_type": "CSAT Year-Wise PYQ PDFs",
+              "title": "Drishti IAS — Prelims Paper-II (CSAT) Downloads",
+              "url": "https://www.drishtiias.com/free-downloads/prelims-previous-year-papers-2-csat-downloads",
               "youtube_playlist_id": null
             },
             {
@@ -4916,29 +5330,29 @@
                   "https://ncert.nic.in/textbook.php?jemh1=0-14"
                 ],
                 [
+                  "**NCERT Maths Video (Class 8)**",
+                  "Class 8 Mathematics NCERT (CSAT Arithmetic) — Magnet Brains",
+                  "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr"
+                ],
+                [
+                  "**NCERT Maths Video (Class 9)**",
+                  "Class 9 Mathematics Ganita Manjari (CSAT Quant) — Magnet Brains",
+                  "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts"
+                ],
+                [
+                  "**NCERT Maths Video (Class 10)**",
+                  "Class 10 Mathematics NCERT (CSAT Core) — Magnet Brains",
+                  "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv"
+                ],
+                [
                   "**Free Full Course (Video)**",
-                  "Free CSAT Classes for UPSC 2027 — UNGIST IAS",
+                  "Free UPSC CSAT Topic-Wise Lectures — UNGIST IAS",
                   "https://www.youtube.com/playlist?list=PLv8R8lxsh8gZOjNH2w_ZOyHq1RyIx21oR"
                 ],
                 [
-                  "**Formula-Free Quant (Video)**",
-                  "CSAT Without Formula — UNGIST IAS",
-                  "https://www.youtube.com/playlist?list=PLv8R8lxsh8gby8R2JjsGk3zBbVnzFTZVC"
-                ],
-                [
-                  "**Reading Comprehension (Video)**",
-                  "Reading Comprehension for UPSC CSAT — UNGIST IAS",
-                  "https://www.youtube.com/playlist?list=PLv8R8lxsh8ga88MQQUfAEvlGMvqn4avX1"
-                ],
-                [
-                  "**CSAT Topic-Wise PYQs (Video)**",
-                  "CSAT PYQ Topicwise Solved — UNGIST IAS",
-                  "https://www.youtube.com/playlist?list=PLv8R8lxsh8gawTzvse67OaTP2AsEccBto"
-                ],
-                [
-                  "**CSAT Complete Playlist (Video)**",
-                  "CSAT for 2027 — Sleepy Classes IAS",
-                  "https://www.youtube.com/playlist?list=PLKYtySvgeL1Y"
+                  "**CSAT PYQs Solved (Video)**",
+                  "Free UPSC CSAT PYQs Series (2011–2025) — UNGIST IAS",
+                  "https://www.youtube.com/playlist?list=PLv8R8lxsh8gbKU82l87QNW-ohSbTQMVks"
                 ],
                 [
                   "**CSAT Simplified (Video)**",
@@ -4946,19 +5360,19 @@
                   "https://www.youtube.com/playlist?list=PLQpF--VlgguQ2--axMMTurzMwGwOR5BoC"
                 ],
                 [
-                  "**CSAT GS-2 Course (Video)**",
-                  "CSAT GS Paper 2 — PMF IAS",
-                  "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR3wLU5SYdMRCQXeiJblw8Nt"
-                ],
-                [
-                  "**CSAT Concept of the Day**",
-                  "CSAT Aptitude Mastery — InsightsIAS",
-                  "https://www.youtube.com/playlist?list=PL7Ga7_sc-ojUrB7xS_ljZ1yJJVDclZ-Vg"
-                ],
-                [
                   "**Dedicated CSAT Channels**",
                   "UNGIST IAS & IAS Setu Official YouTube",
                   "https://www.youtube.com/@UNGISTIAS & https://www.youtube.com/@IASSETU"
+                ],
+                [
+                  "**Official CSAT Past Papers**",
+                  "UPSC Official Previous Exam Details (CSAT Paper-II PDFs)",
+                  "https://www.upsc.gov.in/previous-exam-details/"
+                ],
+                [
+                  "**CSAT Year-Wise PYQ PDFs**",
+                  "Drishti IAS — Prelims Paper-II (CSAT) Downloads",
+                  "https://www.drishtiias.com/free-downloads/prelims-previous-year-papers-2-csat-downloads"
                 ],
                 [
                   "**CSAT Free Practice & PYQs**",
@@ -4995,14 +5409,14 @@
               ],
               "video_links": [
                 {
-                  "title": "Sleepy Classes Sociology PYQ 40 Days",
+                  "title": "Sleepy Classes Sociology Optional Complete",
                   "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JBUCNntVK7gzDHGUzGrQW2x",
                   "youtube_playlist_id": "PLYSuG-KZy7JBUCNntVK7gzDHGUzGrQW2x"
                 },
                 {
-                  "title": "ForumIAS Sociology Optional",
-                  "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqH2xjccBt1sxN3X9HwmI8VK",
-                  "youtube_playlist_id": "PLTWYSxOsBjqH2xjccBt1sxN3X9HwmI8VK"
+                  "title": "Class 12 Sociology NCERT — Magnet Brains",
+                  "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P",
+                  "youtube_playlist_id": "PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P"
                 }
               ]
             },
@@ -5016,14 +5430,14 @@
               ],
               "video_links": [
                 {
-                  "title": "UPSCprep PSIR Optional",
-                  "url": "https://www.youtube.com/playlist?list=PLjAJerO9udmpXRuwkhapsd0i8a13VdzXo",
-                  "youtube_playlist_id": "PLjAJerO9udmpXRuwkhapsd0i8a13VdzXo"
-                },
-                {
                   "title": "OnlyIAS PSIR Channel",
                   "url": "https://www.youtube.com/@OnlyIasnothingelse",
                   "youtube_playlist_id": null
+                },
+                {
+                  "title": "Contemporary World Politics — HD Education",
+                  "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WKg_oyTt-eHPnSvXfANQKOM",
+                  "youtube_playlist_id": "PL_K2YMR-A5WKg_oyTt-eHPnSvXfANQKOM"
                 }
               ]
             },
@@ -5125,12 +5539,12 @@
                 [
                   "**Sociology**",
                   "[IGNOU eGyanKosh BA/MA Sociology (`MSO` series)](https://egyankosh.ac.in/)",
-                  "• [Sleepy Classes Sociology PYQ 40 Days](https://www.youtube.com/playlist?list=PLYSuG-KZy7JBUCNntVK7gzDHGUzGrQW2x) <br>• [ForumIAS Sociology Optional](https://www.youtube.com/playlist?list=PLTWYSxOsBjqH2xjccBt1sxN3X9HwmI8VK)"
+                  "• [Sleepy Classes Sociology Optional Complete](https://www.youtube.com/playlist?list=PLYSuG-KZy7JBUCNntVK7gzDHGUzGrQW2x) <br>• [Class 12 Sociology NCERT — Magnet Brains](https://www.youtube.com/playlist?list=PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P)"
                 ],
                 [
                   "**PSIR (Pol Science & IR)**",
                   "[IGNOU eGyanKosh MA Political Science (`MPS-001`–`004`)](https://egyankosh.ac.in/)",
-                  "• [UPSCprep PSIR Optional](https://www.youtube.com/playlist?list=PLjAJerO9udmpXRuwkhapsd0i8a13VdzXo) <br>• [OnlyIAS PSIR Channel](https://www.youtube.com/@OnlyIasnothingelse)"
+                  "• [OnlyIAS PSIR Channel](https://www.youtube.com/@OnlyIasnothingelse) <br>• [Contemporary World Politics — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WKg_oyTt-eHPnSvXfANQKOM)"
                 ],
                 [
                   "**Public Administration**",
@@ -5160,16 +5574,10 @@
           "title": "10.2 Personality Test (UPSC Interview / DAF Preparation)",
           "items": [
             {
-              "title": "InsightsIAS Toppers Mock Interviews",
-              "purpose": "Learn board composure, balanced answers & DAF cross-questioning",
-              "url": "https://www.youtube.com/playlist?list=PL7Ga7_sc-ojWodnu-tat6K5ihFV5Fq_Ts",
-              "youtube_playlist_id": "PL7Ga7_sc-ojWodnu-tat6K5ihFV5Fq_Ts"
-            },
-            {
-              "title": "Rau's IAS Interview Guidance Program",
-              "purpose": "DAF breakdown & policy framing sessions",
-              "url": "https://www.youtube.com/playlist?list=PL7Nkpcu_k2VLqtp-0GZ_fDChc4F8GLFHg",
-              "youtube_playlist_id": "PL7Nkpcu_k2VLqtp-0GZ_fDChc4F8GLFHg"
+              "title": "ForumIAS UPSC Toppers Strategy & Interviews",
+              "purpose": "Real AIR 1–10 ranker discussions on preparation, DAF, and Personality Test",
+              "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z",
+              "youtube_playlist_id": "PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
             },
             {
               "title": "Sansad TV — Perspective",
@@ -5178,9 +5586,15 @@
               "youtube_playlist_id": "PLVOgwA_DiGzrOZ062PskBVE83abtupy3z"
             },
             {
-              "title": "Drishti IAS Mock Interviews (Hindi/Eng)",
-              "purpose": "Watch full-panel mock interviews on Drishti IAS channels",
+              "title": "Drishti IAS Mock Interviews (English)",
+              "purpose": "Full-panel mock interviews and DAF cross-questioning in English medium",
               "url": "https://www.youtube.com/@DrishtiIASEnglish",
+              "youtube_playlist_id": null
+            },
+            {
+              "title": "InsightsIAS Official Interview Guidance",
+              "purpose": "Board composure, DAF analysis & toppers' mock interview sessions",
+              "url": "https://www.youtube.com/@Insights_IAS",
               "youtube_playlist_id": null
             }
           ],
@@ -5193,14 +5607,9 @@
               ],
               "rows": [
                 [
-                  "**InsightsIAS Toppers Mock Interviews**",
-                  "Learn board composure, balanced answers & DAF cross-questioning",
-                  "https://www.youtube.com/playlist?list=PL7Ga7_sc-ojWodnu-tat6K5ihFV5Fq_Ts"
-                ],
-                [
-                  "**Rau's IAS Interview Guidance Program**",
-                  "DAF breakdown & policy framing sessions",
-                  "https://www.youtube.com/playlist?list=PL7Nkpcu_k2VLqtp-0GZ_fDChc4F8GLFHg"
+                  "**ForumIAS UPSC Toppers Strategy & Interviews**",
+                  "Real AIR 1–10 ranker discussions on preparation, DAF, and Personality Test",
+                  "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
                 ],
                 [
                   "**Sansad TV — Perspective**",
@@ -5208,9 +5617,14 @@
                   "https://www.youtube.com/playlist?list=PLVOgwA_DiGzrOZ062PskBVE83abtupy3z"
                 ],
                 [
-                  "**Drishti IAS Mock Interviews (Hindi/Eng)**",
-                  "Watch full-panel mock interviews on Drishti IAS channels",
+                  "**Drishti IAS Mock Interviews (English)**",
+                  "Full-panel mock interviews and DAF cross-questioning in English medium",
                   "https://www.youtube.com/@DrishtiIASEnglish"
+                ],
+                [
+                  "**InsightsIAS Official Interview Guidance**",
+                  "Board composure, DAF analysis & toppers' mock interview sessions",
+                  "https://www.youtube.com/@Insights_IAS"
                 ]
               ]
             }
@@ -5313,9 +5727,13 @@
               "timeframe": "Months 8–10",
               "tasks": [
                 "Switch to active MCQ solving: solve 2013–latest UPSC Prelims PYQs twice (Part 7), practice daily free quizzes, and revise monthly current affairs + Vision IAS PT 365 + Economic Survey + Union Budget.",
-                "Dedicate 1 hour/day to CSAT using NCERT Maths (Class 8–10) + UNGIST / Sleepy Classes free playlists + past CSAT papers (Part 9)."
+                "Dedicate 1 hour/day to CSAT using NCERT Maths (Class 8–10) + UNGIST / Drishti IAS free playlists + past CSAT papers (Part 9)."
               ],
               "links": [
+                {
+                  "label": "Drishti IAS — Mains Answer Writing",
+                  "url": "https://www.drishtiias.com/mains-practice-question/"
+                },
                 {
                   "label": "Vision IAS — Free Resources Hub",
                   "url": "https://www.visionias.in/resources/"
@@ -5329,12 +5747,12 @@
                   "url": "https://www.indiabudget.gov.in/"
                 },
                 {
-                  "label": "Free CSAT Classes for UPSC 2027 — UNGIST IAS",
+                  "label": "Free UPSC CSAT Topic-Wise Lectures — UNGIST IAS",
                   "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gZOjNH2w_ZOyHq1RyIx21oR"
                 },
                 {
-                  "label": "CSAT for 2027 — Sleepy Classes IAS",
-                  "url": "https://www.youtube.com/playlist?list=PLKYtySvgeL1Y"
+                  "label": "CSAT Simplified — Drishti IAS English",
+                  "url": "https://www.youtube.com/playlist?list=PLQpF--VlgguQ2--axMMTurzMwGwOR5BoC"
                 }
               ]
             },
@@ -5386,8 +5804,8 @@
                   "url": "https://www.youtube.com/playlist?list=PLVOgwA_DiGzrOZ062PskBVE83abtupy3z"
                 },
                 {
-                  "label": "InsightsIAS Toppers Mock Interviews",
-                  "url": "https://www.youtube.com/playlist?list=PL7Ga7_sc-ojWodnu-tat6K5ihFV5Fq_Ts"
+                  "label": "ForumIAS UPSC Toppers Strategy & Interviews",
+                  "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
                 },
                 {
                   "label": "NewsOnAir (Akashvani / AIR News)",
@@ -5589,7 +6007,14 @@
       "medium": "English",
       "priority_gs_map": "Selective (Prelims General Science)",
       "url": "https://ncert.nic.in/textbook.php?fesc1=0-11",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Science Classic NCERT",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVTN4qVwb-OgW9sBPsep9XX",
+          "youtube_playlist_id": "PLVLoWQFkZbhVTN4qVwb-OgW9sBPsep9XX"
+        }
+      ]
     },
     {
       "class_num": 6,
@@ -5599,7 +6024,14 @@
       "medium": "English",
       "priority_gs_map": "Selective (General Science Basics)",
       "url": "https://ncert.nic.in/textbook.php?fecu1=0-12",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Science Curiosity NEP",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhW47wzJZJ6mkN_K9jeiAFhK",
+          "youtube_playlist_id": "PLVLoWQFkZbhW47wzJZJ6mkN_K9jeiAFhK"
+        }
+      ]
     },
     {
       "class_num": 6,
@@ -5670,7 +6102,14 @@
       "medium": "English",
       "priority_gs_map": "High (Integrated Social Science)",
       "url": "https://ncert.nic.in/textbook.php?gees1=0-12",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Social Science Complete NCERT",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz",
+          "youtube_playlist_id": "PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz"
+        }
+      ]
     },
     {
       "class_num": 7,
@@ -5682,10 +6121,10 @@
       "url": "https://ncert.nic.in/textbook.php?gees2=0-8",
       "video_companions": [
         {
-          "title": "Exploring Society Part-2",
-          "provider": "NCERT Official",
-          "url": "https://www.youtube.com/playlist?list=PLIGVh7QrK-bc",
-          "youtube_playlist_id": "PLIGVh7QrK-bc"
+          "title": "Social Science Complete NCERT",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz",
+          "youtube_playlist_id": "PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz"
         }
       ]
     },
@@ -5699,10 +6138,10 @@
       "url": "https://ncert.nic.in/textbook.php?ghes1=0-12",
       "video_companions": [
         {
-          "title": "Exploring Society Part-2",
-          "provider": "NCERT Official",
-          "url": "https://www.youtube.com/playlist?list=PLIGVh7QrK-bc",
-          "youtube_playlist_id": "PLIGVh7QrK-bc"
+          "title": "Social Science Complete NCERT",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz",
+          "youtube_playlist_id": "PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz"
         }
       ]
     },
@@ -5714,7 +6153,14 @@
       "medium": "English",
       "priority_gs_map": "Selective (Nutrition, Heat, Soil, Plants)",
       "url": "https://ncert.nic.in/textbook.php?gesc1=0-13",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Science Classic NCERT",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVcZ8f3BMLxt5E17GmIitf-",
+          "youtube_playlist_id": "PLVLoWQFkZbhVcZ8f3BMLxt5E17GmIitf-"
+        }
+      ]
     },
     {
       "class_num": 7,
@@ -5724,7 +6170,14 @@
       "medium": "English",
       "priority_gs_map": "Selective (General Science)",
       "url": "https://ncert.nic.in/textbook.php?gecu1=0-12",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Science Curiosity NEP",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUONdEiUdHSE-jXnwdDd1Gh",
+          "youtube_playlist_id": "PLVLoWQFkZbhUONdEiUdHSE-jXnwdDd1Gh"
+        }
+      ]
     },
     {
       "class_num": 7,
@@ -5849,7 +6302,14 @@
       "medium": "English",
       "priority_gs_map": "Selective (Microbes, Cells, Conservation)",
       "url": "https://ncert.nic.in/textbook.php?hesc1=0-13",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Science Complete NCERT",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWNWRS1uBGATJoXEinkG23n",
+          "youtube_playlist_id": "PLVLoWQFkZbhWNWRS1uBGATJoXEinkG23n"
+        }
+      ]
     },
     {
       "class_num": 8,
@@ -5859,7 +6319,14 @@
       "medium": "English",
       "priority_gs_map": "Selective (General Science)",
       "url": "https://ncert.nic.in/textbook.php?hecu1=0-13",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Science Complete NCERT",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWNWRS1uBGATJoXEinkG23n",
+          "youtube_playlist_id": "PLVLoWQFkZbhWNWRS1uBGATJoXEinkG23n"
+        }
+      ]
     },
     {
       "class_num": 8,
@@ -5869,7 +6336,14 @@
       "medium": "English",
       "priority_gs_map": "CSAT Base (Percentages, Algebra, Mensuration)",
       "url": "https://ncert.nic.in/textbook.php?hemh1=0-13",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Mathematics NCERT — CSAT Base",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr",
+          "youtube_playlist_id": "PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr"
+        }
+      ]
     },
     {
       "class_num": 8,
@@ -5879,7 +6353,14 @@
       "medium": "English",
       "priority_gs_map": "CSAT Base",
       "url": "https://ncert.nic.in/textbook.php?hegp1=0-7",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Mathematics NCERT — CSAT Base",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr",
+          "youtube_playlist_id": "PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr"
+        }
+      ]
     },
     {
       "class_num": 9,
@@ -5957,7 +6438,14 @@
       "medium": "English",
       "priority_gs_map": "High (GS-1 World History: French & Russian Rev)",
       "url": "https://ncert.nic.in/textbook.php?iess3=0-5",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "History",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXlJMfmq5f2vV00EeXkp7e9",
+          "youtube_playlist_id": "PLVLoWQFkZbhXlJMfmq5f2vV00EeXkp7e9"
+        }
+      ]
     },
     {
       "class_num": 9,
@@ -6027,6 +6515,18 @@
           "provider": "HD Education",
           "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WLF8i43DsFn0SxNCmXXKHTa",
           "youtube_playlist_id": "PL_K2YMR-A5WLF8i43DsFn0SxNCmXXKHTa"
+        },
+        {
+          "title": "Science — Biology NCERT",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXITEmOWL1-JqTdK9tgiNW8",
+          "youtube_playlist_id": "PLVLoWQFkZbhXITEmOWL1-JqTdK9tgiNW8"
+        },
+        {
+          "title": "Science — Chemistry NCERT",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUgNkSyuuyuE1ex8CiDhffJ",
+          "youtube_playlist_id": "PLVLoWQFkZbhUgNkSyuuyuE1ex8CiDhffJ"
         }
       ]
     },
@@ -6038,7 +6538,14 @@
       "medium": "English",
       "priority_gs_map": "CSAT Base (Number System, Linear Equations)",
       "url": "https://ncert.nic.in/textbook.php?iemh1=0-8",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Mathematics Ganita Manjari — CSAT Base",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts",
+          "youtube_playlist_id": "PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts"
+        }
+      ]
     },
     {
       "class_num": 10,
@@ -6116,7 +6623,14 @@
       "medium": "English",
       "priority_gs_map": "Must Read (GS-1 Indian Nationalism & World Hist)",
       "url": "https://ncert.nic.in/textbook.php?jess3=0-5",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "History — Nationalism in India",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXJMA8ncxvxljn3dcyVLc4H",
+          "youtube_playlist_id": "PLVLoWQFkZbhXJMA8ncxvxljn3dcyVLc4H"
+        }
+      ]
     },
     {
       "class_num": 10,
@@ -6183,7 +6697,14 @@
       "medium": "English",
       "priority_gs_map": "CSAT Base (Number System, Probability, AP, Stats)",
       "url": "https://ncert.nic.in/textbook.php?jemh1=0-14",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Mathematics Class 10 — CSAT Base",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv",
+          "youtube_playlist_id": "PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv"
+        }
+      ]
     },
     {
       "class_num": 11,
@@ -6233,12 +6754,6 @@
           "provider": "Amit Sengupta",
           "url": "https://www.youtube.com/playlist?list=PL1vNLZF5gfwdhB7PRkMZ0sWfhV07AT6Z_",
           "youtube_playlist_id": "PL1vNLZF5gfwdhB7PRkMZ0sWfhV07AT6Z_"
-        },
-        {
-          "title": "India: Physical Environment",
-          "provider": "HD Education",
-          "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WJYvaP8DLnUVYgwOeRqRC6-",
-          "youtube_playlist_id": "PL_K2YMR-A5WJYvaP8DLnUVYgwOeRqRC6-"
         }
       ]
     },
@@ -6256,12 +6771,6 @@
           "provider": "Amit Sengupta",
           "url": "https://www.youtube.com/playlist?list=PL1vNLZF5gfwdhB7PRkMZ0sWfhV07AT6Z_",
           "youtube_playlist_id": "PL1vNLZF5gfwdhB7PRkMZ0sWfhV07AT6Z_"
-        },
-        {
-          "title": "India: Physical Environment",
-          "provider": "HD Education",
-          "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WJYvaP8DLnUVYgwOeRqRC6-",
-          "youtube_playlist_id": "PL_K2YMR-A5WJYvaP8DLnUVYgwOeRqRC6-"
         }
       ]
     },
@@ -6307,7 +6816,14 @@
       "medium": "English",
       "priority_gs_map": "High (GS-2, GS-4 Ethics & Essay Concepts)",
       "url": "https://ncert.nic.in/textbook.php?keps1=0-8",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Political Theory",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWadHp436aH028iQ5vHTyFP",
+          "youtube_playlist_id": "PLVLoWQFkZbhWadHp436aH028iQ5vHTyFP"
+        }
+      ]
     },
     {
       "class_num": 11,
@@ -6354,9 +6870,9 @@
       "video_companions": [
         {
           "title": "An Introduction to Indian Art",
-          "provider": "Unacademy Free Archive",
-          "url": "https://www.youtube.com/playlist?list=PLwYR7WJw1-QVmNxu03eFGYTwDtKluQOcy",
-          "youtube_playlist_id": "PLwYR7WJw1-QVmNxu03eFGYTwDtKluQOcy"
+          "provider": "Testbook SuperCoaching",
+          "url": "https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K",
+          "youtube_playlist_id": "PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K"
         }
       ]
     },
@@ -6371,9 +6887,9 @@
       "video_companions": [
         {
           "title": "An Introduction to Indian Art",
-          "provider": "Unacademy Free Archive",
-          "url": "https://www.youtube.com/playlist?list=PLwYR7WJw1-QVmNxu03eFGYTwDtKluQOcy",
-          "youtube_playlist_id": "PLwYR7WJw1-QVmNxu03eFGYTwDtKluQOcy"
+          "provider": "Testbook SuperCoaching",
+          "url": "https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K",
+          "youtube_playlist_id": "PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K"
         }
       ]
     },
@@ -6411,6 +6927,12 @@
           "provider": "HD Education",
           "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WJveqadQ0bHju1ymZ0CVYUo",
           "youtube_playlist_id": "PL_K2YMR-A5WJveqadQ0bHju1ymZ0CVYUo"
+        },
+        {
+          "title": "Themes in World History",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVpFpLOwx7WsNeacmcedHfz",
+          "youtube_playlist_id": "PLVLoWQFkZbhVpFpLOwx7WsNeacmcedHfz"
         }
       ]
     },
@@ -6422,7 +6944,14 @@
       "medium": "English",
       "priority_gs_map": "High (GS-1 Indian Society & Sociology Optional)",
       "url": "https://ncert.nic.in/textbook.php?kesy1=0-5",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Introducing Sociology",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVTtFbc0y4yfUznox1KAbel",
+          "youtube_playlist_id": "PLVLoWQFkZbhVTtFbc0y4yfUznox1KAbel"
+        }
+      ]
     },
     {
       "class_num": 11,
@@ -6432,7 +6961,14 @@
       "medium": "English",
       "priority_gs_map": "High (GS-1 Society & Sociology Optional)",
       "url": "https://ncert.nic.in/textbook.php?kesy2=0-5",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Understanding Society",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXYK8APQLY7dKn5dzw2ELAt",
+          "youtube_playlist_id": "PLVLoWQFkZbhXYK8APQLY7dKn5dzw2ELAt"
+        }
+      ]
     },
     {
       "class_num": 11,
@@ -6442,7 +6978,14 @@
       "medium": "English",
       "priority_gs_map": "Selective (GS-4 Ethics: Attitude, EI, Motivation)",
       "url": "https://ncert.nic.in/textbook.php?kepy1=0-8",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Introduction to Psychology",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXm7DLANmW0lSigkHmSewff",
+          "youtube_playlist_id": "PLVLoWQFkZbhXm7DLANmW0lSigkHmSewff"
+        }
+      ]
     },
     {
       "class_num": 11,
@@ -6465,9 +7008,9 @@
       "video_companions": [
         {
           "title": "Themes in Indian History Part-I",
-          "provider": "Verified UPSC Archive",
-          "url": "https://www.youtube.com/playlist?list=PLMTLwvYr8eWNX0_P5sFDqTBXbK6EeF5uw",
-          "youtube_playlist_id": "PLMTLwvYr8eWNX0_P5sFDqTBXbK6EeF5uw"
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXgJBC4gj2DIlIEVAL1l0WA",
+          "youtube_playlist_id": "PLVLoWQFkZbhXgJBC4gj2DIlIEVAL1l0WA"
         }
       ]
     },
@@ -6482,9 +7025,9 @@
       "video_companions": [
         {
           "title": "Themes in Indian History Part-II",
-          "provider": "Verified UPSC Archive",
-          "url": "https://www.youtube.com/playlist?list=PLI-m5lCEZCnB0ygG__sA74s_AI0JzTDkH",
-          "youtube_playlist_id": "PLI-m5lCEZCnB0ygG__sA74s_AI0JzTDkH"
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVzbdUnnkiFv02HPme1uvEE",
+          "youtube_playlist_id": "PLVLoWQFkZbhVzbdUnnkiFv02HPme1uvEE"
         }
       ]
     },
@@ -6499,9 +7042,9 @@
       "video_companions": [
         {
           "title": "Themes in Indian History Part-III",
-          "provider": "Verified UPSC Archive",
-          "url": "https://www.youtube.com/playlist?list=PLWcqTv9QSBz384w6LQTUzCxSNqb17w9EX",
-          "youtube_playlist_id": "PLWcqTv9QSBz384w6LQTUzCxSNqb17w9EX"
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXRieQdABrHiRsYn9ENLTgR",
+          "youtube_playlist_id": "PLVLoWQFkZbhXRieQdABrHiRsYn9ENLTgR"
         }
       ]
     },
@@ -6516,21 +7059,21 @@
       "video_companions": [
         {
           "title": "Themes in Indian History Part-I",
-          "provider": "Verified UPSC Archive",
-          "url": "https://www.youtube.com/playlist?list=PLMTLwvYr8eWNX0_P5sFDqTBXbK6EeF5uw",
-          "youtube_playlist_id": "PLMTLwvYr8eWNX0_P5sFDqTBXbK6EeF5uw"
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXgJBC4gj2DIlIEVAL1l0WA",
+          "youtube_playlist_id": "PLVLoWQFkZbhXgJBC4gj2DIlIEVAL1l0WA"
         },
         {
           "title": "Themes in Indian History Part-II",
-          "provider": "Verified UPSC Archive",
-          "url": "https://www.youtube.com/playlist?list=PLI-m5lCEZCnB0ygG__sA74s_AI0JzTDkH",
-          "youtube_playlist_id": "PLI-m5lCEZCnB0ygG__sA74s_AI0JzTDkH"
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVzbdUnnkiFv02HPme1uvEE",
+          "youtube_playlist_id": "PLVLoWQFkZbhVzbdUnnkiFv02HPme1uvEE"
         },
         {
           "title": "Themes in Indian History Part-III",
-          "provider": "Verified UPSC Archive",
-          "url": "https://www.youtube.com/playlist?list=PLWcqTv9QSBz384w6LQTUzCxSNqb17w9EX",
-          "youtube_playlist_id": "PLWcqTv9QSBz384w6LQTUzCxSNqb17w9EX"
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXRieQdABrHiRsYn9ENLTgR",
+          "youtube_playlist_id": "PLVLoWQFkZbhXRieQdABrHiRsYn9ENLTgR"
         }
       ]
     },
@@ -6559,7 +7102,14 @@
       "medium": "English",
       "priority_gs_map": "Must Read (GS-1 Indian Resources, Transport, Agri)",
       "url": "https://ncert.nic.in/textbook.php?legy2=0-9",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "India: People and Economy",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXJ_1ILX-Es5tTqBapPxIvY",
+          "youtube_playlist_id": "PLVLoWQFkZbhXJ_1ILX-Es5tTqBapPxIvY"
+        }
+      ]
     },
     {
       "class_num": 12,
@@ -6572,9 +7122,9 @@
       "video_companions": [
         {
           "title": "Introductory Macroeconomics",
-          "provider": "Unacademy Archive",
-          "url": "https://www.youtube.com/playlist?list=PLwYR7WJw1-QVqKE_PPH2XSQVF_svURjmF",
-          "youtube_playlist_id": "PLwYR7WJw1-QVqKE_PPH2XSQVF_svURjmF"
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK",
+          "youtube_playlist_id": "PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK"
         }
       ]
     },
@@ -6589,9 +7139,9 @@
       "video_companions": [
         {
           "title": "Introductory Macroeconomics",
-          "provider": "Unacademy Archive",
-          "url": "https://www.youtube.com/playlist?list=PLwYR7WJw1-QVqKE_PPH2XSQVF_svURjmF",
-          "youtube_playlist_id": "PLwYR7WJw1-QVqKE_PPH2XSQVF_svURjmF"
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK",
+          "youtube_playlist_id": "PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK"
         }
       ]
     },
@@ -6613,7 +7163,14 @@
       "medium": "English",
       "priority_gs_map": "MUST READ (Prelims Environment & Biodiversity)",
       "url": "https://ncert.nic.in/textbook.php?lebo1=0-13",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Biology & Ecology Complete NCERT",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXy7if3Grafu9UngDHol9EX",
+          "youtube_playlist_id": "PLVLoWQFkZbhXy7if3Grafu9UngDHol9EX"
+        }
+      ]
     },
     {
       "class_num": 12,
@@ -6640,7 +7197,14 @@
       "medium": "English",
       "priority_gs_map": "High (GS-1 Post-Independence India)",
       "url": "https://ncert.nic.in/textbook.php?leps2=0-8",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Politics in India Since Independence",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLIpPiYr5jVxCOrpSRglBgDUCa7OwO6OiY",
+          "youtube_playlist_id": "PLIpPiYr5jVxCOrpSRglBgDUCa7OwO6OiY"
+        }
+      ]
     },
     {
       "class_num": 12,
@@ -6652,10 +7216,10 @@
       "url": "https://ncert.nic.in/textbook.php?lesy1=0-7",
       "video_companions": [
         {
-          "title": "Sociology NCERTs Class 11–12",
-          "provider": "Verified UPSC Archive",
-          "url": "https://www.youtube.com/playlist?list=PLPB5fw3o-SF8rF5V25oU17eTJwL05czmQ",
-          "youtube_playlist_id": "PLPB5fw3o-SF8rF5V25oU17eTJwL05czmQ"
+          "title": "Sociology — Indian Society",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P",
+          "youtube_playlist_id": "PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P"
         }
       ]
     },
@@ -6669,10 +7233,10 @@
       "url": "https://ncert.nic.in/textbook.php?lesy2=0-8",
       "video_companions": [
         {
-          "title": "Sociology NCERTs Class 11–12",
-          "provider": "Verified UPSC Archive",
-          "url": "https://www.youtube.com/playlist?list=PLPB5fw3o-SF8rF5V25oU17eTJwL05czmQ",
-          "youtube_playlist_id": "PLPB5fw3o-SF8rF5V25oU17eTJwL05czmQ"
+          "title": "Sociology — Social Change and Development",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUnEYuZfRyJyIwWPgLbcJpa",
+          "youtube_playlist_id": "PLVLoWQFkZbhUnEYuZfRyJyIwWPgLbcJpa"
         }
       ]
     },
@@ -6714,7 +7278,14 @@
       "medium": "English",
       "priority_gs_map": "Selective (GS-4 Emotional Intelligence, Attitude)",
       "url": "https://ncert.nic.in/textbook.php?lepy1=0-7",
-      "video_companions": []
+      "video_companions": [
+        {
+          "title": "Psychology Class 12 — Ethics Support",
+          "provider": "Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhXOGREUvTDsMJIgqBcAxnvn",
+          "youtube_playlist_id": "PLVLoWQFkZbhXOGREUvTDsMJIgqBcAxnvn"
+        }
+      ]
     }
   ],
   "bridge_textbooks": [
@@ -6814,9 +7385,9 @@
         },
         {
           "title": "Bookstawa Modern History Animated Series",
-          "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW2edCCXpfBh2nNQ8qFbcVNG",
+          "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM",
           "type": "YouTube",
-          "youtube_playlist_id": "PLZfz5K8XpMW2edCCXpfBh2nNQ8qFbcVNG"
+          "youtube_playlist_id": "PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM"
         },
         {
           "title": "National Archives Digital Records — Abhilekh Patal",
@@ -6843,10 +7414,16 @@
           "youtube_playlist_id": "PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6"
         },
         {
-          "title": "Bookstawa Medieval History",
-          "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3c01ihRcCxFL5asqCeO5SM",
+          "title": "Satish Chandra Medieval History — HD Education",
+          "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn",
           "type": "YouTube",
-          "youtube_playlist_id": "PLZfz5K8XpMW3c01ihRcCxFL5asqCeO5SM"
+          "youtube_playlist_id": "PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn"
+        },
+        {
+          "title": "Complete Indian History — Pratik Nayak",
+          "url": "https://www.youtube.com/playlist?list=PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU",
+          "type": "YouTube",
+          "youtube_playlist_id": "PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU"
         }
       ]
     },
@@ -6867,10 +7444,16 @@
           "youtube_playlist_id": null
         },
         {
-          "title": "Bookstawa Art & Culture Playlist",
-          "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW0CmDMqEF2uOA2pMSbqoRdH",
+          "title": "Nitin Singhania Art & Culture Series — StudyIQ",
+          "url": "https://www.youtube.com/playlist?list=PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O",
           "type": "YouTube",
-          "youtube_playlist_id": "PLZfz5K8XpMW0CmDMqEF2uOA2pMSbqoRdH"
+          "youtube_playlist_id": "PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O"
+        },
+        {
+          "title": "Class 11 Fine Arts NCERT — Testbook SuperCoaching",
+          "url": "https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K",
+          "type": "YouTube",
+          "youtube_playlist_id": "PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K"
         }
       ]
     },
@@ -6885,6 +7468,12 @@
           "youtube_playlist_id": "PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ"
         },
         {
+          "title": "Complete UPSC Geography — Rajtanil Solanki (Mrunal)",
+          "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7",
+          "type": "YouTube",
+          "youtube_playlist_id": "PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7"
+        },
+        {
           "title": "Sudarshan Gurjar Indian Mapping",
           "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV",
           "type": "YouTube",
@@ -6897,6 +7486,12 @@
           "youtube_playlist_id": "PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH"
         },
         {
+          "title": "Bookstawa Complete Geography",
+          "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW0RQKIkvGyWlHRYaj0FoaeT",
+          "type": "YouTube",
+          "youtube_playlist_id": "PLZfz5K8XpMW0RQKIkvGyWlHRYaj0FoaeT"
+        },
+        {
           "title": "Survey of India Official Maps",
           "url": "https://www.surveyofindia.gov.in/",
           "type": "Website",
@@ -6906,7 +7501,7 @@
     },
     {
       "subject": "Indian Economy (Prelims & GS-3)",
-      "standard_book": "Indian Economy — Vivek Singh / Nitin Singhania + Economic Survey & Budget",
+      "standard_book": "Indian Economy — Ramesh Singh / Vivek Singh + Economic Survey & Budget",
       "companions": [
         {
           "title": "Official Economic Survey PDF",
@@ -6915,28 +7510,28 @@
           "youtube_playlist_id": null
         },
         {
-          "title": "Mrunal Patel Economy Beginners Series",
-          "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_",
+          "title": "Ramesh Singh Indian Economy — HD Education",
+          "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj",
           "type": "YouTube",
-          "youtube_playlist_id": "PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_"
+          "youtube_playlist_id": "PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj"
         },
         {
-          "title": "Bookstawa Economy Series",
-          "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3K_l0l3p2BYFgJHbF4ZMmE",
+          "title": "Bookstawa Indian Economy Animated Series",
+          "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm",
           "type": "YouTube",
-          "youtube_playlist_id": "PLZfz5K8XpMW3K_l0l3p2BYFgJHbF4ZMmE"
+          "youtube_playlist_id": "PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm"
         },
         {
-          "title": "PMF IAS Economy Foundation",
-          "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0OtYBaK3dhe0tYYyjX4SG9",
+          "title": "Mrunal Patel Economy MCQ Marathon & Strategy",
+          "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR",
           "type": "YouTube",
-          "youtube_playlist_id": "PLfhUF7AO5ZR0OtYBaK3dhe0tYYyjX4SG9"
+          "youtube_playlist_id": "PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR"
         }
       ]
     },
     {
       "subject": "Environment & Ecology (Prelims & GS-3)",
-      "standard_book": "PMF IAS Environment / Shankar IAS Environment + Class 12 Bio Ecology",
+      "standard_book": "Shankar IAS Environment / PMF IAS Environment + Class 12 Bio Ecology",
       "companions": [
         {
           "title": "PMF IAS Free Environment Articles",
@@ -6945,10 +7540,16 @@
           "youtube_playlist_id": null
         },
         {
-          "title": "PMF IAS Environment Video Course",
-          "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX",
+          "title": "Shankar IAS Environment & Ecology — HD Education",
+          "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU",
           "type": "YouTube",
-          "youtube_playlist_id": "PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX"
+          "youtube_playlist_id": "PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU"
+        },
+        {
+          "title": "Sudarshan Gurjar Environment for UPSC",
+          "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l",
+          "type": "YouTube",
+          "youtube_playlist_id": "PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l"
         },
         {
           "title": "NIOS Environmental Science (333)",
@@ -7315,10 +7916,10 @@
     },
     {
       "subsection": "5.1 Official Government Broadcasts & Bulletins (100% Free)",
-      "title": "AIR Spotlight (Official YouTube Playlist)",
-      "usage": "Daily 15-min expert audio/video analysis on national & international issues",
-      "url": "https://www.youtube.com/playlist?list=PLPPKwCCueQ_AARG0z9XWZ3_lMCiLlMzfD",
-      "youtube_playlist_id": "PLPPKwCCueQ_AARG0z9XWZ3_lMCiLlMzfD"
+      "title": "NewsOnAir Official YouTube (AIR Spotlight)",
+      "usage": "Daily 15-min expert audio/video analysis & Spotlight discussions on national issues",
+      "url": "https://www.youtube.com/@NEWSONAIROFFICIAL",
+      "youtube_playlist_id": null
     },
     {
       "subsection": "5.1 Official Government Broadcasts & Bulletins (100% Free)",
@@ -7608,14 +8209,14 @@
       "youtube_playlist_id": null
     },
     {
-      "title": "Vision IAS Mains PYQ Analysis (Video)",
-      "coverage": "3-Year Mains PYQ deconstruction & approach playlist",
-      "url": "https://www.youtube.com/playlist?list=PLDnIeUIsbmQuEUYGRHmpkO91rJ9iVVgS_",
-      "youtube_playlist_id": "PLDnIeUIsbmQuEUYGRHmpkO91rJ9iVVgS_"
+      "title": "Sleepy Classes Mains A Day — Answer Writing (Video)",
+      "coverage": "Daily Mains PYQ & answer-writing structure breakdown across GS 1–4",
+      "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx",
+      "youtube_playlist_id": "PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx"
     },
     {
       "title": "Atish Mathur Polity PYQs (Video)",
-      "coverage": "Detailed 10-year Polity Prelims PYQ breakdown",
+      "coverage": "Detailed Polity Prelims & Mains PYQ breakdown",
       "url": "https://www.youtube.com/playlist?list=PLDmcugApdt5dO_HPoL4uc2xL8jaitSmdL",
       "youtube_playlist_id": "PLDmcugApdt5dO_HPoL4uc2xL8jaitSmdL"
     }
@@ -7633,6 +8234,12 @@
         "best_for": "Perspective debates, parliamentary briefings & policy explainers",
         "url": "https://www.youtube.com/@SansadTV",
         "handle": "@SansadTV"
+      },
+      {
+        "title": "NewsOnAir Official (AIR / Akashvani)",
+        "best_for": "Daily Spotlight policy discussions, national news bulletins & government explainers",
+        "url": "https://www.youtube.com/@NEWSONAIROFFICIAL",
+        "handle": "@NEWSONAIROFFICIAL"
       },
       {
         "title": "CEC UGC (Consortium for Educational Communication)",
@@ -7695,6 +8302,18 @@
         "specialty": "Line-by-line NCERT (Class 6–12), M. Laxmikanth & Spectrum breakdowns",
         "url": "https://www.youtube.com/@HARSHITDWIVEDIVIDEOS",
         "handle": "@HARSHITDWIVEDIVIDEOS"
+      },
+      {
+        "title": "Magnet Brains",
+        "specialty": "Complete chapter-by-chapter Class 6–12 NCERT Science, History, Macroeconomics & Sociology",
+        "url": "https://www.youtube.com/@MagnetBrainsEducation",
+        "handle": "@MagnetBrainsEducation"
+      },
+      {
+        "title": "Dr. Ravi P. Agrahari",
+        "specialty": "Comprehensive UPSC Science & Technology and Environment lectures",
+        "url": "https://www.youtube.com/@raviagrahariclasses",
+        "handle": "@raviagrahariclasses"
       },
       {
         "title": "Finology Legal",
@@ -7826,38 +8445,87 @@
     "direct_playlists": [
       {
         "theme": "NCERT All-in-One",
-        "title": "NCERT Series 2026",
+        "title": "NCERT Foundation Series",
         "educator": "Sleepy Classes IAS",
         "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JDSprIXcuHS15HLMPoZgHVs",
         "youtube_playlist_id": "PLYSuG-KZy7JDSprIXcuHS15HLMPoZgHVs"
       },
       {
         "theme": "NCERT Geography",
-        "title": "NCERT for UPSC & Geography NCERT Topicwise",
+        "title": "NCERT Geography Topicwise & Mapping",
         "educator": "Sudarshan Gurjar",
         "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h3tkkWxHbt8VHzE0twTOzVM",
         "youtube_playlist_id": "PLkWhN3ZMY-h3tkkWxHbt8VHzE0twTOzVM"
       },
       {
-        "theme": "NCERT History",
-        "title": "History NCERT Foundation",
-        "educator": "PMF IAS",
-        "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR2lGo7g3gAFnVgpiPIQ0fVW",
-        "youtube_playlist_id": "PLfhUF7AO5ZR2lGo7g3gAFnVgpiPIQ0fVW"
+        "theme": "History (Complete)",
+        "title": "Complete Indian History (Ancient, Medieval & Modern)",
+        "educator": "Pratik Nayak",
+        "url": "https://www.youtube.com/playlist?list=PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU",
+        "youtube_playlist_id": "PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU"
       },
       {
-        "theme": "History (Animated)",
-        "title": "Complete History & Art & Culture Animated",
-        "educator": "PW OnlyIAS",
-        "url": "https://www.youtube.com/playlist?list=PL2jzazaAMNtU74jZvfoqpJVRHQ6B5QKBd",
-        "youtube_playlist_id": "PL2jzazaAMNtU74jZvfoqpJVRHQ6B5QKBd"
+        "theme": "Modern History",
+        "title": "Complete Modern Indian History Animated",
+        "educator": "Bookstawa",
+        "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM",
+        "youtube_playlist_id": "PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM"
       },
       {
-        "theme": "Geography Foundation",
-        "title": "Geography Foundation 2027",
-        "educator": "PMF IAS",
-        "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR38CFm35-HOw76huVwk_gr6",
-        "youtube_playlist_id": "PLfhUF7AO5ZR38CFm35-HOw76huVwk_gr6"
+        "theme": "Modern History",
+        "title": "Spectrum Modern Indian History Chapter-Wise",
+        "educator": "HD Education",
+        "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WI8tMJbIFcJ1HGgl5WhxTxr",
+        "youtube_playlist_id": "PL_K2YMR-A5WI8tMJbIFcJ1HGgl5WhxTxr"
+      },
+      {
+        "theme": "Ancient History",
+        "title": "Ancient Indian History Animated",
+        "educator": "Bookstawa",
+        "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6",
+        "youtube_playlist_id": "PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6"
+      },
+      {
+        "theme": "Medieval History",
+        "title": "Medieval Indian History (Satish Chandra)",
+        "educator": "HD Education",
+        "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn",
+        "youtube_playlist_id": "PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn"
+      },
+      {
+        "theme": "Art & Culture",
+        "title": "Indian Art & Culture (Nitin Singhania)",
+        "educator": "StudyIQ IAS",
+        "url": "https://www.youtube.com/playlist?list=PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O",
+        "youtube_playlist_id": "PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O"
+      },
+      {
+        "theme": "Art & Culture",
+        "title": "Class 11 Fine Arts NCERT (An Introduction to Indian Art)",
+        "educator": "Testbook SuperCoaching",
+        "url": "https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K",
+        "youtube_playlist_id": "PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K"
+      },
+      {
+        "theme": "Indian Polity",
+        "title": "Magna Carta Complete Indian Polity",
+        "educator": "Atish Mathur",
+        "url": "https://www.youtube.com/playlist?list=PLDmcugApdt5ercfNQxsnKdDttZLC6le91",
+        "youtube_playlist_id": "PLDmcugApdt5ercfNQxsnKdDttZLC6le91"
+      },
+      {
+        "theme": "Indian Polity",
+        "title": "Complete M. Laxmikanth Chapter-by-Chapter",
+        "educator": "HD Education",
+        "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WJ3KpnC6PSLN7f_BYw749xf",
+        "youtube_playlist_id": "PL_K2YMR-A5WJ3KpnC6PSLN7f_BYw749xf"
+      },
+      {
+        "theme": "Indian Polity",
+        "title": "Animated Indian Polity for UPSC",
+        "educator": "Bookstawa",
+        "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW2mGIuerMSMDc5LjeoAABjN",
+        "youtube_playlist_id": "PLZfz5K8XpMW2mGIuerMSMDc5LjeoAABjN"
       },
       {
         "theme": "Geography (Complete)",
@@ -7867,22 +8535,50 @@
         "youtube_playlist_id": "PLZfz5K8XpMW0RQKIkvGyWlHRYaj0FoaeT"
       },
       {
-        "theme": "Indian Geography",
-        "title": "Complete Indian Geography (Sambhav Free Series)",
-        "educator": "PW OnlyIAS",
-        "url": "https://www.youtube.com/playlist?list=PLXLsXwBXH6BmGSkAeH1nz2hdMk8kHCU_d",
-        "youtube_playlist_id": "PLXLsXwBXH6BmGSkAeH1nz2hdMk8kHCU_d"
+        "theme": "Geography (Foundation)",
+        "title": "Complete Geography for UPSC (Physical, Indian & World)",
+        "educator": "Rajtanil Solanki",
+        "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7",
+        "youtube_playlist_id": "PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7"
       },
       {
-        "theme": "Economy (Beginner)",
-        "title": "Indian Economy for UPSC Beginners (2027–28)",
-        "educator": "Mrunal Patel",
-        "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_",
-        "youtube_playlist_id": "PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_"
+        "theme": "Geography (Mapping)",
+        "title": "Complete Indian Geography Through Maps",
+        "educator": "Sudarshan Gurjar",
+        "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV",
+        "youtube_playlist_id": "PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV"
       },
       {
-        "theme": "Economy (Updates)",
-        "title": "Win26 Economy Updates",
+        "theme": "Geography (Mapping)",
+        "title": "Complete World Mapping Series",
+        "educator": "Sudarshan Gurjar",
+        "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH",
+        "youtube_playlist_id": "PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH"
+      },
+      {
+        "theme": "Geography (Physical)",
+        "title": "G.C. Leong Physical & Human Geography",
+        "educator": "StudyIQ IAS",
+        "url": "https://www.youtube.com/playlist?list=PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ",
+        "youtube_playlist_id": "PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ"
+      },
+      {
+        "theme": "Economy (Core)",
+        "title": "Indian Economy (Ramesh Singh) Chapter-by-Chapter",
+        "educator": "HD Education",
+        "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj",
+        "youtube_playlist_id": "PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj"
+      },
+      {
+        "theme": "Economy (Animated)",
+        "title": "Complete Indian Economy for UPSC",
+        "educator": "Bookstawa",
+        "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm",
+        "youtube_playlist_id": "PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm"
+      },
+      {
+        "theme": "Economy (Prelims)",
+        "title": "Economy MCQ Marathon & Prelims Strategy",
         "educator": "Mrunal Patel",
         "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR",
         "youtube_playlist_id": "PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR"
@@ -7895,39 +8591,18 @@
         "youtube_playlist_id": "PLYSuG-KZy7JAnfqt8aW7bxQnAbuVwkE7j"
       },
       {
-        "theme": "Economic Survey",
-        "title": "Economic Survey 2025–26 Detailed Classes",
-        "educator": "Vision IAS",
-        "url": "https://www.youtube.com/playlist?list=PLDnIeUIsbmQtu1JYq2NuofHqm7nOGpErx",
-        "youtube_playlist_id": "PLDnIeUIsbmQtu1JYq2NuofHqm7nOGpErx"
-      },
-      {
-        "theme": "Economic Survey",
-        "title": "Economic Survey FY 2025–26 Animated",
-        "educator": "Bookstawa",
-        "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW1Told7YRB3kkMbCXB12ozD",
-        "youtube_playlist_id": "PLZfz5K8XpMW1Told7YRB3kkMbCXB12ozD"
+        "theme": "Environment",
+        "title": "Complete Environment & Ecology (Shankar IAS)",
+        "educator": "HD Education",
+        "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU",
+        "youtube_playlist_id": "PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU"
       },
       {
         "theme": "Environment",
-        "title": "Environment & Ecology Foundation",
-        "educator": "PMF IAS",
-        "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX",
-        "youtube_playlist_id": "PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX"
-      },
-      {
-        "theme": "Environment",
-        "title": "Environment for UPSC",
+        "title": "Environment for UPSC Prelims",
         "educator": "Sudarshan Gurjar",
         "url": "https://www.youtube.com/playlist?list=PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l",
         "youtube_playlist_id": "PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l"
-      },
-      {
-        "theme": "Environment",
-        "title": "Complete Environment (Sambhav Free Series)",
-        "educator": "PW OnlyIAS",
-        "url": "https://www.youtube.com/playlist?list=PLXLsXwBXH6BlB-I7Cr5144lVw4duaRJlK",
-        "youtube_playlist_id": "PLXLsXwBXH6BlB-I7Cr5144lVw4duaRJlK"
       },
       {
         "theme": "Wetlands / Mapping",
@@ -7938,38 +8613,38 @@
       },
       {
         "theme": "Science & Tech",
-        "title": "Science & Technology: 100 Most Important Topics",
-        "educator": "Drishti IAS",
-        "url": "https://www.youtube.com/playlist?list=PLQpF--VlgguTBqTeQ4YHnZCL5y20-_PIt",
-        "youtube_playlist_id": "PLQpF--VlgguTBqTeQ4YHnZCL5y20-_PIt"
+        "title": "Complete Science & Technology for UPSC",
+        "educator": "Dr. Ravi P. Agrahari",
+        "url": "https://www.youtube.com/playlist?list=PL67v2-EIFZ6SOsJxIYrPeSFc8P_KiJ-Lv",
+        "youtube_playlist_id": "PL67v2-EIFZ6SOsJxIYrPeSFc8P_KiJ-Lv"
       },
       {
-        "theme": "International Relations",
-        "title": "IR Foundation Lectures",
+        "theme": "Internal Security",
+        "title": "Internal Security Foundation (GS-3)",
         "educator": "PMF IAS",
-        "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0pNzsJuQccBPgutF_NpbzO",
-        "youtube_playlist_id": "PLfhUF7AO5ZR0pNzsJuQccBPgutF_NpbzO"
+        "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR1BxWy0L22F3uqjIui54tsl",
+        "youtube_playlist_id": "PLfhUF7AO5ZR1BxWy0L22F3uqjIui54tsl"
       },
       {
-        "theme": "Prelims Revision",
-        "title": "UDAAN Free One-Shot Prelims Series",
-        "educator": "PW OnlyIAS",
-        "url": "https://www.youtube.com/playlist?list=PL2jzazaAMNtXQPShTLvy01JUAq4dF3nkq",
-        "youtube_playlist_id": "PL2jzazaAMNtXQPShTLvy01JUAq4dF3nkq"
+        "theme": "Ethics (GS-4)",
+        "title": "Complete Free Ethics Course",
+        "educator": "Atish Mathur",
+        "url": "https://www.youtube.com/playlist?list=PLDmcugApdt5fQG5xaQBxbPH7ANjBDKDZ8",
+        "youtube_playlist_id": "PLDmcugApdt5fQG5xaQBxbPH7ANjBDKDZ8"
       },
       {
-        "theme": "Prelims Revision",
-        "title": "PT 365 Revision Classes",
-        "educator": "Vision IAS",
-        "url": "https://www.youtube.com/playlist?list=PLDnIeUIsbmQsQbP2hV_9zU1cYZh6SzRVg",
-        "youtube_playlist_id": "PLDnIeUIsbmQsQbP2hV_9zU1cYZh6SzRVg"
+        "theme": "Ethics (GS-4)",
+        "title": "Free Complete Ethics GS Paper-4",
+        "educator": "ForumIAS",
+        "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqHL9qJvpoXzF06Hapc3rpmG",
+        "youtube_playlist_id": "PLTWYSxOsBjqHL9qJvpoXzF06Hapc3rpmG"
       },
       {
-        "theme": "Prelims Strategy",
-        "title": "UPSC Prelims Micro Themes",
-        "educator": "UPSCprep.com",
-        "url": "https://www.youtube.com/playlist?list=PLjAJerO9udmoIsQiSFHshetdulPOfiL19",
-        "youtube_playlist_id": "PLjAJerO9udmoIsQiSFHshetdulPOfiL19"
+        "theme": "Ethics (GS-4)",
+        "title": "A–Z Ethics Foundation Series",
+        "educator": "Sleepy Classes IAS",
+        "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JBDpMxkm3Atyozs_l6iichX",
+        "youtube_playlist_id": "PLYSuG-KZy7JBDpMxkm3Atyozs_l6iichX"
       },
       {
         "theme": "Current Affairs",
@@ -7986,39 +8661,25 @@
         "youtube_playlist_id": "PLQpF--VlgguTI4uXie10_EaMN08Vsfx1z"
       },
       {
-        "theme": "Answer Writing",
-        "title": "Learn Mains Answer Writing via Toppers' Copies",
-        "educator": "ForumIAS",
-        "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z",
-        "youtube_playlist_id": "PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
+        "theme": "Policy Debates",
+        "title": "Sansad TV Perspective Daily Discussions",
+        "educator": "Sansad TV",
+        "url": "https://www.youtube.com/playlist?list=PLVOgwA_DiGzrOZ062PskBVE83abtupy3z",
+        "youtube_playlist_id": "PLVOgwA_DiGzrOZ062PskBVE83abtupy3z"
       },
       {
         "theme": "Answer Writing",
-        "title": "Mains A Day (MAD)",
+        "title": "Mains A Day (MAD) Answer Writing",
         "educator": "Sleepy Classes IAS",
         "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx",
         "youtube_playlist_id": "PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx"
       },
       {
-        "theme": "Essay Writing",
-        "title": "Essay Writing for UPSC",
-        "educator": "UPSCprep.com",
-        "url": "https://www.youtube.com/playlist?list=PLjAJerO9udmo7YshswcguAM7VhVo3pKRx",
-        "youtube_playlist_id": "PLjAJerO9udmo7YshswcguAM7VhVo3pKRx"
-      },
-      {
-        "theme": "Essay Writing",
-        "title": "Essay Foundation",
-        "educator": "PMF IAS",
-        "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR3gRJQy90vdEhvvq8G2Fe9s",
-        "youtube_playlist_id": "PLfhUF7AO5ZR3gRJQy90vdEhvvq8G2Fe9s"
-      },
-      {
-        "theme": "Masterclasses",
-        "title": "Free UPSC Masterclass",
-        "educator": "Rau's IAS",
-        "url": "https://www.youtube.com/playlist?list=PL7Nkpcu_k2VKoH-t4hIIz316PQTTSDVNm",
-        "youtube_playlist_id": "PL7Nkpcu_k2VKoH-t4hIIz316PQTTSDVNm"
+        "theme": "Toppers Strategy",
+        "title": "UPSC Toppers Success Stories & Strategy",
+        "educator": "ForumIAS",
+        "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z",
+        "youtube_playlist_id": "PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
       }
     ]
   },
@@ -8042,52 +8703,40 @@
       "youtube_playlist_id": null
     },
     {
+      "resource_type": "NCERT Maths Video (Class 8)",
+      "title": "Class 8 Mathematics NCERT (CSAT Arithmetic) — Magnet Brains",
+      "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr",
+      "youtube_playlist_id": "PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr"
+    },
+    {
+      "resource_type": "NCERT Maths Video (Class 9)",
+      "title": "Class 9 Mathematics Ganita Manjari (CSAT Quant) — Magnet Brains",
+      "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts",
+      "youtube_playlist_id": "PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts"
+    },
+    {
+      "resource_type": "NCERT Maths Video (Class 10)",
+      "title": "Class 10 Mathematics NCERT (CSAT Core) — Magnet Brains",
+      "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv",
+      "youtube_playlist_id": "PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv"
+    },
+    {
       "resource_type": "Free Full Course (Video)",
-      "title": "Free CSAT Classes for UPSC 2027 — UNGIST IAS",
+      "title": "Free UPSC CSAT Topic-Wise Lectures — UNGIST IAS",
       "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gZOjNH2w_ZOyHq1RyIx21oR",
       "youtube_playlist_id": "PLv8R8lxsh8gZOjNH2w_ZOyHq1RyIx21oR"
     },
     {
-      "resource_type": "Formula-Free Quant (Video)",
-      "title": "CSAT Without Formula — UNGIST IAS",
-      "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gby8R2JjsGk3zBbVnzFTZVC",
-      "youtube_playlist_id": "PLv8R8lxsh8gby8R2JjsGk3zBbVnzFTZVC"
-    },
-    {
-      "resource_type": "Reading Comprehension (Video)",
-      "title": "Reading Comprehension for UPSC CSAT — UNGIST IAS",
-      "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8ga88MQQUfAEvlGMvqn4avX1",
-      "youtube_playlist_id": "PLv8R8lxsh8ga88MQQUfAEvlGMvqn4avX1"
-    },
-    {
-      "resource_type": "CSAT Topic-Wise PYQs (Video)",
-      "title": "CSAT PYQ Topicwise Solved — UNGIST IAS",
-      "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gawTzvse67OaTP2AsEccBto",
-      "youtube_playlist_id": "PLv8R8lxsh8gawTzvse67OaTP2AsEccBto"
-    },
-    {
-      "resource_type": "CSAT Complete Playlist (Video)",
-      "title": "CSAT for 2027 — Sleepy Classes IAS",
-      "url": "https://www.youtube.com/playlist?list=PLKYtySvgeL1Y",
-      "youtube_playlist_id": "PLKYtySvgeL1Y"
+      "resource_type": "CSAT PYQs Solved (Video)",
+      "title": "Free UPSC CSAT PYQs Series (2011–2025) — UNGIST IAS",
+      "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gbKU82l87QNW-ohSbTQMVks",
+      "youtube_playlist_id": "PLv8R8lxsh8gbKU82l87QNW-ohSbTQMVks"
     },
     {
       "resource_type": "CSAT Simplified (Video)",
       "title": "CSAT Simplified — Drishti IAS English",
       "url": "https://www.youtube.com/playlist?list=PLQpF--VlgguQ2--axMMTurzMwGwOR5BoC",
       "youtube_playlist_id": "PLQpF--VlgguQ2--axMMTurzMwGwOR5BoC"
-    },
-    {
-      "resource_type": "CSAT GS-2 Course (Video)",
-      "title": "CSAT GS Paper 2 — PMF IAS",
-      "url": "https://www.youtube.com/playlist?list=PLfhUF7AO5ZR3wLU5SYdMRCQXeiJblw8Nt",
-      "youtube_playlist_id": "PLfhUF7AO5ZR3wLU5SYdMRCQXeiJblw8Nt"
-    },
-    {
-      "resource_type": "CSAT Concept of the Day",
-      "title": "CSAT Aptitude Mastery — InsightsIAS",
-      "url": "https://www.youtube.com/playlist?list=PL7Ga7_sc-ojUrB7xS_ljZ1yJJVDclZ-Vg",
-      "youtube_playlist_id": "PL7Ga7_sc-ojUrB7xS_ljZ1yJJVDclZ-Vg"
     },
     {
       "resource_type": "Dedicated CSAT Channel",
@@ -8099,6 +8748,18 @@
       "resource_type": "Dedicated CSAT Channel",
       "title": "IAS Setu Official YouTube",
       "url": "https://www.youtube.com/@IASSETU",
+      "youtube_playlist_id": null
+    },
+    {
+      "resource_type": "Official CSAT Past Papers",
+      "title": "UPSC Official Previous Exam Details (CSAT Paper-II PDFs)",
+      "url": "https://www.upsc.gov.in/previous-exam-details/",
+      "youtube_playlist_id": null
+    },
+    {
+      "resource_type": "CSAT Year-Wise PYQ PDFs",
+      "title": "Drishti IAS — Prelims Paper-II (CSAT) Downloads",
+      "url": "https://www.drishtiias.com/free-downloads/prelims-previous-year-papers-2-csat-downloads",
       "youtube_playlist_id": null
     },
     {
@@ -8131,14 +8792,14 @@
       ],
       "video_links": [
         {
-          "title": "Sleepy Classes Sociology PYQ 40 Days",
+          "title": "Sleepy Classes Sociology Optional Complete",
           "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JBUCNntVK7gzDHGUzGrQW2x",
           "youtube_playlist_id": "PLYSuG-KZy7JBUCNntVK7gzDHGUzGrQW2x"
         },
         {
-          "title": "ForumIAS Sociology Optional",
-          "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqH2xjccBt1sxN3X9HwmI8VK",
-          "youtube_playlist_id": "PLTWYSxOsBjqH2xjccBt1sxN3X9HwmI8VK"
+          "title": "Class 12 Sociology NCERT — Magnet Brains",
+          "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P",
+          "youtube_playlist_id": "PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P"
         }
       ]
     },
@@ -8152,14 +8813,14 @@
       ],
       "video_links": [
         {
-          "title": "UPSCprep PSIR Optional",
-          "url": "https://www.youtube.com/playlist?list=PLjAJerO9udmpXRuwkhapsd0i8a13VdzXo",
-          "youtube_playlist_id": "PLjAJerO9udmpXRuwkhapsd0i8a13VdzXo"
-        },
-        {
           "title": "OnlyIAS PSIR Channel",
           "url": "https://www.youtube.com/@OnlyIasnothingelse",
           "youtube_playlist_id": null
+        },
+        {
+          "title": "Contemporary World Politics — HD Education",
+          "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WKg_oyTt-eHPnSvXfANQKOM",
+          "youtube_playlist_id": "PL_K2YMR-A5WKg_oyTt-eHPnSvXfANQKOM"
         }
       ]
     },
@@ -8252,16 +8913,10 @@
   ],
   "interview_prep": [
     {
-      "title": "InsightsIAS Toppers Mock Interviews",
-      "purpose": "Learn board composure, balanced answers & DAF cross-questioning",
-      "url": "https://www.youtube.com/playlist?list=PL7Ga7_sc-ojWodnu-tat6K5ihFV5Fq_Ts",
-      "youtube_playlist_id": "PL7Ga7_sc-ojWodnu-tat6K5ihFV5Fq_Ts"
-    },
-    {
-      "title": "Rau's IAS Interview Guidance Program",
-      "purpose": "DAF breakdown & policy framing sessions",
-      "url": "https://www.youtube.com/playlist?list=PL7Nkpcu_k2VLqtp-0GZ_fDChc4F8GLFHg",
-      "youtube_playlist_id": "PL7Nkpcu_k2VLqtp-0GZ_fDChc4F8GLFHg"
+      "title": "ForumIAS UPSC Toppers Strategy & Interviews",
+      "purpose": "Real AIR 1–10 ranker discussions on preparation, DAF, and Personality Test",
+      "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z",
+      "youtube_playlist_id": "PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
     },
     {
       "title": "Sansad TV — Perspective",
@@ -8270,9 +8925,15 @@
       "youtube_playlist_id": "PLVOgwA_DiGzrOZ062PskBVE83abtupy3z"
     },
     {
-      "title": "Drishti IAS Mock Interviews (Hindi/Eng)",
-      "purpose": "Watch full-panel mock interviews on Drishti IAS channels",
+      "title": "Drishti IAS Mock Interviews (English)",
+      "purpose": "Full-panel mock interviews and DAF cross-questioning in English medium",
       "url": "https://www.youtube.com/@DrishtiIASEnglish",
+      "youtube_playlist_id": null
+    },
+    {
+      "title": "InsightsIAS Official Interview Guidance",
+      "purpose": "Board composure, DAF analysis & toppers' mock interview sessions",
+      "url": "https://www.youtube.com/@Insights_IAS",
       "youtube_playlist_id": null
     }
   ],
@@ -8363,9 +9024,13 @@
       "timeframe": "Months 8–10",
       "tasks": [
         "Switch to active MCQ solving: solve 2013–latest UPSC Prelims PYQs twice (Part 7), practice daily free quizzes, and revise monthly current affairs + Vision IAS PT 365 + Economic Survey + Union Budget.",
-        "Dedicate 1 hour/day to CSAT using NCERT Maths (Class 8–10) + UNGIST / Sleepy Classes free playlists + past CSAT papers (Part 9)."
+        "Dedicate 1 hour/day to CSAT using NCERT Maths (Class 8–10) + UNGIST / Drishti IAS free playlists + past CSAT papers (Part 9)."
       ],
       "links": [
+        {
+          "label": "Drishti IAS — Mains Answer Writing",
+          "url": "https://www.drishtiias.com/mains-practice-question/"
+        },
         {
           "label": "Vision IAS — Free Resources Hub",
           "url": "https://www.visionias.in/resources/"
@@ -8379,12 +9044,12 @@
           "url": "https://www.indiabudget.gov.in/"
         },
         {
-          "label": "Free CSAT Classes for UPSC 2027 — UNGIST IAS",
+          "label": "Free UPSC CSAT Topic-Wise Lectures — UNGIST IAS",
           "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gZOjNH2w_ZOyHq1RyIx21oR"
         },
         {
-          "label": "CSAT for 2027 — Sleepy Classes IAS",
-          "url": "https://www.youtube.com/playlist?list=PLKYtySvgeL1Y"
+          "label": "CSAT Simplified — Drishti IAS English",
+          "url": "https://www.youtube.com/playlist?list=PLQpF--VlgguQ2--axMMTurzMwGwOR5BoC"
         }
       ]
     },
@@ -8436,8 +9101,8 @@
           "url": "https://www.youtube.com/playlist?list=PLVOgwA_DiGzrOZ062PskBVE83abtupy3z"
         },
         {
-          "label": "InsightsIAS Toppers Mock Interviews",
-          "url": "https://www.youtube.com/playlist?list=PL7Ga7_sc-ojWodnu-tat6K5ihFV5Fq_Ts"
+          "label": "ForumIAS UPSC Toppers Strategy & Interviews",
+          "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z"
         },
         {
           "label": "NewsOnAir (Akashvani / AIR News)",

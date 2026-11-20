@@ -117,6 +117,9 @@ class TestSystemResilience(unittest.TestCase):
 
     def test_supervisor_cli_parser_modes(self) -> None:
         parser = supervisor.build_parser()
+        default_args = parser.parse_args([])
+        self.assertTrue(default_args.auto_port)
+
         args = parser.parse_args(["--auto-port", "--ui-only", "--no-backup", "--no-reload", "--max-restarts", "3"])
         self.assertTrue(args.auto_port)
         self.assertTrue(args.ui_only)
@@ -124,6 +127,32 @@ class TestSystemResilience(unittest.TestCase):
         self.assertTrue(args.no_backup)
         self.assertTrue(args.no_reload)
         self.assertEqual(args.max_restarts, 3)
+
+        strict_args = parser.parse_args(["--strict-ports"])
+        self.assertFalse(strict_args.auto_port)
+
+    def test_run_py_as_streamlit_entrypoint_delegates_cleanly(self) -> None:
+        from streamlit.testing.v1 import AppTest
+
+        prev_api = os.environ.get("OPENUPSC_API_URL")
+        os.environ["OPENUPSC_API_URL"] = "http://127.0.0.1:19999"
+        try:
+            at = AppTest.from_file(str(REPO_ROOT / "run.py"), default_timeout=25).run()
+            self.assertEqual(
+                len(at.exception),
+                0,
+                f"run.py under Streamlit ScriptRunner raised exception(s): {[e.message for e in at.exception]}",
+            )
+            self.assertEqual(
+                len(at.error),
+                0,
+                f"run.py under Streamlit ScriptRunner rendered st.error: {[e.value for e in at.error]}",
+            )
+        finally:
+            if prev_api is None:
+                os.environ.pop("OPENUPSC_API_URL", None)
+            else:
+                os.environ["OPENUPSC_API_URL"] = prev_api
 
     def test_supervisor_preflight_isolated_backup_and_catalog(self) -> None:
         result = supervisor.run_preflight(skip_backup=False)

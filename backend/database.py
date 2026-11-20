@@ -11,6 +11,7 @@ import json
 import os
 import re
 import sqlite3
+import tempfile
 import uuid
 from contextlib import contextmanager
 from datetime import date, datetime, timedelta, timezone
@@ -197,12 +198,50 @@ def _compute_effective_streak(
 # =========================================================================
 
 
+def _is_dir_writable(path: Path) -> bool:
+    """Return True if `path` exists (or can be created) and accepts file creation/deletion."""
+    try:
+        target = Path(path)
+        target.mkdir(parents=True, exist_ok=True)
+        probe = target / f".openupsc_write_probe_{os.getpid()}_{uuid.uuid4().hex[:8]}"
+        with open(probe, "wb") as fh:
+            fh.write(b"1")
+        try:
+            probe.unlink()
+        except OSError:
+            pass
+        return True
+    except OSError:
+        return False
+
+
 def get_db_path() -> Path:
-    """Dynamically resolve OPENUPSC_DB_PATH so tests always stay isolated from production."""
+    """Dynamically resolve SQLite DB path with safe fallback on read-only mounts (e.g. Streamlit Cloud)."""
     env_path = os.environ.get("OPENUPSC_DB_PATH")
-    path = Path(env_path) if env_path else DEFAULT_DB_PATH
-    path.parent.mkdir(parents=True, exist_ok=True)
-    return path
+    if env_path:
+        path = Path(env_path)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        return path
+
+    default_path = DEFAULT_DB_PATH
+    dir_ok = _is_dir_writable(default_path.parent)
+    file_ok = True
+    if dir_ok and default_path.exists():
+        if not os.access(default_path, os.W_OK):
+            file_ok = False
+        else:
+            try:
+                with open(default_path, "r+b"):
+                    pass
+            except OSError:
+                file_ok = False
+
+    if dir_ok and file_ok:
+        return default_path
+
+    fallback_path = Path(tempfile.gettempdir()) / "openupsc" / "openupsc.db"
+    fallback_path.parent.mkdir(parents=True, exist_ok=True)
+    return fallback_path
 
 
 @contextmanager
@@ -458,6 +497,8 @@ def _apply_schema_migrations(conn: sqlite3.Connection) -> None:
     res_cols = {row["name"] for row in conn.execute("PRAGMA table_info(resources)").fetchall()}
     if "master_part" not in res_cols:
         conn.execute("ALTER TABLE resources ADD COLUMN master_part INTEGER")
+    if "user_modified" not in res_cols:
+        conn.execute("ALTER TABLE resources ADD COLUMN user_modified INTEGER NOT NULL DEFAULT 0")
 
     conn.executescript(
         """
@@ -541,6 +582,7 @@ def init_db() -> None:
                 next_resource_title TEXT,
                 tags_json TEXT NOT NULL DEFAULT '[]',
                 master_part INTEGER,
+                user_modified INTEGER NOT NULL DEFAULT 0,
                 created_at TEXT NOT NULL
             );
 
@@ -642,9 +684,10 @@ def init_db() -> None:
 
 def _sync_verified_resources(
     conn: sqlite3.Connection,
+    force_refresh: bool = False,
     resources_override: Optional[list[dict[str, Any]]] = None,
 ) -> dict[str, int]:
-    """Idempotently sync all verified resources into SQLite without clobbering custom resources."""
+    """Idempotently sync all verified resources into SQLite without clobbering custom or admin-edited rows."""
     now = _utc_now()
     for bad_id in LEGACY_PLACEHOLDER_IDS:
         conn.execute("DELETE FROM resources WHERE id = ?", (bad_id,))
@@ -655,6 +698,21 @@ def _sync_verified_resources(
         if resources_override is not None
         else load_curriculum_json("resources.json")
     )
+
+    canonical_ids = {str(res["id"]) for res in initial_resources if res.get("id")}
+
+    # Prune obsolete auto-generated Master Guide rows (res-mg-*) that were replaced/renamed in resources.json,
+    # strictly preserving res-custom-* rows and any admin-modified rows unless force_refresh=True.
+    pruned = 0
+    mg_rows = conn.execute(
+        "SELECT id, user_modified FROM resources WHERE id LIKE 'res-mg-%'"
+    ).fetchall()
+    for mg_row in mg_rows:
+        mg_id = mg_row["id"]
+        if mg_id not in canonical_ids and (force_refresh or not bool(mg_row["user_modified"])):
+            conn.execute("DELETE FROM resources WHERE id = ?", (mg_id,))
+            conn.execute("DELETE FROM saved_resources WHERE resource_id = ?", (mg_id,))
+            pruned += 1
 
     inserted = 0
     updated = 0
@@ -675,8 +733,35 @@ def _sync_verified_resources(
             except (ValueError, TypeError):
                 master_part = None
 
+        title = res["title"]
+        subject = res["subject"]
+        category = res.get("category", "General")
+        level = res.get("level", "Foundation")
+        class_level = res.get("classLevel")
+        language = res.get("language", "English/Hinglish")
+        res_type = res.get("type", "YouTube")
+        provider = res.get("provider", "Independent")
+        url = res["url"]
+        description = res.get("description", "")
+        senior_tip = res.get("seniorTip")
+        estimated_hours = int(res.get("estimatedHours", 0) or 0)
+        free_int = 1 if res.get("free", True) else 0
+        verified_int = 1 if res.get("verified", True) else 0
+        verification_status = res.get("verificationStatus", "Verified")
+        last_verified = res.get("lastVerified", _today_str())
+        signals_obj = res.get("verificationSignals") or {}
+        signals_json = json.dumps(signals_obj)
+        tags_obj = res.get("tags") or []
+        tags_json = json.dumps(tags_obj)
+
         existing = conn.execute(
-            "SELECT id, url, master_part, subject, type FROM resources WHERE id = ?",
+            """
+            SELECT id, title, subject, category, level, class_level, language, type,
+                   provider, url, description, senior_tip, estimated_hours, free,
+                   verified, verification_status, last_verified,
+                   verification_signals_json, tags_json, master_part, user_modified
+            FROM resources WHERE id = ?
+            """,
             (rid,),
         ).fetchone()
 
@@ -689,80 +774,104 @@ def _sync_verified_resources(
                     channel_subscribers, playlist_length, estimated_hours, free,
                     verified, verification_status, last_verified,
                     verification_signals_json, prerequisites_json,
-                    next_resource_id, next_resource_title, tags_json, master_part, created_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    next_resource_id, next_resource_title, tags_json, master_part,
+                    user_modified, created_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 0, ?)
                 """,
                 (
                     rid,
-                    res["title"],
-                    res["subject"],
-                    res.get("category", "General"),
-                    res.get("level", "Foundation"),
-                    res.get("classLevel"),
-                    res.get("language", "English/Hinglish"),
-                    res.get("type", "YouTube"),
-                    res.get("provider", "Independent"),
-                    res["url"],
-                    res.get("description", ""),
-                    res.get("seniorTip"),
+                    title,
+                    subject,
+                    category,
+                    level,
+                    class_level,
+                    language,
+                    res_type,
+                    provider,
+                    url,
+                    description,
+                    senior_tip,
                     res.get("views"),
                     res.get("likes"),
                     res.get("channelSubscribers"),
                     res.get("playlistLength"),
-                    int(res.get("estimatedHours", 0) or 0),
-                    1 if res.get("free", True) else 0,
-                    1 if res.get("verified", True) else 0,
-                    res.get("verificationStatus", "Verified"),
-                    res.get("lastVerified", _today_str()),
-                    json.dumps(res.get("verificationSignals", {})),
+                    estimated_hours,
+                    free_int,
+                    verified_int,
+                    verification_status,
+                    last_verified,
+                    signals_json,
                     json.dumps(res.get("prerequisites", [])),
                     res.get("nextResourceId"),
                     res.get("nextResourceTitle"),
-                    json.dumps(res.get("tags", [])),
+                    tags_json,
                     master_part,
                     now,
                 ),
             )
             inserted += 1
-        elif existing["url"] in STALE_SEEDED_URLS:
+            continue
+
+        is_user_modified = bool(existing["user_modified"])
+        if is_user_modified and not force_refresh:
+            unchanged += 1
+            continue
+
+        has_diff = (
+            existing["title"] != title
+            or existing["subject"] != subject
+            or existing["category"] != category
+            or existing["level"] != level
+            or existing["class_level"] != class_level
+            or existing["language"] != language
+            or existing["type"] != res_type
+            or existing["provider"] != provider
+            or existing["url"] != url
+            or existing["description"] != description
+            or existing["senior_tip"] != senior_tip
+            or int(existing["estimated_hours"] or 0) != estimated_hours
+            or int(existing["free"] or 0) != free_int
+            or int(existing["verified"] or 0) != verified_int
+            or existing["verification_status"] != verification_status
+            or existing["last_verified"] != last_verified
+            or _safe_json_loads(existing["verification_signals_json"], {}) != signals_obj
+            or _safe_json_loads(existing["tags_json"], []) != tags_obj
+            or existing["master_part"] != master_part
+            or (force_refresh and is_user_modified)
+        )
+
+        if has_diff:
             conn.execute(
                 """
                 UPDATE resources
-                SET url = ?, title = ?, description = ?, senior_tip = ?,
-                    subject = ?, type = ?, master_part = ?, last_verified = ?
+                SET title = ?, subject = ?, category = ?, level = ?, class_level = ?,
+                    language = ?, type = ?, provider = ?, url = ?, description = ?,
+                    senior_tip = ?, estimated_hours = ?, free = ?, verified = ?,
+                    verification_status = ?, last_verified = ?,
+                    verification_signals_json = ?, tags_json = ?, master_part = ?,
+                    user_modified = 0
                 WHERE id = ?
                 """,
                 (
-                    res["url"],
-                    res["title"],
-                    res.get("description", ""),
-                    res.get("seniorTip"),
-                    res["subject"],
-                    res.get("type", "YouTube"),
+                    title,
+                    subject,
+                    category,
+                    level,
+                    class_level,
+                    language,
+                    res_type,
+                    provider,
+                    url,
+                    description,
+                    senior_tip,
+                    estimated_hours,
+                    free_int,
+                    verified_int,
+                    verification_status,
+                    last_verified,
+                    signals_json,
+                    tags_json,
                     master_part,
-                    res.get("lastVerified", _today_str()),
-                    rid,
-                ),
-            )
-            updated += 1
-        elif (
-            (existing["master_part"] is None and master_part is not None)
-            or (existing["subject"] in LEGACY_SUBJECT_NAMES and existing["subject"] != res["subject"])
-        ):
-            conn.execute(
-                """
-                UPDATE resources
-                SET master_part = COALESCE(?, master_part),
-                    subject = ?,
-                    type = ?,
-                    last_verified = ?
-                WHERE id = ?
-                """,
-                (
-                    master_part,
-                    res["subject"],
-                    res.get("type", existing["type"]),
-                    res.get("lastVerified", _today_str()),
                     rid,
                 ),
             )
@@ -773,12 +882,19 @@ def _sync_verified_resources(
     return {
         "inserted": inserted,
         "updated": updated,
+        "pruned": pruned,
         "unchanged": unchanged,
+        "inserted_rows": inserted,
+        "updated_rows": updated,
+        "pruned_rows": pruned,
         "total_in_json": len(initial_resources),
     }
 
 
-def sync_resources_from_master(write_json: bool = True) -> dict[str, Any]:
+def sync_resources_from_master(
+    write_json: bool = True,
+    force_refresh: bool = False,
+) -> dict[str, Any]:
     """Run resource_engine master sync, refresh caches, and idempotently sync SQLite catalog."""
     from backend.resource_engine import (
         MASTER_GUIDE_PATH,
@@ -787,24 +903,45 @@ def sync_resources_from_master(write_json: bool = True) -> dict[str, Any]:
         sync_master_files,
     )
 
-    engine_summary = sync_master_files(write_files=write_json)
+    effective_write_json = bool(write_json)
+    json_write_skipped_readonly = False
+
+    if effective_write_json:
+        try:
+            engine_summary = sync_master_files(write_files=True)
+        except OSError:
+            effective_write_json = False
+            json_write_skipped_readonly = True
+            engine_summary = sync_master_files(write_files=False)
+    else:
+        engine_summary = sync_master_files(write_files=False)
+
     clear_curriculum_cache()
 
     resources_override: Optional[list[dict[str, Any]]] = None
-    if not write_json:
+    if not effective_write_json:
         mg = parse_master_guide(MASTER_GUIDE_PATH)
         existing_json = load_curriculum_json("resources.json")
         resources_override = build_enriched_resources(existing_json, mg)
 
     with get_connection() as conn:
         _apply_schema_migrations(conn)
-        db_sync = _sync_verified_resources(conn, resources_override=resources_override)
+        db_sync = _sync_verified_resources(
+            conn,
+            force_refresh=force_refresh,
+            resources_override=resources_override,
+        )
         db_total = int(conn.execute("SELECT COUNT(*) FROM resources").fetchone()[0])
 
     validation = engine_summary.get("validation", {})
     return {
         "ok": bool(validation.get("valid", True)),
-        "written": write_json,
+        "written": effective_write_json,
+        "json_write_skipped_readonly": json_write_skipped_readonly,
+        "force_refresh": force_refresh,
+        "inserted_rows": db_sync["inserted"],
+        "updated_rows": db_sync["updated"],
+        "pruned_rows": db_sync["pruned"],
         "engine": engine_summary,
         "db_sync": db_sync,
         "db_total_resources": db_total,
@@ -1145,6 +1282,7 @@ def serialize_resource(row: sqlite3.Row) -> dict[str, Any]:
         "tags": _safe_json_loads(row["tags_json"], []),
         "masterPart": master_part,
         "master_part": master_part,
+        "user_modified": bool(row["user_modified"]) if "user_modified" in keys else False,
         "created_at": row["created_at"],
     }
 
@@ -1370,8 +1508,9 @@ def create_resource(data: dict[str, Any]) -> dict[str, Any]:
                     channel_subscribers, playlist_length, estimated_hours, free,
                     verified, verification_status, last_verified,
                     verification_signals_json, prerequisites_json,
-                    next_resource_id, next_resource_title, tags_json, master_part, created_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    next_resource_id, next_resource_title, tags_json, master_part,
+                    user_modified, created_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?)
                 """,
                 (
                     rid,
@@ -1459,7 +1598,7 @@ def update_resource(resource_id: str, patch: dict[str, Any]) -> Optional[dict[st
                 senior_tip = ?, views = ?, playlist_length = ?, estimated_hours = ?,
                 verified = ?, verification_status = ?, last_verified = ?,
                 verification_signals_json = ?, next_resource_title = ?, tags_json = ?,
-                master_part = ?
+                master_part = ?, user_modified = 1
             WHERE id = ?
             """,
             (

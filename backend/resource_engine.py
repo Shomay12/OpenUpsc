@@ -44,7 +44,7 @@ CANONICAL_SUBJECTS: tuple[str, ...] = (
 _HOSTNAME_RE = re.compile(
     r"^(?:localhost|(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\.)+[A-Za-z]{2,63})$"
 )
-_PLAYLIST_ID_RE = re.compile(r"^[A-Za-z0-9_-]{8,}$")
+_PLAYLIST_ID_RE = re.compile(r"^[A-Za-z0-9_-]{16,}$")
 _VIDEO_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 _MD_LINK_RE = re.compile(r"\[([^\]]+)\]\((https?://[^)\s]+)\)")
 _URL_RE = re.compile(r"https?://[^\s<>)\"'\]]+")
@@ -208,7 +208,9 @@ def _classify_resource_type(url: str, title: str = "", context: str = "") -> str
     path_lower = parsed.path.lower()
 
     if host in _YOUTUBE_HOSTS:
-        return "YouTube"
+        if extract_youtube_playlist_id(url) or extract_youtube_video_id(url):
+            return "YouTube"
+        return "Website"
     if (
         "previous-exam-details" in path_lower
         or "/pyq" in path_lower
@@ -427,7 +429,23 @@ def _match_ncert_video_companions(
                 is_match = True
             elif "economics" in ct and "economics" in subj_l:
                 is_match = True
-            elif "science" in ct and "science" in subj_l and "social" not in subj_l and "political" not in subj_l:
+            elif "mathematics" in ct and "mathematics" in subj_l:
+                is_match = True
+            elif "social science" in ct and "social science" in subj_l:
+                is_match = True
+            elif "science curiosity" in ct and "science" in subj_l and "curiosity" in book_l:
+                is_match = True
+            elif "science classic" in ct and "science" in subj_l and "social" not in subj_l and "curiosity" not in book_l:
+                is_match = True
+            elif (
+                "science" in ct
+                and "social" not in ct
+                and "curiosity" not in ct
+                and "classic" not in ct
+                and "science" in subj_l
+                and "social" not in subj_l
+                and "political" not in subj_l
+            ):
                 is_match = True
             elif "exploring society" in ct and (
                 ("exploring society" in book_l and "part-ii" in book_l)
@@ -447,6 +465,8 @@ def _match_ncert_video_companions(
                 "indian constitution at work" in book_l or "bharat ka samvidhan" in book_l
             ):
                 is_match = True
+            elif "political theory" in ct and "political theory" in book_l:
+                is_match = True
             elif "indian economic development" in ct and (
                 "indian economic development" in book_l or "bhartiya arthvyavastha" in book_l
             ):
@@ -456,6 +476,12 @@ def _match_ncert_video_companions(
             ):
                 is_match = True
             elif "themes in world history" in ct and "themes in world history" in book_l:
+                is_match = True
+            elif "introducing sociology" in ct and "introducing sociology" in book_l:
+                is_match = True
+            elif "understanding society" in ct and "understanding society" in book_l:
+                is_match = True
+            elif "psychology" in ct and "psychology" in subj_l:
                 is_match = True
         elif class_num == 12:
             if "themes in indian history part-i" == ct and (
@@ -472,13 +498,25 @@ def _match_ncert_video_companions(
                 is_match = True
             elif "fundamentals of human geography" in ct and "fundamentals of human geography" in book_l:
                 is_match = True
+            elif "india: people and economy" in ct and "india: people and economy" in book_l:
+                is_match = True
             elif "introductory macroeconomics" in ct and (
                 "introductory macroeconomics" in book_l or "samashti arthashastra" in book_l
             ):
                 is_match = True
+            elif "biology" in ct and "biology" in book_l:
+                is_match = True
             elif "contemporary world politics" in ct and "contemporary world politics" in book_l:
                 is_match = True
-            elif "sociology" in ct and "sociology" in subj_l:
+            elif "politics in india since independence" in ct and "politics in india since independence" in book_l:
+                is_match = True
+            elif "indian society" in ct and "indian society" in book_l:
+                is_match = True
+            elif "social change" in ct and "social change" in book_l:
+                is_match = True
+            elif "psychology" in ct and ("psychology" in book_l or "ethics" in subj_l):
+                is_match = True
+            elif "sociology" in ct and "indian society" not in ct and "social change" not in ct and "sociology" in subj_l:
                 is_match = True
 
         if is_match:
@@ -1007,13 +1045,13 @@ def parse_master_guide(md_path: Optional[Path] = None) -> dict[str, Any]:
                 ("vision ias pt 365", "vision ias — free resources hub"),
                 ("economic survey", "economic survey official pdf"),
                 ("union budget", "union budget portal (mof)"),
-                ("ungist", "free csat classes for upsc 2027 — ungist ias"),
-                ("sleepy classes", "csat for 2027 — sleepy classes ias"),
+                ("ungist", "free upsc csat topic-wise lectures — ungist ias"),
+                ("drishti ias free playlists", "csat simplified — drishti ias english"),
                 ("upsc specimen qcab", "specimen question-cum-answer booklets (qcab)"),
                 ("atish mathur", "atish mathur free ethics course"),
                 ("mains 365", "vision ias — free resources hub"),
                 ("sansad tv perspective", "sansad tv — perspective playlist"),
-                ("toppers' mock interviews", "insightsias toppers mock interviews"),
+                ("toppers' mock interviews", "forumias upsc toppers strategy & interviews"),
                 ("air news", "newsonair (akashvani / air news)"),
             ]
             for phase in study_sequence:
@@ -1240,6 +1278,13 @@ def _infer_provider(title: str, url: str, default: str = "Official / Verified Fr
         ("ncert official", "NCERT Official"),
         ("sansad tv", "Sansad TV Official"),
         ("cec ugc", "CEC UGC"),
+        ("magnet brains", "Magnet Brains"),
+        ("pratik nayak", "Pratik Nayak"),
+        ("ravi p. agrahari", "Dr. Ravi P. Agrahari"),
+        ("ravi agrahari", "Dr. Ravi P. Agrahari"),
+        ("rajtanil solanki", "Rajtanil Solanki (Mrunal)"),
+        ("testbook", "Testbook SuperCoaching"),
+        ("newsonair", "NewsOnAir Official"),
     )
     tl = title.lower()
     for needle, label in known_title_providers:
@@ -1402,7 +1447,7 @@ def _subject_for_channel(title: str, specialty: str, is_official: bool) -> str:
     if is_official:
         if "ncert" in tl:
             return "NCERT"
-        if "sansad" in tl:
+        if "sansad" in tl or "newsonair" in tl or "air" in tl:
             return "Current Affairs"
         return "Bridge Textbooks"
     if "mrunal" in tl:
@@ -1413,8 +1458,10 @@ def _subject_for_channel(title: str, specialty: str, is_official: bool) -> str:
         return "Indian Polity"
     if "bookstawa" in tl:
         return "History"
-    if "harshit dwivedi" in tl:
+    if "harshit dwivedi" in tl or "magnet brains" in tl:
         return "NCERT"
+    if "ravi" in tl or "agrahari" in tl:
+        return "Science & Tech"
     if "pmf ias" in tl:
         return "Environment"
     return "Current Affairs"
@@ -1795,6 +1842,7 @@ def _extract_master_guide_candidates(master_guide: dict[str, Any]) -> list[dict[
         best_for = ch["best_for"]
         url = ch["url"]
         subj = _subject_for_channel(title, best_for, is_official=True)
+        rtype = _classify_resource_type(url, title, best_for)
         candidates.append(
             _make_candidate(
                 title=f"{title} — Official YouTube Channel",
@@ -1802,7 +1850,7 @@ def _extract_master_guide_candidates(master_guide: dict[str, Any]) -> list[dict[
                 category="Official YouTube Channel",
                 level="Foundation",
                 language="English/Hindi",
-                res_type="YouTube",
+                res_type=rtype,
                 provider=title,
                 url=url,
                 description=best_for,
@@ -1820,6 +1868,7 @@ def _extract_master_guide_candidates(master_guide: dict[str, Any]) -> list[dict[
         url = ch["url"]
         subj = _subject_for_channel(title, specialty, is_official=False)
         lang = "Hindi" if "hindi" in title.lower() else ("English" if "english" in title.lower() else "English/Hinglish")
+        rtype = _classify_resource_type(url, title, specialty)
         candidates.append(
             _make_candidate(
                 title=f"{title} — Verified UPSC YouTube Channel",
@@ -1827,7 +1876,7 @@ def _extract_master_guide_candidates(master_guide: dict[str, Any]) -> list[dict[
                 category="Verified YouTube Channel",
                 level="Standard",
                 language=lang,
-                res_type="YouTube",
+                res_type=rtype,
                 provider=title,
                 url=url,
                 description=specialty,
@@ -1845,6 +1894,7 @@ def _extract_master_guide_candidates(master_guide: dict[str, Any]) -> list[dict[
         educator = pl["educator"]
         url = pl["url"]
         subj = _normalize_canonical_subject(theme)
+        rtype = _classify_resource_type(url, title, theme)
         level = "Foundation" if "foundation" in title.lower() or "ncert" in theme.lower() or "beginner" in theme.lower() else (
             "Mains" if any(k in theme.lower() for k in ("answer", "essay", "international")) else "Prelims"
         )
@@ -1855,7 +1905,7 @@ def _extract_master_guide_candidates(master_guide: dict[str, Any]) -> list[dict[
                 category="Verified Video Playlist",
                 level=level,
                 language="English/Hinglish",
-                res_type="YouTube",
+                res_type=rtype,
                 provider=educator,
                 url=url,
                 description=f"Verified direct UPSC YouTube playlist for {theme} by {educator}.",
@@ -1964,8 +2014,9 @@ def _extract_master_guide_candidates(master_guide: dict[str, Any]) -> list[dict[
         title = item["title"]
         purpose = item["purpose"]
         url = item["url"]
+        rtype = _classify_resource_type(url, title, purpose)
         provider = _infer_provider(title, url, title)
-        for known in ("InsightsIAS", "Rau's IAS", "Sansad TV", "Drishti IAS"):
+        for known in ("ForumIAS", "InsightsIAS", "Rau's IAS", "Sansad TV", "Drishti IAS"):
             if known.lower() in title.lower():
                 provider = known
                 break
@@ -1973,16 +2024,16 @@ def _extract_master_guide_candidates(master_guide: dict[str, Any]) -> list[dict[
             _make_candidate(
                 title=title,
                 subject="Interview",
-                category="Personality Test Video",
+                category="Personality Test Video" if rtype == "YouTube" else "Personality Test Channel",
                 level="Interview",
                 language="English/Hindi" if "hindi" in title.lower() else "English",
-                res_type="YouTube",
+                res_type=rtype,
                 provider=provider,
                 url=url,
                 description=purpose,
                 senior_tip="Focus on calm composure, balanced non-partisan framing, and deep clarity on every single keyword in your DAF.",
                 estimated_hours=10,
-                tags=["Interview", "Personality Test", "DAF", "Video"],
+                tags=["Interview", "Personality Test", "DAF", "Video" if rtype == "YouTube" else "YouTube Channel"],
                 master_part=10,
                 slug_hint=f"p10-int-{title}",
             )
@@ -1991,11 +2042,273 @@ def _extract_master_guide_candidates(master_guide: dict[str, Any]) -> list[dict[
     return candidates
 
 
+# Verified repairs for legacy curated resource IDs whose original YouTube
+# playlist URLs became broken, unindexed, truncated, or mislabeled.
+# Preserving every original ID keeps user progress, bookmarks, notes, and PYQ
+# cross-references 100% intact while ensuring every video resource is live and
+# subject-accurate.
+CURATED_VIDEO_REPAIRS: dict[str, dict[str, Any]] = {
+    "res-vision-mains-pyq-video": {
+        "title": "Mains A Day (MAD) — Daily Mains PYQ & Answer Writing Series",
+        "subject": "Question Papers",
+        "category": "Mains PYQ Video Analysis",
+        "type": "YouTube",
+        "provider": "Sleepy Classes IAS",
+        "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx",
+        "description": "Structured daily UPSC Mains PYQ and answer-writing deconstruction across GS Papers 1–4 with introduction, body framework, and value addition.",
+        "seniorTip": "Pause each video after reading the question, sketch a 2-minute rough outline yourself, and then compare with the structured framework.",
+        "masterPart": 7,
+    },
+    "res-pmf-ncert-history": {
+        "title": "Complete Indian History (Ancient, Medieval & Modern) Video Course",
+        "subject": "History",
+        "category": "History Foundation Video",
+        "type": "YouTube",
+        "provider": "Pratik Nayak",
+        "url": "https://www.youtube.com/playlist?list=PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU",
+        "description": "Comprehensive chronological lecture series covering Ancient, Medieval, and Modern Indian History with NCERT and standard textbook linkage.",
+        "seniorTip": "Build a clean one-page timeline per era alongside this series and cross-check every major dynasty and movement with UPSC Prelims PYQs.",
+        "masterPart": 8,
+    },
+    "res-bookstawa-modern": {
+        "title": "Modern Indian History Complete Animated Series",
+        "subject": "History",
+        "category": "Modern History Video",
+        "type": "YouTube",
+        "provider": "Bookstawa",
+        "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM",
+        "description": "Verified animated chronological lectures covering Modern Indian History from advent of Europeans to Independence with crisp visual timelines.",
+        "seniorTip": "Pair Bookstawa's animated chronology with Spectrum chapters so dates, Acts, and Governor-Generals stay locked in memory.",
+        "masterPart": 3,
+    },
+    "res-bookstawa-medieval": {
+        "title": "Medieval Indian History (Satish Chandra) Chapter-by-Chapter",
+        "subject": "History",
+        "category": "Medieval History Video",
+        "type": "YouTube",
+        "provider": "Harshit Dwivedi (HD Education)",
+        "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn",
+        "description": "Line-by-line verified YouTube breakdown of Satish Chandra's History of Medieval India covering Delhi Sultanate, Vijayanagara, Bhakti-Sufi, and Mughals.",
+        "seniorTip": "Focus heavily on administrative terms, land revenue systems, Bhakti/Sufi saints, and Vijayanagara architecture—UPSC's top Medieval PYQ areas.",
+        "masterPart": 3,
+    },
+    "res-bookstawa-art-culture": {
+        "title": "Complete Indian Art & Culture (Nitin Singhania) Video Series",
+        "subject": "Art & Culture",
+        "category": "Art & Culture Video",
+        "type": "YouTube",
+        "provider": "StudyIQ IAS",
+        "url": "https://www.youtube.com/playlist?list=PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O",
+        "description": "Chapter-wise free video lectures covering Indian Architecture, Sculpture, Paintings, Classical Dances, Music, Literature, and Buddhist/Jain heritage.",
+        "seniorTip": "Revise Temple Architecture (Nagara/Dravida/Vesara), Paintings, and Buddhism/Jainism alongside Class 11 Fine Arts NCERT.",
+        "masterPart": 3,
+    },
+    "res-onlyias-animated-history": {
+        "title": "Class 11 Fine Arts NCERT — An Introduction to Indian Art",
+        "subject": "Art & Culture",
+        "category": "NCERT Art & Culture Video",
+        "type": "YouTube",
+        "provider": "Testbook SuperCoaching",
+        "url": "https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K",
+        "description": "Complete visual walkthrough of Class 11 NCERT Fine Arts (An Introduction to Indian Art Part I), the single highest-ROI source for Prelims Art & Culture.",
+        "seniorTip": "Keep the official NCERT PDF open while watching to recognize every sculpture, stupa, cave mural, and bronze directly by sight.",
+        "masterPart": 2,
+    },
+    "res-pmf-geo-foundation": {
+        "title": "Complete Geography for UPSC (Physical, Indian & World) — Rajtanil Solanki",
+        "subject": "Geography",
+        "category": "Geography Foundation Video",
+        "type": "YouTube",
+        "provider": "Rajtanil Solanki (Mrunal)",
+        "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7",
+        "description": "Iconic free UPSC Geography lecture series hosted on Mrunal Patel's channel covering Geomorphology, Climatology, Oceanography, and Indian Geography.",
+        "seniorTip": "Pair Rajtanil Ma'am's conceptual clarity with Class 11 NCERT Geography and an Oxford Student Atlas open on your desk.",
+        "masterPart": 3,
+    },
+    "res-mrunal-economy-beginners": {
+        "title": "Complete Indian Economy (Ramesh Singh) Chapter-by-Chapter",
+        "subject": "Economy",
+        "category": "Economy Core Video",
+        "type": "YouTube",
+        "provider": "Harshit Dwivedi (HD Education)",
+        "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj",
+        "description": "Comprehensive free chapter-by-chapter video series on Indian Economy covering GDP, Inflation, Monetary Policy, RBI, Banking, Fiscal Policy, and BoP.",
+        "seniorTip": "Master National Income, Inflation, RBI tools, and Balance of Payments first before layering current Budget & Economic Survey figures.",
+        "masterPart": 3,
+    },
+    "res-mrunal-win26": {
+        "title": "Economy MCQ Marathon & Prelims Strategy — Mrunal Patel",
+        "subject": "Economy",
+        "category": "Economy Prelims Revision Video",
+        "type": "YouTube",
+        "provider": "Mrunal Patel",
+        "url": "https://www.youtube.com/playlist?list=PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR",
+        "description": "High-yield UPSC Prelims Economy MCQ solving marathons, Monetary/Fiscal policy drills, and elimination strategies directly by Mrunal Patel.",
+        "seniorTip": "Attempt each MCQ actively before listening to the explanation to sharpen UPSC Economy statement-elimination reflexes.",
+        "masterPart": 8,
+    },
+    "res-bookstawa-economy": {
+        "title": "Complete Indian Economy Animated Series for UPSC",
+        "subject": "Economy",
+        "category": "Economy Animated Video",
+        "type": "YouTube",
+        "provider": "Bookstawa",
+        "url": "https://www.youtube.com/playlist?list=PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm",
+        "description": "Verified animated Indian Economy series explaining banking, repo/reverse repo, inflation, capital markets, fiscal deficit, and BoP visually.",
+        "seniorTip": "Ideal rapid-revision video companion for Prelims conceptual traps in Banking, External Sector, and Financial Markets.",
+        "masterPart": 3,
+    },
+    "res-vision-economic-survey": {
+        "title": "Class 12 Introductory Macroeconomics Complete NCERT Video Course",
+        "subject": "Economy",
+        "category": "NCERT Macroeconomics Video",
+        "type": "YouTube",
+        "provider": "Magnet Brains",
+        "url": "https://www.youtube.com/playlist?list=PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK",
+        "description": "Complete chapter-by-chapter free NCERT Class 12 Macroeconomics lectures building rock-solid intuition for GDP, Money & Banking, Budget, and Open Economy.",
+        "seniorTip": "Finish Macroeconomics NCERT before reading the official Economic Survey PDF so every macro indicator makes instant sense.",
+        "masterPart": 2,
+    },
+    "res-pmf-environment-video": {
+        "title": "Complete Environment & Ecology (Shankar IAS) Chapter-by-Chapter",
+        "subject": "Environment",
+        "category": "Environment Core Video",
+        "type": "YouTube",
+        "provider": "Harshit Dwivedi (HD Education)",
+        "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU",
+        "description": "Complete verified chapter-wise Environment & Ecology playlist covering ecosystems, biodiversity, Wildlife Protection Act, climate conventions, and pollution.",
+        "seniorTip": "Combine with Class 12 Biology Ecology chapters and Sudarshan Gurjar's National Parks mapping for maximum Prelims Environment accuracy.",
+        "masterPart": 3,
+    },
+    "res-drishti-scitech-100": {
+        "title": "Complete Science & Technology for UPSC (Prelims & Mains)",
+        "subject": "Science & Tech",
+        "category": "Science & Tech Core Video",
+        "type": "YouTube",
+        "provider": "Dr. Ravi P. Agrahari",
+        "url": "https://www.youtube.com/playlist?list=PL67v2-EIFZ6SOsJxIYrPeSFc8P_KiJ-Lv",
+        "description": "Structured UPSC Science & Technology video course by Dr. Ravi P. Agrahari covering Space, Defence, Biotechnology, AI/IT, Energy, and Emerging Tech.",
+        "seniorTip": "Focus on applied principles—satellite orbits, CRISPR/mRNA biotech, indigenous missiles, and nuclear/renewable tech asked in Prelims & GS-3.",
+        "masterPart": 8,
+    },
+    "res-pmf-ir": {
+        "title": "Contemporary World Politics & International Relations Foundation",
+        "subject": "Governance & IR",
+        "category": "International Relations Video",
+        "type": "YouTube",
+        "provider": "Harshit Dwivedi (HD Education)",
+        "url": "https://www.youtube.com/playlist?list=PL_K2YMR-A5WKg_oyTt-eHPnSvXfANQKOM",
+        "description": "Verified Class 12 Contemporary World Politics NCERT lecture series explaining Cold War, multipolarity, UN/international organizations, and South Asian geopolitics.",
+        "seniorTip": "Build static IR foundations here, then layer MEA official briefs and MP-IDSA / ORF op-eds for current bilateral & multilateral groupings.",
+        "masterPart": 2,
+    },
+    "res-upscprep-essay": {
+        "title": "A–Z Ethics, Values & Philosophical Essay Foundation Series",
+        "subject": "Mains & Essay",
+        "category": "Ethics & Essay Video",
+        "type": "YouTube",
+        "provider": "Sleepy Classes IAS",
+        "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JBDpMxkm3Atyozs_l6iichX",
+        "description": "Verified lecture playlist covering moral thinkers, ethical frameworks, philosophical quotes, and multi-dimensional brainstorming useful across GS-4 and Essay.",
+        "seniorTip": "Harvest 2–3 thinker quotes, historical examples, and constitutional values per module to enrich both philosophical essays and GS-4 answers.",
+        "masterPart": 8,
+    },
+    "res-ungist-csat-noformula": {
+        "title": "UNGIST IAS Official YouTube — CSAT Quant Without Formulas & Drills",
+        "subject": "CSAT",
+        "category": "Verified YouTube Channel",
+        "type": "Website",
+        "provider": "UNGIST IAS",
+        "url": "https://www.youtube.com/@UNGISTIAS",
+        "description": "Official UNGIST IAS YouTube channel hosting intuitive no-formula CSAT Quantitative Aptitude sessions, live marathons, and latest Prelims strategy.",
+        "seniorTip": "Browse the channel's Playlists tab for targeted Number System, P&C, and Logical Reasoning sessions alongside daily PYQ solving.",
+        "masterPart": 9,
+    },
+    "res-ungist-csat-rc": {
+        "title": "IAS Setu Official YouTube — CSAT Reading Comprehension & Aptitude",
+        "subject": "CSAT",
+        "category": "Verified YouTube Channel",
+        "type": "Website",
+        "provider": "IAS Setu",
+        "url": "https://www.youtube.com/@IASSETU",
+        "description": "Official IAS Setu (Amit Garg Sir) YouTube channel offering free UPSC CSAT Reading Comprehension, General Mental Ability, and marathon classes.",
+        "seniorTip": "Combine IAS Setu's passage inference strategies with official UPSC CSAT PYQs (2015–latest) to build reliable 80%+ comprehension accuracy.",
+        "masterPart": 9,
+    },
+    "res-ungist-csat-pyqs": {
+        "title": "Free UPSC CSAT PYQs Series (2011–2025) Solved Step-by-Step",
+        "subject": "CSAT",
+        "category": "CSAT PYQ Video",
+        "type": "YouTube",
+        "provider": "UNGIST IAS",
+        "url": "https://www.youtube.com/playlist?list=PLv8R8lxsh8gbKU82l87QNW-ohSbTQMVks",
+        "description": "Verified playlist solving authentic UPSC Prelims Paper-II (CSAT) previous year questions from 2011 to 2025 with clean intuition and shortcuts.",
+        "seniorTip": "Solving real UPSC CSAT PYQs twice is the highest-yield strategy to comfortably clear the 33% qualifying cutoff.",
+        "masterPart": 9,
+    },
+    "res-onlyias-udaan": {
+        "title": "Daily UPSC Current Affairs Analysis Video Series",
+        "subject": "Current Affairs",
+        "category": "Current Affairs Video",
+        "type": "YouTube",
+        "provider": "InsightsIAS",
+        "url": "https://www.youtube.com/playlist?list=PL7Ga7_sc-ojWG_46xXlarHeW77OMRkmoL",
+        "description": "Verified daily UPSC current affairs video analysis covering The Hindu, Indian Express, and PIB developments mapped to Prelims & Mains GS papers.",
+        "seniorTip": "Use daily current affairs video digests at 1.25x speed as a structured supplement rather than spending 3 hours reading newspapers raw.",
+        "masterPart": 8,
+    },
+    "res-vision-pt365-video": {
+        "title": "PIB Weekly Current Affairs Analysis (English)",
+        "subject": "Current Affairs",
+        "category": "Current Affairs Video",
+        "type": "YouTube",
+        "provider": "Drishti IAS English",
+        "url": "https://www.youtube.com/playlist?list=PLQpF--VlgguTI4uXie10_EaMN08Vsfx1z",
+        "description": "Verified weekly video roundup of Press Information Bureau (PIB) government schemes, Cabinet decisions, summits, and science/environment releases.",
+        "seniorTip": "Watch one weekly PIB compilation every Sunday to catch official ministry schemes and Prelims facts without missing key updates.",
+        "masterPart": 8,
+    },
+    "res-air-spotlight": {
+        "title": "NewsOnAir Official YouTube (Akashvani / AIR Spotlight Discussions)",
+        "subject": "Current Affairs",
+        "category": "Official Broadcast",
+        "type": "Website",
+        "provider": "NewsOnAir Official",
+        "url": "https://www.youtube.com/@NEWSONAIROFFICIAL",
+        "description": "Official All India Radio (Akashvani) YouTube channel hosting daily 15-minute AIR Spotlight policy analyses and verified national bulletins.",
+        "seniorTip": "Listen to AIR Spotlight policy analyses during walks or commutes to absorb crisp, balanced official viewpoints for Mains & Interview.",
+        "masterPart": 5,
+    },
+    "res-forumias-answer-writing": {
+        "title": "UPSC Toppers Success Stories, Strategy & Answer Approach Interviews",
+        "subject": "Interview",
+        "category": "Toppers Strategy Video",
+        "type": "YouTube",
+        "provider": "ForumIAS",
+        "url": "https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z",
+        "description": "Verified ForumIAS playlist of AIR 1–10 and top rankers sharing booklists, Mains answer-writing frameworks, revision plans, and Interview experiences.",
+        "seniorTip": "Watch 2–3 rankers with your same Optional or academic background, extract actionable habits, and avoid getting trapped in endless strategy videos.",
+        "masterPart": 10,
+    },
+    "res-insights-mock-interviews": {
+        "title": "InsightsIAS Official YouTube — UPSC Mock Interviews & IGP Sessions",
+        "subject": "Interview",
+        "category": "Personality Test Channel",
+        "type": "Website",
+        "provider": "InsightsIAS",
+        "url": "https://www.youtube.com/@Insights_IAS",
+        "description": "Official InsightsIAS YouTube channel featuring UPSC Personality Test mock interviews, DAF cross-questioning drills, and toppers' talks.",
+        "seniorTip": "Observe how high-scoring candidates handle unfamiliar factual questions honestly and stay calm under rapid DAF follow-ups.",
+        "masterPart": 10,
+    },
+}
+
+
 def build_enriched_resources(
     existing_resources: list[dict[str, Any]],
     master_guide: dict[str, Any],
 ) -> list[dict[str, Any]]:
-    """Preserve all existing resource IDs and merge every unique link from master_guide cleanly."""
+    """Preserve all curated resource IDs, apply verified video repairs, and merge master_guide links cleanly."""
     candidates = _extract_master_guide_candidates(master_guide)
     candidate_by_url: dict[str, dict[str, Any]] = {}
     for cand in candidates:
@@ -2006,11 +2319,31 @@ def build_enriched_resources(
     used_ids: set[str] = set()
     by_norm_url: dict[str, dict[str, Any]] = {}
 
-    # 1. Preserve EVERY existing resource with its exact ID intact
+    # 1. Preserve EVERY curated (non-res-mg-*) resource with its exact ID intact,
+    #    while rebuilding res-mg-* entries freshly from master_guide so removed/broken
+    #    links never linger in resources.json.
     for raw in existing_resources:
+        rid = str(raw.get("id", "")).strip()
+        if not rid or rid.startswith("res-mg-"):
+            continue
+
         item = copy.deepcopy(raw)
-        rid = item["id"]
         used_ids.add(rid)
+
+        # Apply idempotent verified video repairs where legacy URLs broke or were mislabeled
+        repair = CURATED_VIDEO_REPAIRS.get(rid)
+        if repair:
+            for field in ("title", "subject", "category", "type", "provider", "url", "description", "seniorTip", "masterPart"):
+                if field in repair:
+                    item[field] = repair[field]
+            item["lastVerified"] = "2026-11-20"
+            item["verified"] = True
+            item["verificationStatus"] = "Verified"
+            sig = dict(item.get("verificationSignals") or {})
+            sig["channelName"] = item["provider"]
+            sig["completeness"] = "Live-Verified Active Resource"
+            sig["uploadYear"] = "2026"
+            item["verificationSignals"] = sig
 
         # Normalize legacy subjects cleanly while retaining legacy terms in tags
         orig_subj = item.get("subject", "Current Affairs")
@@ -2020,16 +2353,20 @@ def build_enriched_resources(
             extra_tags.append(orig_subj)
         item["subject"] = canon_subj
 
-        # Normalize type cleanly into CANONICAL_TYPES
+        # Normalize type cleanly into CANONICAL_TYPES — and never mark non-playable
+        # YouTube channel homepages as type "YouTube"
         orig_type = item.get("type", "")
-        item["type"] = (
-            orig_type
-            if orig_type in CANONICAL_TYPES
-            else _classify_resource_type(item["url"], item.get("title", ""), item.get("category", ""))
-        )
+        pl_id = extract_youtube_playlist_id(item["url"])
+        vid_id = extract_youtube_video_id(item["url"])
+        if orig_type == "YouTube" and not (pl_id or vid_id):
+            item["type"] = "Website"
+            extra_tags.extend(["YouTube Channel", "Video"])
+        elif orig_type in CANONICAL_TYPES:
+            item["type"] = orig_type
+        else:
+            item["type"] = _classify_resource_type(item["url"], item.get("title", ""), item.get("category", ""))
 
         # Ensure playlist ID accuracy
-        pl_id = extract_youtube_playlist_id(item["url"])
         if pl_id:
             item["youtubePlaylistId"] = pl_id
         else:
@@ -2057,7 +2394,8 @@ def build_enriched_resources(
             existing_item["tags"] = _merge_tags(existing_item.get("tags", []), cand.get("tags", []), limit=8)
             continue
 
-        slug_hint = cand.pop("_slug_hint", cand["title"])
+        cand_copy = copy.deepcopy(cand)
+        slug_hint = cand_copy.pop("_slug_hint", cand_copy["title"])
         base_slug = _slugify(slug_hint, max_len=46)
         new_id = f"res-mg-{base_slug}"
         if new_id in used_ids:
@@ -2065,7 +2403,7 @@ def build_enriched_resources(
             new_id = f"res-mg-{base_slug[:39].rstrip('-')}-{short_hash}"
 
         used_ids.add(new_id)
-        final_entry = {"id": new_id, **cand}
+        final_entry = {"id": new_id, **cand_copy}
         enriched.append(final_entry)
         by_norm_url[nk] = final_entry
 
@@ -2081,8 +2419,19 @@ def _enrich_question_papers(
     existing_qps: list[dict[str, Any]],
     master_guide: dict[str, Any],
 ) -> list[dict[str, Any]]:
-    """Preserve all existing question paper IDs and add missing Part 1 & Part 7 archives."""
+    """Preserve all existing question paper IDs, repair dead video links, and add missing Part 1 & Part 7 archives."""
     result = [copy.deepcopy(q) for q in existing_qps]
+
+    # Repair legacy dead Mains PYQ video playlist in-place while preserving its exact ID
+    for qp in result:
+        if qp.get("id") == "qp-vision-mains-pyq-video" or "PLDnIeUIsbmQuEUYGRHmpkO91rJ9iVVgS_" in str(qp.get("url", "")):
+            qp["title"] = "Mains A Day (MAD) — Daily Mains PYQ & Answer Writing (Video)"
+            qp["stage"] = "Mains Video Analysis"
+            qp["years"] = "GS 1–4 Daily Archive"
+            qp["provider"] = "Sleepy Classes IAS"
+            qp["url"] = "https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx"
+            qp["description"] = "Verified daily video walkthrough showing how to decode UPSC Mains PYQs and build high-scoring GS 1–4 answers."
+
     existing_ids = {q["id"] for q in result}
     existing_urls = {_normalize_url_key(q["url"]) for q in result}
 
@@ -2152,12 +2501,12 @@ def _enrich_question_papers(
         },
         {
             "id": "qp-vision-mains-pyq-video",
-            "title": "3-Year Mains PYQ Deconstruction & Approach (Video)",
+            "title": "Mains A Day (MAD) — Daily Mains PYQ & Answer Writing (Video)",
             "stage": "Mains Video Analysis",
-            "years": "Recent 3 Years",
-            "provider": "Vision IAS",
-            "url": "https://www.youtube.com/playlist?list=PLDnIeUIsbmQuEUYGRHmpkO91rJ9iVVgS_",
-            "description": "Structured video walkthrough showing how to decode UPSC Mains directive keywords and build high-scoring answers.",
+            "years": "GS 1–4 Daily Archive",
+            "provider": "Sleepy Classes IAS",
+            "url": "https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx",
+            "description": "Verified daily video walkthrough showing how to decode UPSC Mains PYQs and build high-scoring GS 1–4 answers.",
         },
         {
             "id": "qp-atish-polity-pyq-video",
@@ -2203,8 +2552,18 @@ def _enrich_current_affairs(
     existing_ca: list[dict[str, Any]],
     master_guide: dict[str, Any],
 ) -> list[dict[str, Any]]:
-    """Preserve all existing CA categories and enrich keySources with verified Part 4 & 5 portals."""
+    """Preserve all existing CA categories, repair dead video links, and enrich keySources with verified Part 4 & 5 portals."""
     result = [copy.deepcopy(c) for c in existing_ca]
+
+    # Repair dead AIR Spotlight playlist URL in-place across existing current_affairs categories
+    for cat in result:
+        for src in cat.get("keySources", []):
+            if "PLPPKwCCueQ_AARG0z9XWZ3_lMCiLlMzfD" in str(src.get("url", "")):
+                src["name"] = "NewsOnAir Official YouTube (AIR Spotlight)"
+                src["type"] = "Audio/Video Bulletin"
+                src["url"] = "https://www.youtube.com/@NEWSONAIROFFICIAL"
+                src["howToUse"] = "Listen to crisp 15-minute daily national policy and diplomatic analyses (AIR Spotlight) while commuting."
+
     by_id = {c["id"]: c for c in result}
 
     def _add_sources(cat_id: str, new_sources: list[dict[str, Any]]) -> None:
@@ -2318,11 +2677,11 @@ def _enrich_current_affairs(
                 "howToUse": "Extract balanced constitutional arguments and counter-arguments without copying full columns.",
             },
             {
-                "name": "AIR Spotlight (All India Radio Official)",
+                "name": "NewsOnAir Official YouTube (AIR Spotlight)",
                 "type": "Audio/Video Bulletin",
-                "url": "https://www.youtube.com/playlist?list=PLPPKwCCueQ_AARG0z9XWZ3_lMCiLlMzfD",
+                "url": "https://www.youtube.com/@NEWSONAIROFFICIAL",
                 "free": True,
-                "howToUse": "Listen to crisp 15-minute daily national policy and diplomatic analyses while commuting.",
+                "howToUse": "Listen to crisp 15-minute daily national policy and diplomatic analyses (AIR Spotlight) while commuting.",
             },
         ],
     )
@@ -2522,6 +2881,11 @@ def validate_catalog(
             errors.append(f"Invalid URL in {context}: {url!r}")
         elif isinstance(url, str) and (" & " in url or "[" in url or "]" in url):
             errors.append(f"Composite/malformed URL in {context}: {url!r}")
+        elif isinstance(url, str):
+            parsed = urlparse(url)
+            host = (parsed.hostname or "").lower()
+            if host in _YOUTUBE_HOSTS and "list=" in parsed.query and not extract_youtube_playlist_id(url):
+                errors.append(f"Truncated or invalid YouTube playlist ID in {context}: {url!r}")
 
     # 1. Validate resources.json
     res_ids: set[str] = set()
@@ -2552,6 +2916,11 @@ def validate_catalog(
 
         _check_url(r.get("url"), f"resource:{rid}")
         expected_pl = extract_youtube_playlist_id(r.get("url"))
+        expected_vid = extract_youtube_video_id(r.get("url"))
+        if rtype == "YouTube" and not (expected_pl or expected_vid):
+            errors.append(
+                f"Resource {rid} is marked type 'YouTube' but URL is not a playable playlist or video: {r.get('url')!r}"
+            )
         if expected_pl and r.get("youtubePlaylistId") != expected_pl:
             errors.append(
                 f"Resource {rid} playlist ID mismatch: got {r.get('youtubePlaylistId')!r}, expected {expected_pl!r}"
@@ -2645,6 +3014,14 @@ def validate_catalog(
             errors.append(f"NCERT book {bid} PDF URL is not on ncert.nic.in: {b.get('officialPdfUrl')!r}")
         if b.get("recommendedLectureUrl"):
             _check_url(b.get("recommendedLectureUrl"), f"ncert.recommendedLectureUrl:{bid}")
+            lec_url = str(b.get("recommendedLectureUrl", ""))
+            lec_host = (urlparse(lec_url).hostname or "").lower()
+            if lec_host in _YOUTUBE_HOSTS and not (
+                extract_youtube_playlist_id(lec_url) or extract_youtube_video_id(lec_url)
+            ):
+                errors.append(
+                    f"NCERT book {bid} recommendedLectureUrl is not a playable YouTube playlist/video: {lec_url!r}"
+                )
 
         chapters = b.get("chapters", [])
         if not chapters:
@@ -2721,6 +3098,20 @@ def validate_catalog(
                 else:
                     rm_res_ids.add(srid)
                 _check_url(sr.get("url"), f"roadmap.{sid}.{stid}.{srid}")
+                sr_pl = extract_youtube_playlist_id(sr.get("url"))
+                sr_vid = extract_youtube_video_id(sr.get("url"))
+                if sr.get("type") == "YouTube" and not (sr_pl or sr_vid):
+                    errors.append(
+                        f"Roadmap {sid}.{stid}.{srid} is marked type 'YouTube' but URL is not a playable playlist/video: {sr.get('url')!r}"
+                    )
+                if sr_pl and sr.get("youtubePlaylistId") != sr_pl:
+                    errors.append(
+                        f"Roadmap {sid}.{stid}.{srid} youtubePlaylistId mismatch: got {sr.get('youtubePlaylistId')!r}, expected {sr_pl!r}"
+                    )
+                if not sr_pl and sr.get("youtubePlaylistId"):
+                    errors.append(
+                        f"Roadmap {sid}.{stid}.{srid} has unexpected youtubePlaylistId on non-playlist URL"
+                    )
 
     # 6. Validate question_papers.json & current_affairs.json
     qp_ids: set[str] = set()

@@ -60,6 +60,10 @@ pip install -r requirements.txt
 
 Open **http://localhost:8501** for the **OpenUPSC Main App (Streamlit)**.
 
+### Streamlit Community Cloud / Direct `streamlit run`
+When deploying to **Streamlit Community Cloud** (or running `streamlit run` directly):
+- **Main file path:** `streamlit_app/app.py` (or `run.py` — `run.py` automatically detects when it is executed inside an active Streamlit runtime and delegates in-process to `streamlit_app.app.main()` in zero-latency Cloud SQLite Mode without trying to re-bind port `8501`).
+
 ### Demo Workspace Credentials
 Works immediately out of the box with a pre-seeded demo workspace, or sign up for your own isolated aspirant account in **Account, Admin & Health**:
 - **Email:** `student@upschub.in`

@@ -541,14 +541,6 @@ def is_youtube_playable(url: Optional[str]) -> tuple[bool, Optional[str], Option
     return bool(pid or vid), pid, vid
 
 
-def _embed_html(raw_html: str, height: int) -> None:
-    """Render trusted internal HTML cleanly using Streamlit 1.67 st.iframe (zero deprecations)."""
-    if hasattr(st, "iframe"):
-        st.iframe(raw_html, width="stretch", height=int(height))
-    else:  # pragma: no cover
-        components.html(raw_html, height=int(height), scrolling=False)
-
-
 def render_youtube_player(
     url: Optional[str],
     title: str = "",
@@ -593,12 +585,8 @@ def render_youtube_player(
         )
         if hasattr(st, "iframe"):
             st.iframe(embed_url, width="stretch", height=iframe_height)
-        else:  # pragma: no cover
-            components.html(
-                f'<iframe width="100%" height="{iframe_height}" src="{embed_url}" frameborder="0" allowfullscreen></iframe>',
-                height=iframe_height + 10,
-                scrolling=False,
-            )
+        else:  # pragma: no cover - Streamlit 1.50-1.55 cross-version fallback
+            components.iframe(embed_url, height=iframe_height, scrolling=False)
         st.link_button("Open on YouTube ↗", cleaned, width="content")
     else:
         with st.container(border=True):
@@ -950,7 +938,7 @@ def render_focus_timer_widget(
 </body>
 </html>
 """
-    _embed_html(timer_html, height=330)
+    components.html(timer_html, height=335, scrolling=False)
 
 
 # =========================================================================

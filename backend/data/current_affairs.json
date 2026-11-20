@@ -174,11 +174,11 @@
         "howToUse": "Extract balanced constitutional arguments and counter-arguments without copying full columns."
       },
       {
-        "name": "AIR Spotlight (All India Radio Official)",
+        "name": "NewsOnAir Official YouTube (AIR Spotlight)",
         "type": "Audio/Video Bulletin",
-        "url": "https://www.youtube.com/playlist?list=PLPPKwCCueQ_AARG0z9XWZ3_lMCiLlMzfD",
+        "url": "https://www.youtube.com/@NEWSONAIROFFICIAL",
         "free": true,
-        "howToUse": "Listen to crisp 15-minute daily national policy and diplomatic analyses while commuting."
+        "howToUse": "Listen to crisp 15-minute daily national policy and diplomatic analyses (AIR Spotlight) while commuting."
       }
     ],
     "highYieldTopics": [

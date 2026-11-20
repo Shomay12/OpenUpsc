@@ -462,6 +462,45 @@ def _print_banner(
     print("=" * 72 + "\n")
 
 
+def _is_streamlit_script_context() -> bool:
+    """Return True when `run.py` is executed directly inside an active Streamlit script runner.
+
+    This occurs when `run.py` is configured as the entrypoint on Streamlit Community Cloud
+    or launched via `streamlit run run.py` / `AppTest.from_file("run.py")`.
+    """
+    st_mod = sys.modules.get("streamlit")
+    if st_mod is None:
+        return False
+    try:
+        from streamlit.runtime.scriptrunner_utils.script_run_context import get_script_run_ctx
+
+        if get_script_run_ctx(suppress_warning=True) is not None:
+            return True
+    except Exception:
+        try:
+            from streamlit.runtime.scriptrunner import get_script_run_ctx as get_ctx_legacy
+
+            if get_ctx_legacy() is not None:
+                return True
+        except Exception:
+            pass
+    try:
+        runtime = getattr(st_mod, "runtime", None)
+        if runtime is not None and callable(getattr(runtime, "exists", None)) and runtime.exists():
+            return True
+    except Exception:
+        pass
+    return False
+
+
+def _run_embedded_streamlit_app() -> int:
+    """Delegate in-process to `streamlit_app.app.main()` when `run.py` is used as a Streamlit script."""
+    from streamlit_app.app import main as streamlit_main
+
+    streamlit_main()
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="python run.py",
@@ -478,10 +517,20 @@ def build_parser() -> argparse.ArgumentParser:
         dest="as_json",
         help="Emit JSON output when used with --doctor.",
     )
-    parser.add_argument(
+    port_group = parser.add_mutually_exclusive_group()
+    port_group.add_argument(
         "--auto-port",
+        dest="auto_port",
         action="store_true",
-        help="Automatically select free ports if 8000/8501 are occupied and wire service URLs together.",
+        default=True,
+        help="Automatically select free ports if 8000/8501 are occupied and wire service URLs together (default).",
+    )
+    port_group.add_argument(
+        "--strict-ports",
+        "--no-auto-port",
+        dest="auto_port",
+        action="store_false",
+        help="Fail immediately if the requested FastAPI or Streamlit port is already in use.",
     )
     mode_group = parser.add_mutually_exclusive_group()
     mode_group.add_argument(
@@ -534,6 +583,9 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: Optional[list[str]] = None) -> int:
+    if argv is None and _is_streamlit_script_context():
+        return _run_embedded_streamlit_app()
+
     parser = build_parser()
     args = parser.parse_args(argv)
 
@@ -680,4 +732,7 @@ def main(argv: Optional[list[str]] = None) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    if _is_streamlit_script_context():
+        _run_embedded_streamlit_app()
+    else:
+        raise SystemExit(main())

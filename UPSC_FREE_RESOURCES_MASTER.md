@@ -84,6 +84,8 @@ Always start with the official UPSC portal for authentic notifications, syllabus
   - Geography (Amit Sengupta): https://www.youtube.com/playlist?list=PL1vNLZF5gfwcc9Kw-n1D8wwBtT5wIKXwH
   - History (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WL9y76vd5mqQicOmPSf0ZzE
   - Civics / Polity (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WIOzvBJ7SnwkoXOc25OD720
+  - Science Classic NCERT (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhVTN4qVwb-OgW9sBPsep9XX
+  - Science Curiosity NEP (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhW47wzJZJ6mkN_K9jeiAFhK
 
 ---
 
@@ -105,7 +107,9 @@ Always start with the official UPSC portal for authentic notifications, syllabus
   - Geography (Amit Sengupta): https://www.youtube.com/playlist?list=PL1vNLZF5gfwcGsXgJnz9dTp5XE5L3d1d2
   - History (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WKDjikWCxcaDvEAHooTE_yC
   - Civics / Polity (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WKqR09tn7B2N5iYXPycUewJ
-  - Exploring Society Part-2 (NCERT Official): https://www.youtube.com/playlist?list=PLIGVh7QrK-bc
+  - Social Science Complete NCERT (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhVa0fULu_32vdXXf_7ZGhHz
+  - Science Classic NCERT (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhVcZ8f3BMLxt5E17GmIitf-
+  - Science Curiosity NEP (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhUONdEiUdHSE-jXnwdDd1Gh
 
 ---
 
@@ -129,6 +133,8 @@ Always start with the official UPSC portal for authentic notifications, syllabus
   - Geography (Amit Sengupta): https://www.youtube.com/playlist?list=PL1vNLZF5gfwc7iHqozmofc_leWu00HLo5
   - History (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WJtalWLXohRTgEfJliMgDDN
   - Civics / Polity (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WKrbnKzuTBXsIZCRRi6g9ru
+  - Science Complete NCERT (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhWNWRS1uBGATJoXEinkG23n
+  - Mathematics NCERT — CSAT Base (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr
 
 ---
 
@@ -150,8 +156,12 @@ Always start with the official UPSC portal for authentic notifications, syllabus
 
 - **Class 9 Verified Video Companions:**
   - Geography (Amit Sengupta): https://www.youtube.com/playlist?list=PL1vNLZF5gfweFN0ps77y2jdFp7hTxl2sK
+  - History (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhXlJMfmq5f2vV00EeXkp7e9
   - Political Science (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WLF8i43DsFn0SxNCmXXKHTa
   - Economics (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WIzoy678og8_Ykd1P92QwEN
+  - Science — Biology NCERT (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhXITEmOWL1-JqTdK9tgiNW8
+  - Science — Chemistry NCERT (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhUgNkSyuuyuE1ex8CiDhffJ
+  - Mathematics Ganita Manjari — CSAT Base (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts
 
 ---
 
@@ -171,9 +181,11 @@ Always start with the official UPSC portal for authentic notifications, syllabus
 
 - **Class 10 Verified Video Companions:**
   - Geography (Amit Sengupta): https://www.youtube.com/playlist?list=PL1vNLZF5gfweoo1UZYY3hF2e0UxXuf7lD
+  - History — Nationalism in India (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhXJMA8ncxvxljn3dcyVLc4H
   - Political Science (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WKgOXharLXpSA3GEBir9mRc
   - Economics (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WJGrfpOwcLhZbnQs_aUiFdS
   - Science Class 10 (NCERT Official): https://www.youtube.com/playlist?list=PLUgLcpnv1YidKNzIj2KJIjwmcFgVI2eiB
+  - Mathematics Class 10 — CSAT Base (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv
 
 ---
 
@@ -205,11 +217,15 @@ Always start with the official UPSC portal for authentic notifications, syllabus
 - **Class 11 Verified Video Companions:**
   - Fundamentals of Physical Geography (Amit Sengupta): https://www.youtube.com/playlist?list=PL1vNLZF5gfwd7JBNWMaUNLHbDjJlknrt2
   - India: Physical Environment (Amit Sengupta): https://www.youtube.com/playlist?list=PL1vNLZF5gfwdhB7PRkMZ0sWfhV07AT6Z_
-  - India: Physical Environment (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WJYvaP8DLnUVYgwOeRqRC6-
   - Indian Constitution at Work (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WLvbz8SiCU_mTLeL3FcC84K
+  - Political Theory (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhWadHp436aH028iQ5vHTyFP
   - Indian Economic Development (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WI5uAIHNuuF2hfFd3KAB6_Z
-  - An Introduction to Indian Art (Unacademy Free Archive): https://www.youtube.com/playlist?list=PLwYR7WJw1-QVmNxu03eFGYTwDtKluQOcy
+  - An Introduction to Indian Art (Testbook SuperCoaching): https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K
   - Themes in World History (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WJveqadQ0bHju1ymZ0CVYUo
+  - Themes in World History (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhVpFpLOwx7WsNeacmcedHfz
+  - Introducing Sociology (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhVTtFbc0y4yfUznox1KAbel
+  - Understanding Society (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhXYK8APQLY7dKn5dzw2ELAt
+  - Introduction to Psychology (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhXm7DLANmW0lSigkHmSewff
 
 ---
 
@@ -239,13 +255,18 @@ Always start with the official UPSC portal for authentic notifications, syllabus
 | **Ethics Support** | Psychology (Class 12) | English | **Selective** (GS-4 Emotional Intelligence, Attitude) | https://ncert.nic.in/textbook.php?lepy1=0-7 |
 
 - **Class 12 Verified Video Companions:**
-  - Themes in Indian History Part-I: https://www.youtube.com/playlist?list=PLMTLwvYr8eWNX0_P5sFDqTBXbK6EeF5uw
-  - Themes in Indian History Part-II: https://www.youtube.com/playlist?list=PLI-m5lCEZCnB0ygG__sA74s_AI0JzTDkH
-  - Themes in Indian History Part-III: https://www.youtube.com/playlist?list=PLWcqTv9QSBz384w6LQTUzCxSNqb17w9EX
+  - Themes in Indian History Part-I (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhXgJBC4gj2DIlIEVAL1l0WA
+  - Themes in Indian History Part-II (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhVzbdUnnkiFv02HPme1uvEE
+  - Themes in Indian History Part-III (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhXRieQdABrHiRsYn9ENLTgR
   - Fundamentals of Human Geography (Amit Sengupta): https://www.youtube.com/playlist?list=PL1vNLZF5gfweoiGYv6d5uc6CjVY1VDAWJ
-  - Introductory Macroeconomics (Unacademy Archive): https://www.youtube.com/playlist?list=PLwYR7WJw1-QVqKE_PPH2XSQVF_svURjmF
+  - India: People and Economy (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhXJ_1ILX-Es5tTqBapPxIvY
+  - Introductory Macroeconomics (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhUm3-No4WpiQEdQjCpA6SKK
+  - Biology & Ecology Complete NCERT (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhXy7if3Grafu9UngDHol9EX
   - Contemporary World Politics (HD Education): https://www.youtube.com/playlist?list=PL_K2YMR-A5WKg_oyTt-eHPnSvXfANQKOM
-  - Sociology NCERTs Class 11–12: https://www.youtube.com/playlist?list=PLPB5fw3o-SF8rF5V25oU17eTJwL05czmQ
+  - Politics in India Since Independence (Magnet Brains): https://www.youtube.com/playlist?list=PLIpPiYr5jVxCOrpSRglBgDUCa7OwO6OiY
+  - Sociology — Indian Society (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P
+  - Sociology — Social Change and Development (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhUnEYuZfRyJyIwWPgLbcJpa
+  - Psychology Class 12 — Ethics Support (Magnet Brains): https://www.youtube.com/playlist?list=PLVLoWQFkZbhXOGREUvTDsMJIgqBcAxnvn
 
 ---
 
@@ -271,12 +292,12 @@ Always start with the official UPSC portal for authentic notifications, syllabus
 | Subject / Paper | Standard Core Book(s) | Free Legal Companion / Official Substitute (Verified Working Links) |
 | :--- | :--- | :--- |
 | **Indian Polity (Prelims & GS-2)** | *Indian Polity* — M. Laxmikanth | • [Official Bare Constitution PDF](https://legislative.gov.in/constitution-of-india/) <br>• [All Central & State Acts — India Code](https://indiacode.gov.in/) <br>• [Constituent Assembly Debates & History](https://www.constitutionofindia.net/) <br>• [Complete Laxmikanth Video Series — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WJ3KpnC6PSLN7f_BYw749xf) <br>• [Magna Carta Polity Course — Atish Mathur](https://www.youtube.com/playlist?list=PLDmcugApdt5ercfNQxsnKdDttZLC6le91) <br>• [Bookstawa Animated Polity](https://www.youtube.com/playlist?list=PLZfz5K8XpMW2mGIuerMSMDc5LjeoAABjN) |
-| **Modern History (Prelims & GS-1)** | *A Brief History of Modern India* — Rajiv Ahir (Spectrum) | • [Complete Spectrum Video Series — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WI8tMJbIFcJ1HGgl5WhxTxr) <br>• [Bookstawa Modern History Animated Series](https://www.youtube.com/playlist?list=PLZfz5K8XpMW2edCCXpfBh2nNQ8qFbcVNG) <br>• [National Archives Digital Records — Abhilekh Patal](https://www.abhilekh-patal.in/) |
-| **Ancient & Medieval History (GS-1)** | *India's Ancient Past* (R.S. Sharma) & *History of Medieval India* (Satish Chandra) | • [TN Class 11 History — Free Textbooks](https://www.tntextbooks.in/) <br>• [Bookstawa Ancient History](https://www.youtube.com/playlist?list=PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6) <br>• [Bookstawa Medieval History](https://www.youtube.com/playlist?list=PLZfz5K8XpMW3c01ihRcCxFL5asqCeO5SM) |
-| **Art & Culture (Prelims & GS-1)** | *Indian Art and Culture* — Nitin Singhania + Class 11 Fine Arts NCERT | • [CCRT Official Culture Archives](https://ccrtindia.gov.in/) <br>• [Indian Culture Portal — Ministry of Culture](https://www.indianculture.gov.in/) <br>• [Bookstawa Art & Culture Playlist](https://www.youtube.com/playlist?list=PLZfz5K8XpMW0CmDMqEF2uOA2pMSbqoRdH) |
-| **Geography (Prelims & GS-1)** | *Certificate Physical & Human Geography* (G.C. Leong) + Oxford Student Atlas | • [G.C. Leong Complete Playlist — StudyIQ](https://www.youtube.com/playlist?list=PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ) <br>• [Sudarshan Gurjar Indian Mapping](https://www.youtube.com/playlist?list=PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV) <br>• [Sudarshan Gurjar World Mapping](https://www.youtube.com/playlist?list=PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH) <br>• [Survey of India Official Maps](https://www.surveyofindia.gov.in/) |
-| **Indian Economy (Prelims & GS-3)** | *Indian Economy* — Vivek Singh / Nitin Singhania + Economic Survey & Budget | • [Official Economic Survey PDF](https://www.indiabudget.gov.in/economicsurvey/) <br>• [Mrunal Patel Economy Beginners Series](https://www.youtube.com/playlist?list=PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_) <br>• [Bookstawa Economy Series](https://www.youtube.com/playlist?list=PLZfz5K8XpMW3K_l0l3p2BYFgJHbF4ZMmE) <br>• [PMF IAS Economy Foundation](https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0OtYBaK3dhe0tYYyjX4SG9) |
-| **Environment & Ecology (Prelims & GS-3)** | *PMF IAS Environment* / *Shankar IAS Environment* + Class 12 Bio Ecology | • [PMF IAS Free Environment Articles](https://www.pmfias.com/) <br>• [PMF IAS Environment Video Course](https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX) <br>• [NIOS Environmental Science (333)](https://www.nios.ac.in/online-course-material/sr-secondary-courses.aspx) <br>• [MoEFCC Official Portal](https://moef.gov.in/) |
+| **Modern History (Prelims & GS-1)** | *A Brief History of Modern India* — Rajiv Ahir (Spectrum) | • [Complete Spectrum Video Series — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WI8tMJbIFcJ1HGgl5WhxTxr) <br>• [Bookstawa Modern History Animated Series](https://www.youtube.com/playlist?list=PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM) <br>• [National Archives Digital Records — Abhilekh Patal](https://www.abhilekh-patal.in/) |
+| **Ancient & Medieval History (GS-1)** | *India's Ancient Past* (R.S. Sharma) & *History of Medieval India* (Satish Chandra) | • [TN Class 11 History — Free Textbooks](https://www.tntextbooks.in/) <br>• [Bookstawa Ancient History](https://www.youtube.com/playlist?list=PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6) <br>• [Satish Chandra Medieval History — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn) <br>• [Complete Indian History — Pratik Nayak](https://www.youtube.com/playlist?list=PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU) |
+| **Art & Culture (Prelims & GS-1)** | *Indian Art and Culture* — Nitin Singhania + Class 11 Fine Arts NCERT | • [CCRT Official Culture Archives](https://ccrtindia.gov.in/) <br>• [Indian Culture Portal — Ministry of Culture](https://www.indianculture.gov.in/) <br>• [Nitin Singhania Art & Culture Series — StudyIQ](https://www.youtube.com/playlist?list=PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O) <br>• [Class 11 Fine Arts NCERT — Testbook SuperCoaching](https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K) |
+| **Geography (Prelims & GS-1)** | *Certificate Physical & Human Geography* (G.C. Leong) + Oxford Student Atlas | • [G.C. Leong Complete Playlist — StudyIQ](https://www.youtube.com/playlist?list=PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ) <br>• [Complete UPSC Geography — Rajtanil Solanki (Mrunal)](https://www.youtube.com/playlist?list=PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7) <br>• [Sudarshan Gurjar Indian Mapping](https://www.youtube.com/playlist?list=PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV) <br>• [Sudarshan Gurjar World Mapping](https://www.youtube.com/playlist?list=PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH) <br>• [Bookstawa Complete Geography](https://www.youtube.com/playlist?list=PLZfz5K8XpMW0RQKIkvGyWlHRYaj0FoaeT) <br>• [Survey of India Official Maps](https://www.surveyofindia.gov.in/) |
+| **Indian Economy (Prelims & GS-3)** | *Indian Economy* — Ramesh Singh / Vivek Singh + Economic Survey & Budget | • [Official Economic Survey PDF](https://www.indiabudget.gov.in/economicsurvey/) <br>• [Ramesh Singh Indian Economy — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj) <br>• [Bookstawa Indian Economy Animated Series](https://www.youtube.com/playlist?list=PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm) <br>• [Mrunal Patel Economy MCQ Marathon & Strategy](https://www.youtube.com/playlist?list=PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR) |
+| **Environment & Ecology (Prelims & GS-3)** | *Shankar IAS Environment* / *PMF IAS Environment* + Class 12 Bio Ecology | • [PMF IAS Free Environment Articles](https://www.pmfias.com/) <br>• [Shankar IAS Environment & Ecology — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU) <br>• [Sudarshan Gurjar Environment for UPSC](https://www.youtube.com/playlist?list=PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l) <br>• [NIOS Environmental Science (333)](https://www.nios.ac.in/online-course-material/sr-secondary-courses.aspx) <br>• [MoEFCC Official Portal](https://moef.gov.in/) |
 | **Ethics, Integrity & Aptitude (GS-4)** | *Lexicon for Ethics* + 2nd ARC 4th Report (*Ethics in Governance*) | • [Official 2nd ARC Reports — DARPG](https://darpg.gov.in/arc-reports) <br>• [Atish Mathur Free Ethics Course](https://www.youtube.com/playlist?list=PLDmcugApdt5fQG5xaQBxbPH7ANjBDKDZ8) <br>• [ForumIAS Free Complete Ethics Course](https://www.youtube.com/playlist?list=PLTWYSxOsBjqHL9qJvpoXzF06Hapc3rpmG) <br>• [Sleepy Classes A–Z Ethics](https://www.youtube.com/playlist?list=PLYSuG-KZy7JBDpMxkm3Atyozs_l6iichX) |
 | **Internal Security & Disaster Mgmt (GS-3)** | *Challenges to Internal Security* — Ashok Kumar + NDMA Guidelines | • [NDMA Official Guidelines](https://ndma.gov.in/) <br>• [PMF IAS Internal Security Playlist](https://www.youtube.com/playlist?list=PLfhUF7AO5ZR1BxWy0L22F3uqjIui54tsl) <br>• [MP-IDSA Security Research](https://idsa.in/) |
 
@@ -357,7 +378,7 @@ Primary government data and constitutional reports are the single biggest score 
 | **Press Information Bureau (PIB)** | Official government press releases, Cabinet decisions & scheme backgrounders | https://pib.gov.in/ |
 | **NewsOnAir (Akashvani / AIR News)** | Daily 15-min national news bulletins (9 PM English/Hindi) & text summaries | https://newsonair.gov.in/ |
 | **Akashvani Official Portal** | Live public radio & policy programs | https://akashvani.gov.in/ |
-| **AIR Spotlight (Official YouTube Playlist)** | Daily 15-min expert audio/video analysis on national & international issues | https://www.youtube.com/playlist?list=PLPPKwCCueQ_AARG0z9XWZ3_lMCiLlMzfD |
+| **NewsOnAir Official YouTube (AIR Spotlight)** | Daily 15-min expert audio/video analysis & Spotlight discussions on national issues | https://www.youtube.com/@NEWSONAIROFFICIAL |
 | **Sansad TV Official YouTube** | Parliamentary proceedings, policy documentaries & expert debates | https://www.youtube.com/@SansadTV |
 | **Sansad TV — Perspective Playlist** | Best daily 25-min Mains/Interview panel discussion on GS-2 & GS-3 topics | https://www.youtube.com/playlist?list=PLVOgwA_DiGzrOZ062PskBVE83abtupy3z |
 
@@ -426,8 +447,8 @@ Primary government data and constitutional reports are the single biggest score 
 | **Drishti IAS — All Practice Quizzes** | Static, CSAT, Editorial & Subject-wise free online tests | https://www.drishtiias.com/quiz |
 | **Drishti IAS — NCERT Quizzes (Hindi)** | Chapter-wise NCERT MCQ practice sets | https://www.drishtiias.com/hindi/quiz/catlist/ncert-books-quiz |
 | **ClearIAS Free Mock Platform** | Free Prelims mock tests & daily probable MCQs | https://www.clearias.com/ |
-| **Vision IAS Mains PYQ Analysis (Video)** | 3-Year Mains PYQ deconstruction & approach playlist | https://www.youtube.com/playlist?list=PLDnIeUIsbmQuEUYGRHmpkO91rJ9iVVgS_ |
-| **Atish Mathur Polity PYQs (Video)** | Detailed 10-year Polity Prelims PYQ breakdown | https://www.youtube.com/playlist?list=PLDmcugApdt5dO_HPoL4uc2xL8jaitSmdL |
+| **Sleepy Classes Mains A Day — Answer Writing (Video)** | Daily Mains PYQ & answer-writing structure breakdown across GS 1–4 | https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx |
+| **Atish Mathur Polity PYQs (Video)** | Detailed Polity Prelims & Mains PYQ breakdown | https://www.youtube.com/playlist?list=PLDmcugApdt5dO_HPoL4uc2xL8jaitSmdL |
 
 ---
 
@@ -441,6 +462,7 @@ Every YouTube channel handle and direct playlist URL below has been verified liv
 | :--- | :--- | :--- |
 | **NCERT Official** | Official chapter lectures for new NEP & classic Class 6–12 NCERTs | https://www.youtube.com/@NCERTOFFICIAL |
 | **Sansad TV** | *Perspective* debates, parliamentary briefings & policy explainers | https://www.youtube.com/@SansadTV |
+| **NewsOnAir Official (AIR / Akashvani)** | Daily *Spotlight* policy discussions, national news bulletins & government explainers | https://www.youtube.com/@NEWSONAIROFFICIAL |
 | **CEC UGC (Consortium for Educational Communication)** | University-level Indian History, Polity, Sociology & Geography lectures | https://www.youtube.com/@cecgurukul |
 | **NPTEL (IITs & IISc)** | IIT lectures on GIS/Geography, Environment, Economics, Ethics & Sci-Tech | https://www.youtube.com/@iit |
 
@@ -456,6 +478,8 @@ Every YouTube channel handle and direct playlist URL below has been verified liv
 | **Sleepy Classes IAS** | Complete free GS Foundation, NCERT series, Environment, Ethics, CSAT & Sociology | https://www.youtube.com/@SleepyClassesIAS |
 | **PMF IAS** | Free GS Foundation courses (Environment, Geography, Economy, Security, Ethics) | https://www.youtube.com/@pmf-ias |
 | **Harshit Dwivedi (HD Education)** | Line-by-line NCERT (Class 6–12), M. Laxmikanth & Spectrum breakdowns | https://www.youtube.com/@HARSHITDWIVEDIVIDEOS |
+| **Magnet Brains** | Complete chapter-by-chapter Class 6–12 NCERT Science, History, Macroeconomics & Sociology | https://www.youtube.com/@MagnetBrainsEducation |
+| **Dr. Ravi P. Agrahari** | Comprehensive UPSC Science & Technology and Environment lectures | https://www.youtube.com/@raviagrahariclasses |
 | **Finology Legal** | Constitutional Law, Landmark SC Judgments & Indian Polity simplified | https://www.youtube.com/@_FinologyLegal |
 | **PW OnlyIAS (UPSC Wallah)** | Free UDAAN Prelims, Prahaar Mains, NCERT marathons & subject foundations | https://www.youtube.com/@PWOnlyIASUPSC |
 | **OnlyIAS Nothing Else** | Daily editorial analysis, PSIR, animated History & free Prelims revision | https://www.youtube.com/@OnlyIasnothingelse |
@@ -482,34 +506,40 @@ Every YouTube channel handle and direct playlist URL below has been verified liv
 
 | Subject / Theme | Playlist Title & Educator | Verified Direct Playlist Link |
 | :--- | :--- | :--- |
-| **NCERT All-in-One** | NCERT Series 2026 — Sleepy Classes IAS | https://www.youtube.com/playlist?list=PLYSuG-KZy7JDSprIXcuHS15HLMPoZgHVs |
-| **NCERT Geography** | NCERT for UPSC & Geography NCERT Topicwise — Sudarshan Gurjar | https://www.youtube.com/playlist?list=PLkWhN3ZMY-h3tkkWxHbt8VHzE0twTOzVM |
-| **NCERT History** | History NCERT Foundation — PMF IAS | https://www.youtube.com/playlist?list=PLfhUF7AO5ZR2lGo7g3gAFnVgpiPIQ0fVW |
-| **History (Animated)** | Complete History & Art & Culture Animated — PW OnlyIAS | https://www.youtube.com/playlist?list=PL2jzazaAMNtU74jZvfoqpJVRHQ6B5QKBd |
-| **Geography Foundation** | Geography Foundation 2027 — PMF IAS | https://www.youtube.com/playlist?list=PLfhUF7AO5ZR38CFm35-HOw76huVwk_gr6 |
+| **NCERT All-in-One** | NCERT Foundation Series — Sleepy Classes IAS | https://www.youtube.com/playlist?list=PLYSuG-KZy7JDSprIXcuHS15HLMPoZgHVs |
+| **NCERT Geography** | NCERT Geography Topicwise & Mapping — Sudarshan Gurjar | https://www.youtube.com/playlist?list=PLkWhN3ZMY-h3tkkWxHbt8VHzE0twTOzVM |
+| **History (Complete)** | Complete Indian History (Ancient, Medieval & Modern) — Pratik Nayak | https://www.youtube.com/playlist?list=PLSVABdpsEeglvmPaAjoRLN-Y-C6y0TtWU |
+| **Modern History** | Complete Modern Indian History Animated — Bookstawa | https://www.youtube.com/playlist?list=PLZfz5K8XpMW1BCazrkRFzS9NxCZVMiXcM |
+| **Modern History** | Spectrum Modern Indian History Chapter-Wise — HD Education | https://www.youtube.com/playlist?list=PL_K2YMR-A5WI8tMJbIFcJ1HGgl5WhxTxr |
+| **Ancient History** | Ancient Indian History Animated — Bookstawa | https://www.youtube.com/playlist?list=PLZfz5K8XpMW3eHK_-7gxmmKqNeEuyz1I6 |
+| **Medieval History** | Medieval Indian History (Satish Chandra) — HD Education | https://www.youtube.com/playlist?list=PL_K2YMR-A5WL9RdjDEJV48WRXpIkeUrvn |
+| **Art & Culture** | Indian Art & Culture (Nitin Singhania) — StudyIQ IAS | https://www.youtube.com/playlist?list=PLAdW2HOoum1EhlvYszd2x4yMuBbPiP21O |
+| **Art & Culture** | Class 11 Fine Arts NCERT (An Introduction to Indian Art) — Testbook SuperCoaching | https://www.youtube.com/playlist?list=PL-lZfDAjv6raJTy-_g3tZKqJbSFSomJ4K |
+| **Indian Polity** | Magna Carta Complete Indian Polity — Atish Mathur | https://www.youtube.com/playlist?list=PLDmcugApdt5ercfNQxsnKdDttZLC6le91 |
+| **Indian Polity** | Complete M. Laxmikanth Chapter-by-Chapter — HD Education | https://www.youtube.com/playlist?list=PL_K2YMR-A5WJ3KpnC6PSLN7f_BYw749xf |
+| **Indian Polity** | Animated Indian Polity for UPSC — Bookstawa | https://www.youtube.com/playlist?list=PLZfz5K8XpMW2mGIuerMSMDc5LjeoAABjN |
 | **Geography (Complete)** | Complete Geography for UPSC — Bookstawa | https://www.youtube.com/playlist?list=PLZfz5K8XpMW0RQKIkvGyWlHRYaj0FoaeT |
-| **Indian Geography** | Complete Indian Geography (Sambhav Free Series) — PW OnlyIAS | https://www.youtube.com/playlist?list=PLXLsXwBXH6BmGSkAeH1nz2hdMk8kHCU_d |
-| **Economy (Beginner)** | Indian Economy for UPSC Beginners (2027–28) — Mrunal Patel | https://www.youtube.com/playlist?list=PLAMBum9_RkuNzjISXCEVlE5VdQhaqTwS_ |
-| **Economy (Updates)** | Win26 Economy Updates — Mrunal Patel | https://www.youtube.com/playlist?list=PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR |
+| **Geography (Foundation)** | Complete Geography for UPSC (Physical, Indian & World) — Rajtanil Solanki | https://www.youtube.com/playlist?list=PLAMBum9_RkuNDtzpNQlCRcaOrNqrD4Gf7 |
+| **Geography (Mapping)** | Complete Indian Geography Through Maps — Sudarshan Gurjar | https://www.youtube.com/playlist?list=PLkWhN3ZMY-h09w9sCbeyiO1qLGinZmXIV |
+| **Geography (Mapping)** | Complete World Mapping Series — Sudarshan Gurjar | https://www.youtube.com/playlist?list=PLkWhN3ZMY-h08QQ78r4kBamE9XD6t60GH |
+| **Geography (Physical)** | G.C. Leong Physical & Human Geography — StudyIQ IAS | https://www.youtube.com/playlist?list=PLpuxPG4TUOR6wVAs6d9fP2DkN8okHu7tZ |
+| **Economy (Core)** | Indian Economy (Ramesh Singh) Chapter-by-Chapter — HD Education | https://www.youtube.com/playlist?list=PL_K2YMR-A5WIJ3Y6N_o5aZJpvhX2z0-Yj |
+| **Economy (Animated)** | Complete Indian Economy for UPSC — Bookstawa | https://www.youtube.com/playlist?list=PLZfz5K8XpMW3p6uoaRSnmClfoe5bNvCjm |
+| **Economy (Prelims)** | Economy MCQ Marathon & Prelims Strategy — Mrunal Patel | https://www.youtube.com/playlist?list=PLAMBum9_RkuOMrwd4A1h3DzcHFYyr_xDR |
 | **Economy (Prelims)** | Economy for UPSC Prelims — Sleepy Classes IAS | https://www.youtube.com/playlist?list=PLYSuG-KZy7JAnfqt8aW7bxQnAbuVwkE7j |
-| **Economic Survey** | Economic Survey 2025–26 Detailed Classes — Vision IAS | https://www.youtube.com/playlist?list=PLDnIeUIsbmQtu1JYq2NuofHqm7nOGpErx |
-| **Economic Survey** | Economic Survey FY 2025–26 Animated — Bookstawa | https://www.youtube.com/playlist?list=PLZfz5K8XpMW1Told7YRB3kkMbCXB12ozD |
-| **Environment** | Environment & Ecology Foundation — PMF IAS | https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0e6Yim7Ot0Q9nUeADjFKEX |
-| **Environment** | Environment for UPSC — Sudarshan Gurjar | https://www.youtube.com/playlist?list=PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l |
-| **Environment** | Complete Environment (Sambhav Free Series) — PW OnlyIAS | https://www.youtube.com/playlist?list=PLXLsXwBXH6BlB-I7Cr5144lVw4duaRJlK |
+| **Environment** | Complete Environment & Ecology (Shankar IAS) — HD Education | https://www.youtube.com/playlist?list=PL_K2YMR-A5WK2mrG6kdfdvdP-n7_MTzVU |
+| **Environment** | Environment for UPSC Prelims — Sudarshan Gurjar | https://www.youtube.com/playlist?list=PLkWhN3ZMY-h0iygOgvR7afp0rlfsndS7l |
 | **Wetlands / Mapping** | Ramsar Sites of India — ForumIAS | https://www.youtube.com/playlist?list=PLTWYSxOsBjqHixufFTX_d0FfOaUvB0NER |
-| **Science & Tech** | Science & Technology: 100 Most Important Topics — Drishti IAS | https://www.youtube.com/playlist?list=PLQpF--VlgguTBqTeQ4YHnZCL5y20-_PIt |
-| **International Relations** | IR Foundation Lectures — PMF IAS | https://www.youtube.com/playlist?list=PLfhUF7AO5ZR0pNzsJuQccBPgutF_NpbzO |
-| **Prelims Revision** | UDAAN Free One-Shot Prelims Series — PW OnlyIAS | https://www.youtube.com/playlist?list=PL2jzazaAMNtXQPShTLvy01JUAq4dF3nkq |
-| **Prelims Revision** | PT 365 Revision Classes — Vision IAS | https://www.youtube.com/playlist?list=PLDnIeUIsbmQsQbP2hV_9zU1cYZh6SzRVg |
-| **Prelims Strategy** | UPSC Prelims Micro Themes — UPSCprep.com | https://www.youtube.com/playlist?list=PLjAJerO9udmoIsQiSFHshetdulPOfiL19 |
+| **Science & Tech** | Complete Science & Technology for UPSC — Dr. Ravi P. Agrahari | https://www.youtube.com/playlist?list=PL67v2-EIFZ6SOsJxIYrPeSFc8P_KiJ-Lv |
+| **Internal Security** | Internal Security Foundation (GS-3) — PMF IAS | https://www.youtube.com/playlist?list=PLfhUF7AO5ZR1BxWy0L22F3uqjIui54tsl |
+| **Ethics (GS-4)** | Complete Free Ethics Course — Atish Mathur | https://www.youtube.com/playlist?list=PLDmcugApdt5fQG5xaQBxbPH7ANjBDKDZ8 |
+| **Ethics (GS-4)** | Free Complete Ethics GS Paper-4 — ForumIAS | https://www.youtube.com/playlist?list=PLTWYSxOsBjqHL9qJvpoXzF06Hapc3rpmG |
+| **Ethics (GS-4)** | A–Z Ethics Foundation Series — Sleepy Classes IAS | https://www.youtube.com/playlist?list=PLYSuG-KZy7JBDpMxkm3Atyozs_l6iichX |
 | **Current Affairs** | Daily UPSC Current Affairs Analysis — InsightsIAS | https://www.youtube.com/playlist?list=PL7Ga7_sc-ojWG_46xXlarHeW77OMRkmoL |
 | **PIB Weekly** | PIB Weekly Analysis — Drishti IAS English | https://www.youtube.com/playlist?list=PLQpF--VlgguTI4uXie10_EaMN08Vsfx1z |
-| **Answer Writing** | Learn Mains Answer Writing via Toppers' Copies — ForumIAS | https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z |
-| **Answer Writing** | Mains A Day (MAD) — Sleepy Classes IAS | https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx |
-| **Essay Writing** | Essay Writing for UPSC — UPSCprep.com | https://www.youtube.com/playlist?list=PLjAJerO9udmo7YshswcguAM7VhVo3pKRx |
-| **Essay Writing** | Essay Foundation — PMF IAS | https://www.youtube.com/playlist?list=PLfhUF7AO5ZR3gRJQy90vdEhvvq8G2Fe9s |
-| **Masterclasses** | Free UPSC Masterclass — Rau's IAS | https://www.youtube.com/playlist?list=PL7Nkpcu_k2VKoH-t4hIIz316PQTTSDVNm |
+| **Policy Debates** | Sansad TV Perspective Daily Discussions — Sansad TV | https://www.youtube.com/playlist?list=PLVOgwA_DiGzrOZ062PskBVE83abtupy3z |
+| **Answer Writing** | Mains A Day (MAD) Answer Writing — Sleepy Classes IAS | https://www.youtube.com/playlist?list=PLYSuG-KZy7JD0F5V1ecS12IoDph1XYtsx |
+| **Toppers Strategy** | UPSC Toppers Success Stories & Strategy — ForumIAS | https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z |
 
 ---
 
@@ -522,15 +552,15 @@ CSAT requires **33% (66.67/200)** to qualify, yet eliminates thousands of GS top
 | **NCERT Maths Base (Class 8)** | NCERT Class 8 Mathematics Official PDF | https://ncert.nic.in/textbook.php?hemh1=0-13 |
 | **NCERT Maths Base (Class 9)** | NCERT Class 9 Ganita Manjari Official PDF | https://ncert.nic.in/textbook.php?iemh1=0-8 |
 | **NCERT Maths Base (Class 10)** | NCERT Class 10 Mathematics Official PDF | https://ncert.nic.in/textbook.php?jemh1=0-14 |
-| **Free Full Course (Video)** | Free CSAT Classes for UPSC 2027 — UNGIST IAS | https://www.youtube.com/playlist?list=PLv8R8lxsh8gZOjNH2w_ZOyHq1RyIx21oR |
-| **Formula-Free Quant (Video)** | CSAT Without Formula — UNGIST IAS | https://www.youtube.com/playlist?list=PLv8R8lxsh8gby8R2JjsGk3zBbVnzFTZVC |
-| **Reading Comprehension (Video)** | Reading Comprehension for UPSC CSAT — UNGIST IAS | https://www.youtube.com/playlist?list=PLv8R8lxsh8ga88MQQUfAEvlGMvqn4avX1 |
-| **CSAT Topic-Wise PYQs (Video)** | CSAT PYQ Topicwise Solved — UNGIST IAS | https://www.youtube.com/playlist?list=PLv8R8lxsh8gawTzvse67OaTP2AsEccBto |
-| **CSAT Complete Playlist (Video)** | CSAT for 2027 — Sleepy Classes IAS | https://www.youtube.com/playlist?list=PLKYtySvgeL1Y |
+| **NCERT Maths Video (Class 8)** | Class 8 Mathematics NCERT (CSAT Arithmetic) — Magnet Brains | https://www.youtube.com/playlist?list=PLVLoWQFkZbhVylYe3R4C-Rawvy9kqeAgr |
+| **NCERT Maths Video (Class 9)** | Class 9 Mathematics Ganita Manjari (CSAT Quant) — Magnet Brains | https://www.youtube.com/playlist?list=PLVLoWQFkZbhVQXzaqvepVOIo6qaBktSts |
+| **NCERT Maths Video (Class 10)** | Class 10 Mathematics NCERT (CSAT Core) — Magnet Brains | https://www.youtube.com/playlist?list=PLVLoWQFkZbhWKEdwnxAMWbVWE16zqNWAv |
+| **Free Full Course (Video)** | Free UPSC CSAT Topic-Wise Lectures — UNGIST IAS | https://www.youtube.com/playlist?list=PLv8R8lxsh8gZOjNH2w_ZOyHq1RyIx21oR |
+| **CSAT PYQs Solved (Video)** | Free UPSC CSAT PYQs Series (2011–2025) — UNGIST IAS | https://www.youtube.com/playlist?list=PLv8R8lxsh8gbKU82l87QNW-ohSbTQMVks |
 | **CSAT Simplified (Video)** | CSAT Simplified — Drishti IAS English | https://www.youtube.com/playlist?list=PLQpF--VlgguQ2--axMMTurzMwGwOR5BoC |
-| **CSAT GS-2 Course (Video)** | CSAT GS Paper 2 — PMF IAS | https://www.youtube.com/playlist?list=PLfhUF7AO5ZR3wLU5SYdMRCQXeiJblw8Nt |
-| **CSAT Concept of the Day** | CSAT Aptitude Mastery — InsightsIAS | https://www.youtube.com/playlist?list=PL7Ga7_sc-ojUrB7xS_ljZ1yJJVDclZ-Vg |
 | **Dedicated CSAT Channels** | UNGIST IAS & IAS Setu Official YouTube | https://www.youtube.com/@UNGISTIAS & https://www.youtube.com/@IASSETU |
+| **Official CSAT Past Papers** | UPSC Official Previous Exam Details (CSAT Paper-II PDFs) | https://www.upsc.gov.in/previous-exam-details/ |
+| **CSAT Year-Wise PYQ PDFs** | Drishti IAS — Prelims Paper-II (CSAT) Downloads | https://www.drishtiias.com/free-downloads/prelims-previous-year-papers-2-csat-downloads |
 | **CSAT Free Practice & PYQs** | Drishti IAS CSAT MCQs & Past Papers | https://www.drishtiias.com/quiz/catlist/csat-quiz |
 | **CSAT Portals** | UNGIST & IAS Setu Official Websites | https://www.ungist.com/ & https://www.iassetu.com/ |
 
@@ -542,8 +572,8 @@ CSAT requires **33% (66.67/200)** to qualify, yet eliminates thousands of GS top
 
 | Optional Subject | Free Academic Material (IGNOU / UGC / NPTEL) | Verified Free Video Guidance |
 | :--- | :--- | :--- |
-| **Sociology** | [IGNOU eGyanKosh BA/MA Sociology (`MSO` series)](https://egyankosh.ac.in/) | • [Sleepy Classes Sociology PYQ 40 Days](https://www.youtube.com/playlist?list=PLYSuG-KZy7JBUCNntVK7gzDHGUzGrQW2x) <br>• [ForumIAS Sociology Optional](https://www.youtube.com/playlist?list=PLTWYSxOsBjqH2xjccBt1sxN3X9HwmI8VK) |
-| **PSIR (Pol Science & IR)** | [IGNOU eGyanKosh MA Political Science (`MPS-001`–`004`)](https://egyankosh.ac.in/) | • [UPSCprep PSIR Optional](https://www.youtube.com/playlist?list=PLjAJerO9udmpXRuwkhapsd0i8a13VdzXo) <br>• [OnlyIAS PSIR Channel](https://www.youtube.com/@OnlyIasnothingelse) |
+| **Sociology** | [IGNOU eGyanKosh BA/MA Sociology (`MSO` series)](https://egyankosh.ac.in/) | • [Sleepy Classes Sociology Optional Complete](https://www.youtube.com/playlist?list=PLYSuG-KZy7JBUCNntVK7gzDHGUzGrQW2x) <br>• [Class 12 Sociology NCERT — Magnet Brains](https://www.youtube.com/playlist?list=PLVLoWQFkZbhVvk0hZyaY1z-csn9aIz57P) |
+| **PSIR (Pol Science & IR)** | [IGNOU eGyanKosh MA Political Science (`MPS-001`–`004`)](https://egyankosh.ac.in/) | • [OnlyIAS PSIR Channel](https://www.youtube.com/@OnlyIasnothingelse) <br>• [Contemporary World Politics — HD Education](https://www.youtube.com/playlist?list=PL_K2YMR-A5WKg_oyTt-eHPnSvXfANQKOM) |
 | **Public Administration** | [IGNOU `MPA-011/013/015`](https://egyankosh.ac.in/) + [2nd ARC Reports](https://darpg.gov.in/arc-reports) | • [ForumIAS Public Administration Optional](https://www.youtube.com/playlist?list=PLTWYSxOsBjqEOc8rKl5fUQyBaEW8HD36j) |
 | **Geography** | [IGNOU `BGG`/`MGG`](https://egyankosh.ac.in/) + [NPTEL Geomorphology/Climatology/GIS](https://nptel.ac.in/) | • Amit Sengupta & Sudarshan Gurjar Channels (Part 8) |
 | **History** | [IGNOU MA History (`MHI-01`–`05`)](https://egyankosh.ac.in/) + [e-PG Pathshala](https://epgp.inflibnet.ac.in/) | • Bookstawa & CEC UGC University Lectures (Part 8) |
@@ -553,10 +583,10 @@ CSAT requires **33% (66.67/200)** to qualify, yet eliminates thousands of GS top
 
 | Resource | Purpose | Working Link |
 | :--- | :--- | :--- |
-| **InsightsIAS Toppers Mock Interviews** | Learn board composure, balanced answers & DAF cross-questioning | https://www.youtube.com/playlist?list=PL7Ga7_sc-ojWodnu-tat6K5ihFV5Fq_Ts |
-| **Rau's IAS Interview Guidance Program** | DAF breakdown & policy framing sessions | https://www.youtube.com/playlist?list=PL7Nkpcu_k2VLqtp-0GZ_fDChc4F8GLFHg |
+| **ForumIAS UPSC Toppers Strategy & Interviews** | Real AIR 1–10 ranker discussions on preparation, DAF, and Personality Test | https://www.youtube.com/playlist?list=PLTWYSxOsBjqEp8TyEU73mMD-QWRBzs50Z |
 | **Sansad TV — Perspective** | Build articulate, balanced bureaucratic opinions on current issues | https://www.youtube.com/playlist?list=PLVOgwA_DiGzrOZ062PskBVE83abtupy3z |
-| **Drishti IAS Mock Interviews (Hindi/Eng)** | Watch full-panel mock interviews on Drishti IAS channels | https://www.youtube.com/@DrishtiIASEnglish |
+| **Drishti IAS Mock Interviews (English)** | Full-panel mock interviews and DAF cross-questioning in English medium | https://www.youtube.com/@DrishtiIASEnglish |
+| **InsightsIAS Official Interview Guidance** | Board composure, DAF analysis & toppers' mock interview sessions | https://www.youtube.com/@Insights_IAS |
 
 ---
 
@@ -574,7 +604,7 @@ CSAT requires **33% (66.67/200)** to qualify, yet eliminates thousands of GS top
 
 3. **Months 8–10 — Prelims Intensive + CSAT + Current Affairs Consolidation:**
    - Switch to active MCQ solving: solve **2013–latest UPSC Prelims PYQs** twice (**Part 7**), practice daily free quizzes, and revise monthly current affairs + **Vision IAS PT 365** + **Economic Survey** + **Union Budget**.
-   - Dedicate **1 hour/day to CSAT** using NCERT Maths (Class 8–10) + **UNGIST** / **Sleepy Classes** free playlists + past CSAT papers (**Part 9**).
+   - Dedicate **1 hour/day to CSAT** using NCERT Maths (Class 8–10) + **UNGIST** / **Drishti IAS** free playlists + past CSAT papers (**Part 9**).
 
 4. **Post-Prelims to Mains — Answer Writing, Ethics (GS-4), Essay & Mains 365:**
    - Practice timed 3-hour papers on official **UPSC Specimen QCAB** layout.
