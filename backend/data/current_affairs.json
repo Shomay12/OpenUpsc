@@ -1,0 +1,296 @@
+[
+  {
+    "id": "ca-economy",
+    "title": "Economy & Agriculture (GS-3)",
+    "gsPaper": "GS-3",
+    "description": "Macro indicators, Union Budget, Economic Survey, RBI monetary stance, trade deficits, MSP & farm issues.",
+    "keySources": [
+      {
+        "name": "Ministry of Finance & RBI Notifications",
+        "type": "Official Portal",
+        "url": "https://rbi.org.in",
+        "free": true,
+        "howToUse": "Check bi-monthly MPC statements for official inflation & GDP growth commentary."
+      },
+      {
+        "name": "The Hindu & Indian Express Explained (Economy)",
+        "type": "Daily Newspaper",
+        "url": "https://indianexpress.com/section/explained/",
+        "free": true,
+        "howToUse": "Read 1 explanatory article daily on inflation, export numbers, or fiscal deficit."
+      },
+      {
+        "name": "PIB Economy Highlights",
+        "type": "Official Portal",
+        "url": "https://pib.gov.in",
+        "free": true,
+        "howToUse": "Review monthly GST collection releases and core sector output data."
+      },
+      {
+        "name": "Union Budget & Economic Survey (MoF Official PDFs)",
+        "type": "Official Report",
+        "url": "https://www.indiabudget.gov.in/economicsurvey/",
+        "free": true,
+        "howToUse": "Read Chapter 1 (State of the Economy), fiscal glide-path charts, and sector appendices directly from official PDFs."
+      },
+      {
+        "name": "RBI Database on Indian Economy (DBIE)",
+        "type": "Primary Data",
+        "url": "https://data.rbi.org.in/",
+        "free": true,
+        "howToUse": "Verify authentic time-series numbers for CPI inflation, Forex reserves, and banking credit trends."
+      },
+      {
+        "name": "Dept. of Agriculture & Farmers Welfare",
+        "type": "Official Portal",
+        "url": "https://agriwelfare.gov.in/",
+        "free": true,
+        "howToUse": "Track MSP revisions, e-NAM updates, PM-KISAN figures, and crop diversification schemes."
+      },
+      {
+        "name": "LiveMint Economy & Policy",
+        "type": "Daily Newspaper",
+        "url": "https://www.livemint.com/",
+        "free": true,
+        "howToUse": "Follow concise daily briefs on banking reforms, SEBI norms, trade policy, and macroeconomic trends."
+      }
+    ],
+    "highYieldTopics": [
+      "RBI Monetary Policy transmission & liquidity",
+      "Capital Expenditure (CapEx) vs Revenue Expenditure",
+      "Agricultural supply chains, e-NAM, and MSP debates",
+      "Free Trade Agreements (FTAs) and semiconductor manufacturing"
+    ]
+  },
+  {
+    "id": "ca-environment",
+    "title": "Environment, Climate & Disaster Management (GS-3)",
+    "gsPaper": "GS-3",
+    "description": "UNFCCC COP resolutions, Ramsar sites additions, IUCN red list updates, species in news, and climate adaptation.",
+    "keySources": [
+      {
+        "name": "MoEFCC Official Portal & PIB Environment",
+        "type": "Official Portal",
+        "url": "https://moef.gov.in",
+        "free": true,
+        "howToUse": "Track new Tiger Reserves, Biosphere Reserves, and Elephant corridors declared."
+      },
+      {
+        "name": "Down To Earth Magazine (Selected Articles)",
+        "type": "Monthly Magazine",
+        "url": "https://www.downtoearth.org.in",
+        "free": true,
+        "howToUse": "Read case studies on grassroots conservation, groundwater depletion, and renewable energy."
+      },
+      {
+        "name": "Wildlife Institute of India (WII)",
+        "type": "Official Portal",
+        "url": "https://wii.gov.in/",
+        "free": true,
+        "howToUse": "Cross-check protected area status, species recovery programs, and national biodiversity databases."
+      },
+      {
+        "name": "NDMA Official Disaster Management Guidelines",
+        "type": "Official Report",
+        "url": "https://ndma.gov.in/",
+        "free": true,
+        "howToUse": "Extract 3–4 institutional action points per hazard (floods, heatwaves, landslides, cyclones) for Mains GS-3."
+      },
+      {
+        "name": "PMF IAS Environment & Ecology Updates",
+        "type": "Curated Notes",
+        "url": "https://www.pmfias.com/",
+        "free": true,
+        "howToUse": "Use illustrated articles to link current COP summits, wildlife acts, and species in news to static ecology."
+      }
+    ],
+    "highYieldTopics": [
+      "COP decisions on Loss & Damage Fund and Carbon Markets",
+      "Renewable Energy targets (500 GW by 2030, Green Hydrogen Mission)",
+      "New Ramsar wetland additions and endemic wildlife reserves",
+      "Forest Rights Act and compensatory afforestation (CAMPA)"
+    ]
+  },
+  {
+    "id": "ca-polity-ir",
+    "title": "Polity, Governance & International Relations (GS-2)",
+    "gsPaper": "GS-2",
+    "description": "Landmark Supreme Court rulings, Constitutional bills, Center-State issues, bilateral summits, and multilateral organizations.",
+    "keySources": [
+      {
+        "name": "PRS Legislative Research",
+        "type": "Official Portal",
+        "url": "https://prsindia.org",
+        "free": true,
+        "howToUse": "Download 2-page Bill summaries whenever Parliament is in session."
+      },
+      {
+        "name": "Sansad TV Perspective",
+        "type": "Analysis Video",
+        "url": "https://www.youtube.com/@SansadTV",
+        "free": true,
+        "howToUse": "Watch 25-minute expert panel discussions on foreign policy and international groupings."
+      },
+      {
+        "name": "Ministry of External Affairs (MEA) Briefings",
+        "type": "Official Portal",
+        "url": "https://mea.gov.in",
+        "free": true,
+        "howToUse": "Refer for official joint statements during Prime Minister foreign visits."
+      },
+      {
+        "name": "PRS Bill Track & Monthly Policy Review",
+        "type": "Policy Brief",
+        "url": "https://prsindia.org/billtrack",
+        "free": true,
+        "howToUse": "Read 2-page summaries of active Parliamentary Bills and monthly policy digests for Mains GS-2."
+      },
+      {
+        "name": "Sansad TV — Perspective Playlist",
+        "type": "Analysis Video",
+        "url": "https://www.youtube.com/playlist?list=PLVOgwA_DiGzrOZ062PskBVE83abtupy3z",
+        "free": true,
+        "howToUse": "Watch 2–3 structured 25-minute expert debates weekly for balanced GS-2 & Interview viewpoints."
+      },
+      {
+        "name": "Supreme Court of India & Law Commission Reports",
+        "type": "Official Portal",
+        "url": "https://www.sci.gov.in/",
+        "free": true,
+        "howToUse": "Track Constitution Bench judgments, Article 21 expansions, and federal dispute verdicts directly."
+      },
+      {
+        "name": "MP-IDSA & Observer Research Foundation (ORF)",
+        "type": "Think-Tank",
+        "url": "https://idsa.in/op-eds-and-articles",
+        "free": true,
+        "howToUse": "Read 1–2 short foreign policy and maritime/border security op-eds weekly for GS-2 IR & GS-3 Security."
+      },
+      {
+        "name": "The Hindu — Editorials",
+        "type": "Daily Newspaper",
+        "url": "https://www.thehindu.com/opinion/editorial/",
+        "free": true,
+        "howToUse": "Extract balanced constitutional arguments and counter-arguments without copying full columns."
+      },
+      {
+        "name": "AIR Spotlight (All India Radio Official)",
+        "type": "Audio/Video Bulletin",
+        "url": "https://www.youtube.com/playlist?list=PLPPKwCCueQ_AARG0z9XWZ3_lMCiLlMzfD",
+        "free": true,
+        "howToUse": "Listen to crisp 15-minute daily national policy and diplomatic analyses while commuting."
+      }
+    ],
+    "highYieldTopics": [
+      "Governor powers and federal dispute cases in Supreme Court",
+      "Electoral reforms, Simultaneous Elections (One Nation One Election)",
+      "India-Middle East-Europe Economic Corridor (IMEC) & Quad / BRICS expansion",
+      "Free Speech, Defamation, and Digital Personal Data Protection Act"
+    ]
+  },
+  {
+    "id": "ca-scitech",
+    "title": "Science, Technology & Space (GS-3)",
+    "gsPaper": "GS-3",
+    "description": "ISRO space missions, Artificial Intelligence governance, biotechnology, quantum computing, and defense acquisitions.",
+    "keySources": [
+      {
+        "name": "ISRO Official Portal & Missions Track",
+        "type": "Official Portal",
+        "url": "https://www.isro.gov.in",
+        "free": true,
+        "howToUse": "Note payload details, orbit type (LEO/GEO/SSO), and objectives of major missions (Gaganyaan, Aditya-L1)."
+      },
+      {
+        "name": "The Hindu Science Column (Every Sunday)",
+        "type": "Daily Newspaper",
+        "url": "https://www.thehindu.com/sci-tech/science/",
+        "free": true,
+        "howToUse": "Crisp 1-paragraph summaries on CRISPR, mRNA vaccines, CAR-T cell therapy, and quantum tech."
+      },
+      {
+        "name": "Department of Science & Technology (DST)",
+        "type": "Official Portal",
+        "url": "https://dst.gov.in/",
+        "free": true,
+        "howToUse": "Track National Quantum Mission, National Supercomputing Mission, and R&D policy milestones."
+      },
+      {
+        "name": "DRDO Official Portal",
+        "type": "Official Portal",
+        "url": "https://www.drdo.gov.in/",
+        "free": true,
+        "howToUse": "Verify indigenous missile ranges, propulsion systems, radars, and defence platforms for Prelims & GS-3."
+      },
+      {
+        "name": "PRS Science & Tech Policy Briefs",
+        "type": "Policy Brief",
+        "url": "https://prsindia.org/policy/science-technology-brief",
+        "free": true,
+        "howToUse": "Use 2-page policy explainers on AI regulation, Digital Personal Data Protection, Space, and Biotech."
+      }
+    ],
+    "highYieldTopics": [
+      "Gaganyaan human spaceflight mission architecture",
+      "Generative AI ethics, Deepfakes regulation, and National AI Mission",
+      "National Quantum Mission and Supercomputing initiatives",
+      "CAR-T cell therapy, Gene Editing, and Sickle Cell Anaemia eradication"
+    ]
+  },
+  {
+    "id": "ca-governance-society",
+    "title": "Governance, Social Justice & Society (GS-1 & GS-2)",
+    "gsPaper": "GS-1 & GS-2",
+    "description": "Welfare schemes, 2nd ARC governance reforms, NITI Aayog indices, health/education metrics, urbanization, and cultural heritage updates.",
+    "keySources": [
+      {
+        "name": "NITI Aayog Official Portal (SDG & MPI Reports)",
+        "type": "Official Report",
+        "url": "https://www.niti.gov.in/",
+        "free": true,
+        "howToUse": "Cite SDG India Index and Multidimensional Poverty Index figures directly in Mains GS-1/GS-2/Essay."
+      },
+      {
+        "name": "DARPG — 2nd ARC Reports (All 15 PDFs)",
+        "type": "Official Report",
+        "url": "https://darpg.gov.in/arc-reports",
+        "free": true,
+        "howToUse": "Quote specific recommendations from Report 4 (Ethics), Report 6 (Local Governance), and Report 12 (Citizen-Centric Admin)."
+      },
+      {
+        "name": "Vikaspedia (MeitY Welfare Encyclopedia)",
+        "type": "Official Portal",
+        "url": "https://vikaspedia.in/",
+        "free": true,
+        "howToUse": "Quickly verify eligibility, nodal ministry, and benefits of central social welfare, health, and education schemes."
+      },
+      {
+        "name": "NewsOnAir (Akashvani / AIR News)",
+        "type": "Official Broadcast",
+        "url": "https://newsonair.gov.in/",
+        "free": true,
+        "howToUse": "Review concise 9 PM national bulletin summaries for verified Cabinet and welfare announcements."
+      },
+      {
+        "name": "Economic & Political Weekly (EPW)",
+        "type": "Academic Journal",
+        "url": "https://www.epw.in/",
+        "free": true,
+        "howToUse": "Use selected analytical essays on Indian society, federalism, and social justice for Mains & Optional depth."
+      },
+      {
+        "name": "Vision IAS Monthly Current Affairs Archive",
+        "type": "Monthly Magazine",
+        "url": "https://www.visionias.in/resources/current-affairs/",
+        "free": true,
+        "howToUse": "Consolidate all GS-1 to GS-3 monthly developments in one structured PDF for repeated revision."
+      }
+    ],
+    "highYieldTopics": [
+      "Multidimensional Poverty Index (MPI) & SDG India Index trends",
+      "Citizen Charters, e-Governance, Sevottam & 2nd ARC reforms",
+      "Ayushman Bharat, NEP 2020 implementation & Nutrition (POSHAN 2.0)",
+      "Urbanization, Women Empowerment, Tribal Welfare (PM-JANMAN) & GI/UNESCO Heritage"
+    ]
+  }
+]

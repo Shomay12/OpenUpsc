@@ -1,0 +1,164 @@
+[
+  {
+    "id": "qp-upsc-official",
+    "title": "UPSC Official Previous Exam Papers Archive",
+    "stage": "Prelims + Mains + Optionals",
+    "years": "2014 – Latest",
+    "provider": "UPSC Official (upsc.gov.in)",
+    "url": "https://www.upsc.gov.in/previous-exam-details/",
+    "description": "Official Commission PDFs for CSE Prelims GS-I, CSAT Paper-II, Mains GS 1–4, Essay, Compulsory Languages, Optional Subjects, Official Keys & Cut-Offs."
+  },
+  {
+    "id": "qp-prelims-gs1",
+    "title": "Prelims GS Paper-I Year-Wise Question Paper PDFs",
+    "stage": "Prelims GS-I",
+    "years": "2013 – 2025",
+    "provider": "Drishti IAS Free Downloads",
+    "url": "https://www.drishtiias.com/free-downloads/prelims-previous-year-papers-1-gs-yearwise-downloads",
+    "description": "Direct downloadable year-wise PDFs of General Studies Paper-I for timed 2-hour mock drills."
+  },
+  {
+    "id": "qp-prelims-csat",
+    "title": "Prelims CSAT Paper-II Year-Wise Question Paper PDFs",
+    "stage": "CSAT Paper-II",
+    "years": "2013 – 2025",
+    "provider": "Drishti IAS Free Downloads",
+    "url": "https://www.drishtiias.com/free-downloads/prelims-previous-year-papers-2-csat-downloads",
+    "description": "Complete year-wise CSAT quantitative aptitude, logical reasoning, and comprehension PDFs."
+  },
+  {
+    "id": "qp-mains-yearwise",
+    "title": "Mains GS 1–4 & Essay Year-Wise Question Papers",
+    "stage": "Mains",
+    "years": "2013 – 2025",
+    "provider": "Drishti IAS Free Downloads",
+    "url": "https://www.drishtiias.com/free-downloads/mains-papers-by-year",
+    "description": "Clean year-wise compilation of Essay, GS-I, GS-II, GS-III, and GS-IV Ethics papers."
+  },
+  {
+    "id": "qp-mains-subjectwise",
+    "title": "Mains PYQs Segregated Subject & Micro-Topic Wise",
+    "stage": "Mains",
+    "years": "2013 – 2025",
+    "provider": "Drishti IAS",
+    "url": "https://www.drishtiias.com/mains/mains-previous-year-papers/subject-wise-papers",
+    "description": "Topic-wise categorized Mains questions so you can revise every past question right after finishing a chapter."
+  },
+  {
+    "id": "qp-forumias-hub",
+    "title": "ForumIAS Complete PYQ Hub (Prelims, CSAT, Mains & Keys)",
+    "stage": "All Stages",
+    "years": "2011 – Latest",
+    "provider": "ForumIAS",
+    "url": "https://forumias.com/blog/pyq/",
+    "description": "Single organized directory of Prelims, CSAT, and Mains past papers paired with official UPSC answer keys."
+  },
+  {
+    "id": "qp-upsc-qcab",
+    "title": "UPSC Official Specimen Mains Answer Booklet (QCAB)",
+    "stage": "Mains Practice",
+    "years": "Official Format",
+    "provider": "UPSC Official (upsc.gov.in)",
+    "url": "https://www.upsc.gov.in/specimen-question-cum-answer-booklets/",
+    "description": "Official ruled Mains Question-Cum-Answer Booklet layout for authentic exam-hall answer writing practice."
+  },
+  {
+    "id": "qp-toppers-copies",
+    "title": "Evaluated Toppers' Mains & Essay Answer Copies",
+    "stage": "Mains Benchmark",
+    "years": "Recent Rankers",
+    "provider": "Vision IAS & Drishti IAS",
+    "url": "https://www.drishtiias.com/free-downloads/toppers-copies",
+    "description": "Benchmark your written answers against actual evaluated copies of top AIR UPSC CSE rankers."
+  },
+  {
+    "id": "qp-upsc-rt-papers",
+    "title": "UPSC Recruitment Tests — Official Question Papers Archive",
+    "stage": "Allied UPSC Exams",
+    "years": "Official Archive",
+    "provider": "UPSC Official (upsc.gov.in)",
+    "url": "https://www.upsc.gov.in/recruitment-tests/question-papers/",
+    "description": "Official UPSC Recruitment Test question papers (EPFO, CAPF, CDS, CMS & allied exams) for authentic Commission-framed MCQ practice."
+  },
+  {
+    "id": "qp-upsc-rt-keys",
+    "title": "UPSC Recruitment Tests — Official Answer Keys Archive",
+    "stage": "Answer Keys",
+    "years": "Official Archive",
+    "provider": "UPSC Official (upsc.gov.in)",
+    "url": "https://www.upsc.gov.in/recruitment-tests/answer-keys/",
+    "description": "Verified official Commission answer keys for UPSC Recruitment Tests to cross-check official interpretation of tricky statements."
+  },
+  {
+    "id": "qp-upsc-rt-cutoffs",
+    "title": "UPSC Recruitment Tests — Official Cut-Off Marks",
+    "stage": "Cut-Offs",
+    "years": "Official Disclosures",
+    "provider": "UPSC Official (upsc.gov.in)",
+    "url": "https://www.upsc.gov.in/recruitment-tests/cut-off-marks/",
+    "description": "Official category-wise UPSC cut-off mark disclosures to calibrate realistic safe-attempt targets."
+  },
+  {
+    "id": "qp-drishti-daily-quiz",
+    "title": "Daily Current Affairs Free Practice Quiz (5–10 MCQs)",
+    "stage": "Daily Quiz",
+    "years": "Updated Daily",
+    "provider": "Drishti IAS",
+    "url": "https://www.drishtiias.com/quiz/quizlist/daily-current-affairs",
+    "description": "Free daily UPSC-pattern Prelims current affairs MCQs with detailed conceptual explanations."
+  },
+  {
+    "id": "qp-drishti-all-quizzes",
+    "title": "Static GS, CSAT & Editorial Free Online Quizzes",
+    "stage": "Prelims + CSAT Practice",
+    "years": "Ongoing Free Sets",
+    "provider": "Drishti IAS",
+    "url": "https://www.drishtiias.com/quiz",
+    "description": "Free subject-wise static, editorial, and CSAT online practice quizzes for active daily recall."
+  },
+  {
+    "id": "qp-drishti-ncert-hindi-quiz",
+    "title": "Chapter-Wise NCERT Practice Quizzes (Hindi Medium)",
+    "stage": "NCERT Foundation",
+    "years": "Class 6–12",
+    "provider": "Drishti IAS Hindi",
+    "url": "https://www.drishtiias.com/hindi/quiz/catlist/ncert-books-quiz",
+    "description": "Free chapter-by-chapter NCERT MCQ tests in Hindi medium for immediate foundation self-assessment."
+  },
+  {
+    "id": "qp-clearias-mocks",
+    "title": "ClearIAS Free Prelims Mock Tests & Probable MCQs",
+    "stage": "Prelims Mock",
+    "years": "Free Test Series",
+    "provider": "ClearIAS",
+    "url": "https://www.clearias.com/",
+    "description": "Free online UPSC Prelims mock tests and daily probable MCQ drills with elimination strategies."
+  },
+  {
+    "id": "qp-vision-mains-pyq-video",
+    "title": "3-Year Mains PYQ Deconstruction & Approach (Video)",
+    "stage": "Mains Video Analysis",
+    "years": "Recent 3 Years",
+    "provider": "Vision IAS",
+    "url": "https://www.youtube.com/playlist?list=PLDnIeUIsbmQuEUYGRHmpkO91rJ9iVVgS_",
+    "description": "Structured video walkthrough showing how to decode UPSC Mains directive keywords and build high-scoring answers."
+  },
+  {
+    "id": "qp-atish-polity-pyq-video",
+    "title": "10-Year UPSC Polity Prelims PYQ Breakdown (Video)",
+    "stage": "Prelims Video Analysis",
+    "years": "10-Year Archive",
+    "provider": "Atish Mathur",
+    "url": "https://www.youtube.com/playlist?list=PLDmcugApdt5dO_HPoL4uc2xL8jaitSmdL",
+    "description": "Detailed elimination analysis of 10 years of authentic UPSC Prelims Polity questions and examiner traps."
+  },
+  {
+    "id": "qp-drishti-toppers-hindi",
+    "title": "Evaluated Toppers' Mains & Essay Answer Copies (Hindi Medium)",
+    "stage": "Mains Benchmark (Hindi)",
+    "years": "Recent Rankers",
+    "provider": "Drishti IAS Hindi",
+    "url": "https://www.drishtiias.com/hindi/free-downloads/toppers-copy",
+    "description": "Authentic evaluated Hindi medium UPSC CSE rankers' Mains GS and Essay answer booklets."
+  }
+]

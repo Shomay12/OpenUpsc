@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0F172A" />
+  <title>OpenUPSC — Free UPSC CSE Videos, NCERTs, Papers & Analytics</title>
+  <meta name="description" content="Simple, distraction-free UPSC CSE study platform with curated free YouTube playlists, official NCERT PDFs, past question papers, study timer, and Python Streamlit analytics." />
+  <link rel="icon" type="image/svg+xml" href="/static/assets/icons/icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+  <div class="app-shell" id="app-shell">
+    <!-- Clean Minimal Desktop Sidebar -->
+    <aside class="sidebar" id="sidebar" aria-label="Primary Navigation"></aside>
+
+    <!-- Main Content Column -->
+    <div class="main-column">
+      <!-- Clean Top Bar -->
+      <header class="top-header" id="top-header"></header>
+
+      <!-- Mobile Menu Drawer -->
+      <div class="mobile-drawer hidden" id="mobile-drawer"></div>
+
+      <!-- Page Content -->
+      <main class="main-canvas" id="main-content">
+        <div class="loading-state">
+          <div class="spinner"></div>
+          <p>Loading OpenUPSC...</p>
+        </div>
+      </main>
+
+      <!-- Simple Footer -->
+      <footer class="app-footer">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <span class="brand-mark sm">O</span>
+            <span>OpenUPSC · 100% Free Curated UPSC CSE Videos, NCERTs & Papers</span>
+          </div>
+          <div class="footer-links">
+            <a href="/resources" data-link>Videos & Material</a>
+            <a href="/ncert" data-link>NCERTs</a>
+            <a href="/pyqs" data-link>Papers & PYQs</a>
+            <a href="/study" data-link>Study Timer</a>
+            <a href="#" id="footer-streamlit-link" target="_blank" rel="noopener noreferrer">Analytics (Streamlit) ↗</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Simple Mobile Bottom Nav (5 core tabs) -->
+    <nav class="mobile-bottom-nav" id="mobile-bottom-nav" aria-label="Mobile Navigation"></nav>
+  </div>
+
+  <!-- Global Quick Search Modal (⌘K / Ctrl+K) -->
+  <div class="modal-backdrop hidden" id="search-modal" role="dialog" aria-modal="true" aria-label="Quick Search"></div>
+
+  <!-- In-App YouTube Playlist Player Modal -->
+  <div class="modal-backdrop hidden" id="video-modal" role="dialog" aria-modal="true" aria-label="Video Lecture Player"></div>
+
+  <!-- Personal Notes Modal -->
+  <div class="modal-backdrop hidden" id="notes-modal" role="dialog" aria-modal="true" aria-label="Personal Notes"></div>
+
+  <!-- Generic Dialog Modal -->
+  <div class="modal-backdrop hidden" id="custom-modal" role="dialog" aria-modal="true"></div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <script src="/static/js/icons.js"></script>
+  <script src="/static/js/api.js"></script>
+  <script src="/static/js/components.js"></script>
+  <script src="/static/js/pages.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

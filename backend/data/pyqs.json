@@ -1,0 +1,454 @@
+[
+  {
+    "id": "pyq-pol-2023-1",
+    "type": "Prelims",
+    "year": 2023,
+    "paper": "GS-1",
+    "subject": "Indian Polity",
+    "topic": "Due Process of Law & Article 21",
+    "question": "In essence, what does \"Due Process of Law\" mean?",
+    "options": [
+      "The principle of natural justice",
+      "The procedure established by law",
+      "Fair application of law",
+      "Equality before law"
+    ],
+    "correctAnswer": "Fair application of law",
+    "explanation": "\"Due process of law\" examines not only whether a law was enacted under proper legislative procedure, but also whether the law itself is just, fair, and reasonable (substantive due process). Post-Maneka Gandhi (1978), the Supreme Court integrated Due Process into Article 21.",
+    "seniorApproachTip": "Notice the difference between \"Procedure Established by Law\" (formal compliance) and \"Due Process of Law\" (fairness of both procedure and substantive content). Class 11 NCERT Chapter 2 touches on this exact philosophical distinction.",
+    "relatedSubjectPath": "/roadmaps/polity",
+    "relatedResourceId": "res-hd-c11-polity"
+  },
+  {
+    "id": "pyq-pol-2022-1",
+    "type": "Prelims",
+    "year": 2022,
+    "paper": "GS-1",
+    "subject": "Indian Polity",
+    "topic": "Anti-Defection Law (10th Schedule)",
+    "question": "With reference to the anti-defection law in India, consider the following statements:\n1. The law specifies that a nominated legislator cannot join any political party within six months of being appointed to the House.\n2. The law does not provide any time-frame within which the presiding officer has to decide a defection case.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correctAnswer": "2 only",
+    "explanation": "Statement 1 is incorrect because a nominated member can join a political party within 6 months, but is disqualified if they join AFTER 6 months. Statement 2 is correct because the 10th Schedule does not specify a mandatory timeline for the Speaker/Chairman to adjudicate defection petitions.",
+    "seniorApproachTip": "Laxmikanth chapter on Anti-Defection has this exact rule about Nominated members vs Independent members. Independent members can NEVER join a party, while nominated members get a 6-month grace window.",
+    "relatedSubjectPath": "/roadmaps/polity",
+    "relatedResourceId": "res-atish-magna-carta"
+  },
+  {
+    "id": "pyq-pol-2021-1",
+    "type": "Prelims",
+    "year": 2021,
+    "paper": "GS-1",
+    "subject": "Indian Polity",
+    "topic": "Constitutional Government Definition",
+    "question": "A constitutional government by definition is a:",
+    "options": [
+      "Government by popular representative",
+      "Multi-party government",
+      "Limited government",
+      "Government by the legislature"
+    ],
+    "correctAnswer": "Limited government",
+    "explanation": "The core essence of Constitutionalism is \"Limited Government\"—imposing legal and constitutional restraints on the exercise of arbitrary state power to safeguard individual liberties.",
+    "seniorApproachTip": "UPSC asked this exact conceptual question in 2014, 2020, and 2021! Constitutionalism = Checks & Balances + Fundamental Rights = Limited Government.",
+    "relatedSubjectPath": "/roadmaps/polity",
+    "relatedResourceId": "res-hd-c11-polity"
+  },
+  {
+    "id": "pyq-hist-2022-1",
+    "type": "Prelims",
+    "year": 2022,
+    "paper": "GS-1",
+    "subject": "History",
+    "topic": "Ancient India - Terms",
+    "question": "With reference to Indian history, consider the following pairs of historical terms and their meanings:\n1. Aryasatyas — 4 Noble Truths of Buddhism\n2. Sarthavaha — Leader of merchant caravan\n3. Ur — Village assembly in Chola empire\nHow many pairs given above are correctly matched?",
+    "options": [
+      "Only one pair",
+      "Only two pairs",
+      "All three pairs",
+      "None of the pairs"
+    ],
+    "correctAnswer": "All three pairs",
+    "explanation": "Aryasatyas are the 4 Noble Truths taught by Buddha. Sarthavaha refers to the leader of traveling merchant caravans in ancient and Gupta trade networks. Ur was the general village assembly of non-Brahmadeya settlements in the Chola Kingdom (explained in Class 7 NCERT).",
+    "seniorApproachTip": "Ancient administrative terms come directly from NCERT sideboxes. Class 6 Chapter 8 and Class 7 Chapter 2 explicitly cover Ur, Sabha, and Sarthavaha.",
+    "relatedSubjectPath": "/roadmaps/history",
+    "relatedResourceId": "res-pmf-ncert-history"
+  },
+  {
+    "id": "pyq-hist-2021-1",
+    "type": "Prelims",
+    "year": 2021,
+    "paper": "GS-1",
+    "subject": "History",
+    "topic": "Modern History - 1919 Montford Reforms",
+    "question": "In the Government of India Act 1919, the functions of Provincial Government were divided into \"Reserved\" and \"Transferred\" subjects. Which of the following were treated as Reserved subjects?\n1. Administration of Justice\n2. Local Self-Government\n3. Land Revenue\n4. Police\nSelect the correct answer using the code given below:",
+    "options": [
+      "1, 2 and 3",
+      "2, 3 and 4",
+      "1, 3 and 4",
+      "1, 2 and 4"
+    ],
+    "correctAnswer": "1, 3 and 4",
+    "explanation": "Under Dyarchy (GoI Act 1919), vital control departments like Police, Land Revenue, and Administration of Justice were kept as \"Reserved\" with the British Governor and his Executive Council. Transferred subjects given to Indian Ministers included Local Self-Government, Health, and Education.",
+    "seniorApproachTip": "Remember the British logic: Any department involving coercion or money (Police, Justice, Revenue, Finance) was Reserved; service departments with low budgets (Education, Local self govt) were Transferred.",
+    "relatedSubjectPath": "/roadmaps/history",
+    "relatedResourceId": "res-hd-spectrum-modern"
+  },
+  {
+    "id": "pyq-geo-2023-1",
+    "type": "Prelims",
+    "year": 2023,
+    "paper": "GS-1",
+    "subject": "Geography",
+    "topic": "Seismology & Earth Interior",
+    "question": "Consider the following statements regarding Earthquake waves:\n1. P-waves are longitudinal waves that can travel through solids, liquids, and gases.\n2. S-waves are transverse waves that can only travel through solid materials.\n3. The shadow zone of P-waves is larger than that of S-waves.\nHow many of the statements given above are correct?",
+    "options": [
+      "Only one",
+      "Only two",
+      "All three",
+      "None"
+    ],
+    "correctAnswer": "Only two",
+    "explanation": "Statements 1 and 2 are correct. Statement 3 is incorrect because the shadow zone of S-waves (beyond 105° all the way to 105° on the other side, covering over 40% of earth surface) is significantly LARGER than the P-wave shadow zone (105° to 145° ring).",
+    "seniorApproachTip": "Class 11 Physical Geography Chapter 3 has a full-page diagram of P-wave vs S-wave shadow zones. S-wave shadow zone is massive because S-waves cannot pass through the liquid outer core.",
+    "relatedSubjectPath": "/roadmaps/geography",
+    "relatedResourceId": "res-sudarshan-ncert-geo"
+  },
+  {
+    "id": "pyq-eco-2022-1",
+    "type": "Prelims",
+    "year": 2022,
+    "paper": "GS-1",
+    "subject": "Economy",
+    "topic": "Monetary Policy & Inflation",
+    "question": "In India, which one of the following is responsible for maintaining price stability by controlling inflation?",
+    "options": [
+      "Department of Consumer Affairs",
+      "Cabinet Committee on Economic Affairs",
+      "Financial Stability and Development Council",
+      "Reserve Bank of India"
+    ],
+    "correctAnswer": "Reserve Bank of India",
+    "explanation": "Under the amended RBI Act 1934 (in 2016), the Reserve Bank of India (via the Monetary Policy Committee) has the statutory mandate to maintain price stability while keeping in mind the objective of growth (target: 4% CPI +/- 2%).",
+    "seniorApproachTip": "This is a straight-forward question testing basic institutional knowledge. Don’t overthink and guess complex committees when the central bank is explicitly tasked with inflation targeting.",
+    "relatedSubjectPath": "/roadmaps/economy",
+    "relatedResourceId": "res-mrunal-economy-beginners"
+  },
+  {
+    "id": "pyq-mains-gs2-2023",
+    "type": "Mains",
+    "year": 2023,
+    "paper": "GS-2",
+    "subject": "Indian Polity",
+    "topic": "Constitutional Morality & Basic Structure",
+    "question": "“The Constitution of India is a living instrument with capabilities of enormous dynamism. It is a mechanism that provides powers of growth and expansion.” Explain in the light of landmark judicial pronouncements.",
+    "explanation": "Answer Framework:\n- Introduction: Define Constitution as an organic document that evolves with society without losing foundational ethos.\n- Body 1: Expansive interpretation of Fundamental Rights (Art 21 - Maneka Gandhi, Puttaswamy privacy, Navtej Johar).\n- Body 2: Basic Structure Doctrine (Kesavananda Bharati) as a protective yet flexible evolutionary framework.\n- Body 3: Socio-economic welfare & affirmative action adjustments (EWS 103rd Amendment, Gender rights in Sabarimala).\n- Conclusion: Quote Dr. Ambedkar on the adaptability of the Constitution.",
+    "seniorApproachTip": "Always structure Mains GS2 answers with 3-4 landmark Supreme Court cases and relevant constitutional article numbers.",
+    "relatedSubjectPath": "/roadmaps/polity",
+    "relatedResourceId": "res-hd-c11-polity"
+  },
+  {
+    "id": "pyq-pol-2024-1",
+    "type": "Prelims",
+    "year": 2024,
+    "paper": "GS-1",
+    "subject": "Indian Polity",
+    "topic": "71st Constitutional Amendment & 8th Schedule Languages",
+    "question": "The Constitution (71st Amendment) Act, 1992 amends the Eighth Schedule to the Constitution to include which of the following languages?\n1. Konkani\n2. Manipuri\n3. Nepali\n4. Maithili\nSelect the correct answer using the code given below:",
+    "options": [
+      "1, 2 and 3",
+      "1, 2 and 4",
+      "1, 3 and 4",
+      "2, 3 and 4"
+    ],
+    "correctAnswer": "1, 2 and 3",
+    "explanation": "The 71st Constitutional Amendment Act (1992) added Konkani, Manipuri, and Nepali (mnemonic: KMN) to the Eighth Schedule. Maithili (along with Bodo, Dogri, and Santhali — BDMS) was added later by the 92nd Amendment Act, 2003.",
+    "seniorApproachTip": "Memorize the 3 language amendment milestones: 21st (Sindhi), 71st (Konkani, Manipuri, Nepali), and 92nd (Bodo, Dogri, Maithili, Santhali).",
+    "relatedSubjectPath": "/roadmaps/polity",
+    "relatedResourceId": "res-hd-laxmikanth"
+  },
+  {
+    "id": "pyq-pol-2024-2",
+    "type": "Prelims",
+    "year": 2024,
+    "paper": "GS-1",
+    "subject": "Indian Polity",
+    "topic": "Right to Privacy (Puttaswamy Judgment)",
+    "question": "Under which of the following Articles of the Constitution of India has the Supreme Court of India placed the 'Right to Privacy'?",
+    "options": [
+      "Article 15",
+      "Article 16",
+      "Article 19",
+      "Article 21"
+    ],
+    "correctAnswer": "Article 21",
+    "explanation": "In the landmark 9-judge bench K.S. Puttaswamy v. Union of India (2017) ruling, the Supreme Court unanimously held that Right to Privacy is an intrinsic part of Right to Life and Personal Liberty under Article 21.",
+    "seniorApproachTip": "Article 21 is UPSC's favorite expanding fundamental right—keep a list of all SC-declared rights under Art 21 (Privacy, Clean Environment, Livelihood, Marry of choice).",
+    "relatedSubjectPath": "/roadmaps/polity",
+    "relatedResourceId": "res-atish-magna-carta"
+  },
+  {
+    "id": "pyq-hist-2024-1",
+    "type": "Prelims",
+    "year": 2024,
+    "paper": "GS-1",
+    "subject": "History",
+    "topic": "Government of India Act, 1935",
+    "question": "With reference to the Government of India Act, 1935, consider the following statements:\n1. It provided for the establishment of an All India Federation based on the union of the British Indian Provinces and Princely States.\n2. Defence and Foreign Affairs were kept under the control of the federal legislature.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correctAnswer": "1 only",
+    "explanation": "Statement 1 is correct: the GoI Act 1935 proposed an All-India Federation (though it never came into operation as Princely States did not join). Statement 2 is incorrect: Defence, External Affairs, Ecclesiastical Affairs, and Tribal Areas were 'Reserved' subjects exclusively under the Governor-General, not the federal legislature.",
+    "seniorApproachTip": "British Constitutional Acts (1909, 1919, 1935) appear almost every year—always distinguish between Reserved vs Transferred subjects and Provincial vs Central dyarchy.",
+    "relatedSubjectPath": "/roadmaps/history",
+    "relatedResourceId": "res-hd-spectrum-modern"
+  },
+  {
+    "id": "pyq-env-2024-1",
+    "type": "Prelims",
+    "year": 2024,
+    "paper": "GS-1",
+    "subject": "Environment",
+    "topic": "Indian Flying Fox & Wildlife Protection Act",
+    "question": "Consider the following statements:\nStatement-I: The Indian Flying Fox is placed under the 'vermin' category in the Wild Life (Protection) Act, 1972.\nStatement-II: The Indian Flying Fox is fed on the blood of other animals.\nWhich one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+      "Both Statement-I and Statement-II are correct, but Statement-II does not explain Statement-I",
+      "Statement-I is correct, but Statement-II is incorrect",
+      "Statement-I is incorrect, but Statement-II is correct"
+    ],
+    "correctAnswer": "Statement-I is correct, but Statement-II is incorrect",
+    "explanation": "Historically, fruit bats (Indian Flying Fox) were listed under Schedule V (vermin) of the original Wildlife Protection Act, 1972 (later amended in 2022). Statement-II is clearly incorrect because Indian Flying Foxes are frugivorous (fruit-eating bats), NOT blood-feeding vampire bats.",
+    "seniorApproachTip": "In Statement-I / Statement-II questions, verify basic ecological facts first (diet/habitat)—one clearly false biological claim instantly eliminates 3 options!",
+    "relatedSubjectPath": "/roadmaps/environment",
+    "relatedResourceId": "res-pmf-environment-video"
+  },
+  {
+    "id": "pyq-eco-2023-1",
+    "type": "Prelims",
+    "year": 2023,
+    "paper": "GS-1",
+    "subject": "Economy",
+    "topic": "Sterilization & Open Market Operations (RBI)",
+    "question": "Which one of the following activities of the Reserve Bank of India is considered to be part of 'sterilization'?",
+    "options": [
+      "Conducting 'Open Market Operations'",
+      "Oversight of settlement and payment systems",
+      "Debt and cash management for the Central and State Governments",
+      "Regulating the functions of Non-banking Financial Institutions"
+    ],
+    "correctAnswer": "Conducting 'Open Market Operations'",
+    "explanation": "Sterilization refers to RBI's intervention via Open Market Operations (selling/buying government securities) to neutralize excess domestic liquidity created when RBI buys or sells foreign exchange to stabilize the Rupee. Directly explained in Class 12 Macroeconomics NCERT Chapter 3.",
+    "seniorApproachTip": "Class 12 Macroeconomics NCERT Chapter 3 (Money & Banking) literally has a boxed note on 'Sterilization by RBI'—never skip NCERT boxes!",
+    "relatedSubjectPath": "/roadmaps/economy",
+    "relatedResourceId": "res-mrunal-economy-beginners"
+  },
+  {
+    "id": "pyq-mains-ethics-2023",
+    "type": "Mains",
+    "year": 2023,
+    "paper": "GS-4",
+    "subject": "Ethics",
+    "topic": "Moral Integrity vs Bureaucratic Efficiency",
+    "question": "What do you understand by 'moral integrity' and 'professional efficiency' in the context of corporate governance in India? Illustrate with suitable examples. (150 words, 10 marks)",
+    "explanation": "Structure:\n1. Intro: Define moral integrity (uncompromising adherence to ethical principles even when unobserved) and professional efficiency (optimal outcome delivery with competence and accountability).\n2. Interplay in Corporate Governance: Cite Satyam scandal vs Tata Group / Infosys governance standards; mention Kotak Committee & SEBI LODR norms.\n3. Way Forward: Link with 2nd ARC principles of transparency, independent boards, and whistleblower protection.",
+    "seniorApproachTip": "In GS-4 theory answers, ALWAYS define the keyword in 2 crisp lines and give 1 Indian real-life example (corporate or civil service).",
+    "relatedSubjectPath": "/roadmaps/ethics",
+    "relatedResourceId": "res-atish-ethics"
+  },
+  {
+    "id": "pyq-mains-env-2023",
+    "type": "Mains",
+    "year": 2023,
+    "paper": "GS-3",
+    "subject": "Environment",
+    "topic": "Wetlands & Ramsar Conservation",
+    "question": "Comment on the National Wetland Conservation Programme initiated by the Government of India and name a few India's wetlands of international importance included in the Ramsar Sites. (250 words, 15 marks)",
+    "explanation": "Structure:\n1. Intro: Mention India's 80+ Ramsar sites (largest network in South Asia) and ecological functions (flood buffering, groundwater recharge, biodiversity).\n2. NWCP / NPCA Highlights: Integrated management plans, Wetland Rules 2017, Amrit Dharohar scheme.\n3. Key Ramsar Examples (with tiny India sketch map): Chilika, Keoladeo, Loktak, Sundarbans, Wular, Vembanad.\n4. Challenges & Way Forward: Urban encroachment, eutrophication, community-led conservation.",
+    "seniorApproachTip": "Draw a quick 15-second outline map of India plotting 4–5 Ramsar sites—visual presentation immediately stands out in GS-3.",
+    "relatedSubjectPath": "/roadmaps/environment",
+    "relatedResourceId": "res-forumias-ramsar"
+  },
+  {
+    "id": "pyq-csat-2023-1",
+    "type": "Prelims",
+    "year": 2023,
+    "paper": "CSAT Paper-II",
+    "subject": "CSAT",
+    "topic": "Number System — Divisibility & Remainder",
+    "question": "What is the remainder when 85 × 87 × 89 × 91 × 95 × 96 is divided by 100?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctAnswer": "0",
+    "explanation": "Factor out powers of 5 and 2 from the product: 85 = 5 × 17, 95 = 5 × 19, and 96 = 4 × 24. Together these contribute 5 × 5 × 4 = 100 as an exact factor of the entire product. Therefore, the product is completely divisible by 100, leaving a remainder of 0.",
+    "seniorApproachTip": "Never multiply large numbers in UPSC CSAT! Immediately hunt for factors of 5 and 2 (since 25 × 4 = 100) to solve remainder questions in under 15 seconds.",
+    "relatedSubjectPath": "/roadmaps/csat",
+    "relatedResourceId": "res-ungist-csat-pyqs"
+  },
+  {
+    "id": "pyq-csat-2022-1",
+    "type": "Prelims",
+    "year": 2022,
+    "paper": "CSAT Paper-II",
+    "subject": "CSAT",
+    "topic": "Permutations & Combinations — Digit Formation",
+    "question": "How many 3-digit natural numbers (without repetition of digits) are there such that each digit is odd and the number is divisible by 5?",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "correctAnswer": "12",
+    "explanation": "The available odd digits are {1, 3, 5, 7, 9}. For a number to be divisible by 5 and have only odd digits, the units digit MUST be 5 (1 choice). Since repetition is not allowed, the hundreds place can be filled by any of the remaining 4 odd digits {1, 3, 7, 9} (4 choices), and the tens place by any of the remaining 3 digits (3 choices). Total numbers = 4 × 3 × 1 = 12.",
+    "seniorApproachTip": "Always fill the most constrained digit slot FIRST (here the units digit must be 5 for divisibility by 5), then multiply remaining valid choices.",
+    "relatedSubjectPath": "/roadmaps/csat",
+    "relatedResourceId": "res-ungist-csat-full"
+  },
+  {
+    "id": "pyq-csat-2024-1",
+    "type": "Prelims",
+    "year": 2024,
+    "paper": "CSAT Paper-II",
+    "subject": "CSAT",
+    "topic": "Reading Comprehension — Logical Inference",
+    "question": "Passage: \"Conventional agriculture relies heavily on synthetic inputs that boost short-term yields but degrade soil organic carbon and microbial diversity over decades. Transitioning to agro-ecological practices can restore soil health, though smallholder farmers often face transitional yield dips and lack credit buffers during the first three seasons.\"\nWhich one of the following statements best reflects the most logical and rational inference that can be made from the passage?",
+    "options": [
+      "Synthetic fertilizers should be immediately banned nationwide to protect soil carbon.",
+      "Agro-ecological farming always produces lower yields than conventional agriculture.",
+      "Financial and institutional support during transition periods is critical to help smallholders adopt sustainable farming.",
+      "Smallholder farmers are unaware of soil degradation caused by conventional practices."
+    ],
+    "correctAnswer": "Financial and institutional support during transition periods is critical to help smallholders adopt sustainable farming.",
+    "explanation": "The passage highlights both the ecological benefit of agro-ecological farming and the key bottleneck—smallholders face initial 3-season yield dips without credit buffers. Hence targeted transitional support is the most balanced, rational inference. Extreme claims ('immediately banned', 'always produces lower') and unsupported claims ('unaware') are classic UPSC RC traps.",
+    "seniorApproachTip": "Eliminate extreme options containing words like 'immediately banned', 'always', or unsupported assumptions about intent. Pick the balanced policy takeaway anchored strictly in the passage text.",
+    "relatedSubjectPath": "/roadmaps/csat",
+    "relatedResourceId": "res-ungist-csat-rc"
+  },
+  {
+    "id": "pyq-sci-2023-1",
+    "type": "Prelims",
+    "year": 2023,
+    "paper": "GS-1",
+    "subject": "Science & Tech",
+    "topic": "Biotechnology — Wolbachia Method & Vector Control",
+    "question": "'Wolbachia method' is sometimes talked about with reference to which one of the following?",
+    "options": [
+      "Controlling the viral diseases spread by mosquitoes",
+      "Converting crop residues into packing material",
+      "Producing biodegradable plastics",
+      "Producing biochar from thermo-chemical conversion of biomass"
+    ],
+    "correctAnswer": "Controlling the viral diseases spread by mosquitoes",
+    "explanation": "Wolbachia is a safe, naturally occurring bacterium found in many insect species. When introduced into Aedes aegypti mosquitoes, Wolbachia competes with viruses like Dengue, Zika, and Chikungunya inside the mosquito, dramatically reducing viral replication and transmission to humans.",
+    "seniorApproachTip": "Science & Tech Prelims questions frequently test newly deployed public-health biotechnologies from The Hindu Sunday Science column—keep a 1-line glossary of terms like Wolbachia, CAR-T, and CRISPR.",
+    "relatedSubjectPath": "/roadmaps/scitech",
+    "relatedResourceId": "res-drishti-scitech-100"
+  },
+  {
+    "id": "pyq-sci-2024-1",
+    "type": "Prelims",
+    "year": 2024,
+    "paper": "GS-1",
+    "subject": "Science & Tech",
+    "topic": "Space Technology — Radioisotope Thermoelectric Generators (RTGs)",
+    "question": "Consider the following statements regarding Radioisotope Thermoelectric Generators (RTGs):\n1. RTGs are miniature fission reactors.\n2. RTGs are used for powering the onboard systems of spacecraft.\n3. RTGs can use Plutonium-238, which is a by-product of weapons development.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1, 2 and 3"
+    ],
+    "correctAnswer": "2 and 3 only",
+    "explanation": "Statement 1 is incorrect: RTGs are NOT fission reactors—they have no nuclear chain reaction or moving parts; they convert heat from natural radioactive decay directly into electricity using thermocouples (Seebeck effect). Statements 2 and 3 are correct: RTGs power deep-space probes (Voyager, Perseverance, Curiosity) and commonly use Plutonium-238.",
+    "seniorApproachTip": "Distinguish carefully between nuclear fission (controlled chain reaction in power plants) and natural radioactive decay heat (RTGs in deep-space missions where solar power is too weak).",
+    "relatedSubjectPath": "/roadmaps/scitech",
+    "relatedResourceId": "res-drishti-scitech-100"
+  },
+  {
+    "id": "pyq-env-2023-1",
+    "type": "Prelims",
+    "year": 2023,
+    "paper": "GS-1",
+    "subject": "Environment",
+    "topic": "Biodiversity Organizations — IUCN & Invasive Species",
+    "question": "The 'Invasive Species Specialist Group' (that develops Global Invasive Species Database) belongs to which one of the following organizations?",
+    "options": [
+      "The International Union for Conservation of Nature",
+      "The United Nations Environment Programme",
+      "The United Nations World Commission for Environment and Development",
+      "The World Wide Fund for Nature"
+    ],
+    "correctAnswer": "The International Union for Conservation of Nature",
+    "explanation": "The Invasive Species Specialist Group (ISSG) is a global network of scientific and policy experts operating under the Species Survival Commission (SSC) of the International Union for Conservation of Nature (IUCN). It manages the Global Invasive Species Database (GISD).",
+    "seniorApproachTip": "Whenever an international conservation body has 'Species' or 'Red List' or 'Specialist Group' in its mandate, check IUCN's Species Survival Commission first!",
+    "relatedSubjectPath": "/roadmaps/environment",
+    "relatedResourceId": "res-sudarshan-environment"
+  },
+  {
+    "id": "pyq-eco-2024-1",
+    "type": "Prelims",
+    "year": 2024,
+    "paper": "GS-1",
+    "subject": "Economy",
+    "topic": "Digital Rupee (CBDC) & RBI Balance Sheet",
+    "question": "With reference to the Digital Rupee (Central Bank Digital Currency — CBDC) in India, consider the following statements:\n1. It is a sovereign currency issued by the Reserve Bank of India (RBI) in alignment with its monetary policy.\n2. It appears as a liability on the RBI's balance sheet.\n3. It is insured against inflation by its very design.\n4. It is freely convertible against commercial bank money and cash.\nWhich of the statements given above are correct?",
+    "options": [
+      "1 and 2 only",
+      "1 and 3 only",
+      "2 and 4 only",
+      "1, 2 and 4 only"
+    ],
+    "correctAnswer": "1, 2 and 4 only",
+    "explanation": "Statements 1, 2, and 4 are correct: e-Rupee (CBDC) is legal tender issued by RBI, appears as a liability on RBI's balance sheet (just like physical currency notes), and is exchangeable at par with cash and bank deposits. Statement 3 is incorrect because no fiat currency—physical or digital—is automatically insured against inflation by design.",
+    "seniorApproachTip": "Eliminate Statement 3 immediately! In Economy Prelims, spotting one conceptually impossible macroeconomic claim ('insured against inflation by design') instantly narrows down to the exact right code.",
+    "relatedSubjectPath": "/roadmaps/economy",
+    "relatedResourceId": "res-bookstawa-economy"
+  },
+  {
+    "id": "pyq-geo-2024-1",
+    "type": "Prelims",
+    "year": 2024,
+    "paper": "GS-1",
+    "subject": "Geography",
+    "topic": "Climatology — Coriolis Force (Class 11 NCERT)",
+    "question": "Consider the following statements regarding Coriolis force:\n1. It increases with increase in wind velocity.\n2. It is maximum at the poles and is absent at the equator.\nWhich of the statements given above is/are correct?",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "correctAnswer": "Both 1 and 2",
+    "explanation": "Both statements are verbatim concepts from Class 11 NCERT 'Fundamentals of Physical Geography' (Chapter 10: Atmospheric Circulation and Weather Systems). Coriolis force is directly proportional to wind velocity and angle of latitude (sin φ)—hence it is zero at the Equator (0°) and maximum at the Poles (90°).",
+    "seniorApproachTip": "This is why tropical cyclones do NOT form at the Equator (0°–5° latitude)—absent Coriolis force means air simply rushes straight into low-pressure centers instead of spiralling!",
+    "relatedSubjectPath": "/roadmaps/geography",
+    "relatedResourceId": "res-amit-c11-phys-geo"
+  },
+  {
+    "id": "pyq-mains-ethics-2024",
+    "type": "Mains",
+    "year": 2024,
+    "paper": "GS-4",
+    "subject": "Ethics",
+    "topic": "Mission Karmayogi, Emotional Intelligence & Citizen-Centric Governance",
+    "question": "\"The concept of 'Mission Karmayogi' aims to build a future-ready civil service with the right attitude, skills and knowledge.\" Discuss how ethical competence and emotional intelligence complement rule-bound efficiency in public administration. (150 words, 10 marks)",
+    "explanation": "Answer Framework:\n1. Intro: Define Mission Karmayogi (National Programme for Civil Services Capacity Building) shifting administration from 'rule-based' to 'role-based' citizen-centric governance.\n2. Why Rule-Bound Efficiency Alone Falls Short: Red-tapism, rigid compliance lacking empathy toward marginalized beneficiaries (e.g., Aadhaar/biometric exclusions).\n3. Role of Ethical Competence & Emotional Intelligence (Daniel Goleman's pillars: Self-awareness, Empathy, Social Skills): Balancing Weberian neutrality with compassion for vulnerable groups (2nd ARC Report 4 & Report 12).\n4. Illustrative Example: District Collectors using empathetic grievance redressal & proactive disaster coordination (e.g., Armstrong Pame's People's Road, Kerala flood community coordination).\n5. Conclusion: Anchor in Gandhi's Talisman and Constitutional Morality.",
+    "seniorApproachTip": "Connect statutory capacity-building missions (Mission Karmayogi / iGOT) with classical GS-4 concepts (Emotional Intelligence, 2nd ARC Citizen-Centric Admin) for instant 6.5+/10 scores.",
+    "relatedSubjectPath": "/roadmaps/ethics",
+    "relatedResourceId": "res-2nd-arc-reports"
+  }
+]
